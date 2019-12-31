@@ -1,0 +1,993 @@
+fileFormatVersion: 2
+guid: cc2a5c7d74b4f3440bf4a98cf0d4f08b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1971080673108410000
+    second: Colliders_0
+  - first:
+      213: 6809849591939375409
+    second: Colliders_1
+  - first:
+      213: -5615338916619508377
+    second: Colliders_2
+  - first:
+      213: -5846336021162957768
+    second: Colliders_3
+  - first:
+      213: 10248536075019755
+    second: Colliders_4
+  - first:
+      213: 186400054831245705
+    second: Colliders_5
+  - first:
+      213: 6169491525721128523
+    second: Colliders_6
+  - first:
+      213: -5777048578884904559
+    second: Colliders_7
+  - first:
+      213: 4310399807152440183
+    second: Colliders_8
+  - first:
+      213: 3975768078710409870
+    second: Colliders_9
+  - first:
+      213: 5675765544355556042
+    second: Colliders_10
+  - first:
+      213: -4637113678207938614
+    second: Colliders_11
+  - first:
+      213: 7303329145814027104
+    second: Colliders_12
+  - first:
+      213: -6549958333518124991
+    second: Colliders_13
+  - first:
+      213: -8785521301136659718
+    second: Colliders_14
+  - first:
+      213: -6823389407258336377
+    second: Colliders_15
+  - first:
+      213: -4649772780898788069
+    second: Colliders_16
+  - first:
+      213: -8274342752481388069
+    second: Colliders_17
+  - first:
+      213: 1967455260373253677
+    second: Colliders_18
+  - first:
+      213: -8704132741759107988
+    second: Colliders_19
+  - first:
+      213: -3808732530741798692
+    second: Colliders_20
+  - first:
+      213: 3417086898812737283
+    second: Colliders_21
+  - first:
+      213: -3997941853565577814
+    second: Colliders_22
+  - first:
+      213: 2838142131796249852
+    second: Colliders_23
+  - first:
+      213: -2444454670929770278
+    second: Colliders_24
+  - first:
+      213: -6950881908203665202
+    second: Colliders_25
+  - first:
+      213: 1250926501180446013
+    second: Colliders_26
+  - first:
+      213: 8883999903890244697
+    second: Colliders_27
+  - first:
+      213: 2451139038679346753
+    second: Colliders_28
+  - first:
+      213: 4884257000084244567
+    second: Colliders_29
+  - first:
+      213: -1722013067426661037
+    second: Colliders_30
+  - first:
+      213: -6484544543071910775
+    second: Colliders_31
+  - first:
+      213: 4848102247999839298
+    second: Colliders_32
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colliders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16.5}
+        - {x: -9, y: 13.5}
+        - {x: -8, y: 10.5}
+        - {x: 23, y: -5.5}
+        - {x: 27, y: -5.5}
+        - {x: 33, y: -3.5}
+        - {x: 33, y: 2.5}
+        - {x: 5, y: 16.5}
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: 12.5}
+        - {x: 25, y: -3.5}
+        - {x: 27, y: -3.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 0.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 9176b46fafa144747be6605eec2c479e
+      internalID: -1971080673108410000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -0.5}
+        - {x: -27, y: -3.5}
+        - {x: -25, y: -3.5}
+        - {x: -1, y: 8.5}
+        - {x: 1, y: 8.5}
+        - {x: 24.981697, y: -3.567276}
+        - {x: 27, y: -3.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 0.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924184f5a0550c2459974c9330139890
+      internalID: 6809849591939375409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -0.5}
+        - {x: -27, y: -3.5}
+        - {x: -25, y: -3.5}
+        - {x: 7, y: 12.5}
+        - {x: 7, y: 13.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4623c853cf75a3448b93ba90d4b440b
+      internalID: -5615338916619508377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: 12.5}
+        - {x: -1, y: 9.5}
+        - {x: 1, y: 9.5}
+        - {x: 7, y: 12.5}
+        - {x: 7, y: 13.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a68ef3e58f77d40ad4225033177237
+      internalID: -5846336021162957768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -9.5}
+        - {x: -7, y: -12.5}
+        - {x: -7, y: -13.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 7, y: -13.5}
+        - {x: 7, y: -12.5}
+        - {x: 1, y: -9.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 3f24824efa92f314292eb872d49305f3
+      internalID: 10248536075019755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 165
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 3.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 7, y: -13.5}
+        - {x: 7, y: -12.5}
+        - {x: -25, y: 3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 7eb7250188047cc4783e11f00599916c
+      internalID: 186400054831245705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abdc02317c46ad43a533373edb6de99
+      internalID: 6169491525721128523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ede44e9348b49c44849517510e42c09
+      internalID: -5777048578884904559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5cb377d739c7545bf5bbe4c382e075
+      internalID: 4310399807152440183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7792b5c2cd293cb4c8ae730e35384bde
+      internalID: 3975768078710409870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846219bb67d6bf646975955a45a9e47c
+      internalID: 5675765544355556042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 132
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a54779d598793843b3289465554b25c
+      internalID: -4637113678207938614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b01a71b57f3294c995bf0fb1a6d8c8
+      internalID: 7303329145814027104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: 12.5}
+        - {x: 5, y: 6.5}
+        - {x: 7, y: 6.5}
+        - {x: 13, y: 9.5}
+        - {x: 13, y: 10.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 83fa3faf582aff5499bc4c8858377ffa
+      internalID: -6549958333518124991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19, y: 6.5}
+        - {x: 13, y: 3.5}
+        - {x: 13, y: 2.5}
+        - {x: 25, y: -3.5}
+        - {x: 27, y: -3.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 0.5}
+        - {x: 21, y: 6.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 1174d545d27fd2d46b145b70686614ef
+      internalID: -8785521301136659718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d5f48c86d8533438a6fdf98012605f
+      internalID: -6823389407258336377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1053e6691c2558d4bb39faf45b527490
+      internalID: -4649772780898788069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 99
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: 12.5}
+        - {x: 23, y: -2.5}
+        - {x: 23, y: -3.5}
+        - {x: -1, y: -15.5}
+        - {x: -1, y: -16.5}
+        - {x: 3, y: -16.5}
+        - {x: 33, y: -1.5}
+        - {x: 33, y: 0.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 9dc64707b3d992443b7f9f5495c4d7a1
+      internalID: -8274342752481388069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: 12.5}
+        - {x: 1, y: 16.5}
+        - {x: -1, y: 16.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -1.5}
+        - {x: -3, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 1, y: -15.5}
+        - {x: -21, y: -4.5}
+        - {x: -21, y: -3.5}
+        - {x: 9, y: 11.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 37830fc6e21ab9045b96cc73ae669992
+      internalID: 1967455260373253677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ea70fa130b7d4db596f08f96a7516
+      internalID: -8704132741759107988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3803b00237ec0ab45809c47889dc8216
+      internalID: -3808732530741798692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad9e12e84ed9344ab5323b5aecbeb64
+      internalID: 3417086898812737283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243574f2ad1aec94c83b252ced0bc9e1
+      internalID: -3997941853565577814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 66
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73773160fabb5c24f97018c8024ecd32
+      internalID: 2838142131796249852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebc82bdcfe45af42aa3f23ead5e87f1
+      internalID: -2444454670929770278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2da4752e3a4f6448980a242b9c2f03
+      internalID: -6950881908203665202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad931bbaa947a4aa23552443cb9ce0
+      internalID: 1250926501180446013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970d975b1db32214c9b8614d2a05b67b
+      internalID: 8883999903890244697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cfef2e0c818f7479505fb27798f6b3
+      internalID: 2451139038679346753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 33
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850d047e787cd134eaba55ce2068730a
+      internalID: 4884257000084244567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f848e6ddc9a7e6142ac71893ffe58b25
+      internalID: -1722013067426661037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_31
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99725bfc26b19ff49af8c8a7559e6d76
+      internalID: -6484544543071910775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ca3a5f4f478814799cb7b98e92159d
+      internalID: 4848102247999839298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
