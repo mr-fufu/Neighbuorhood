@@ -1,0 +1,1231 @@
+fileFormatVersion: 2
+guid: fb0ad7b7d45726d46be125ff768be12d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1588632658429793452
+    second: Tile_Hardwood_0
+  - first:
+      213: 7411595274630772268
+    second: Tile_Hardwood_1
+  - first:
+      213: -5692943396459794096
+    second: Tile_Hardwood_2
+  - first:
+      213: -8551639436208936689
+    second: Tile_Hardwood_3
+  - first:
+      213: -5811737299932442249
+    second: Tile_Hardwood_4
+  - first:
+      213: 3412274451666831015
+    second: Tile_Hardwood_5
+  - first:
+      213: 4675913749199293150
+    second: Tile_Hardwood_6
+  - first:
+      213: -3204718924680397797
+    second: Tile_Hardwood_7
+  - first:
+      213: 3448912525627745522
+    second: Tile_Hardwood_8
+  - first:
+      213: 1572190960680789468
+    second: Tile_Hardwood_9
+  - first:
+      213: -6259477279413630909
+    second: Tile_Hardwood_10
+  - first:
+      213: 8861621739103835587
+    second: Tile_Hardwood_11
+  - first:
+      213: 8692138185821164301
+    second: Tile_Hardwood_12
+  - first:
+      213: -2656481365708116465
+    second: Tile_Hardwood_13
+  - first:
+      213: 1180963731062111052
+    second: Tile_Hardwood_14
+  - first:
+      213: 379948485111489258
+    second: Tile_Hardwood_15
+  - first:
+      213: -1987367167765276405
+    second: Tile_Hardwood_16
+  - first:
+      213: 1072623127681004983
+    second: Tile_Hardwood_17
+  - first:
+      213: -7631106251957027015
+    second: Tile_Hardwood_18
+  - first:
+      213: -2333335023145628427
+    second: Tile_Hardwood_19
+  - first:
+      213: -8511847555261398709
+    second: Tile_Hardwood_20
+  - first:
+      213: -8892319872003644568
+    second: Tile_Hardwood_21
+  - first:
+      213: 7502457149665839307
+    second: Tile_Hardwood_22
+  - first:
+      213: 4720956666158901076
+    second: Tile_Hardwood_23
+  - first:
+      213: 4364552724310586337
+    second: Tile_Hardwood_24
+  - first:
+      213: 2974049644168539311
+    second: Tile_Hardwood_25
+  - first:
+      213: 8434138833246893944
+    second: Tile_Hardwood_26
+  - first:
+      213: 8277601479189600464
+    second: Tile_Hardwood_27
+  - first:
+      213: -5505544120264470048
+    second: Tile_Hardwood_28
+  - first:
+      213: -5023223268086591677
+    second: Tile_Hardwood_29
+  - first:
+      213: 4715036860623407635
+    second: Tile_Hardwood_30
+  - first:
+      213: -2254260145363014826
+    second: Tile_Hardwood_31
+  - first:
+      213: 3855183000837815502
+    second: Tile_Hardwood_32
+  - first:
+      213: -3526795104970504557
+    second: Tile_Hardwood_33
+  - first:
+      213: 4775675604621564345
+    second: Tile_Hardwood_34
+  - first:
+      213: -254207524969287416
+    second: Tile_Hardwood_35
+  - first:
+      213: -1340231128000125706
+    second: Tile_Hardwood_36
+  - first:
+      213: -6018638013462396962
+    second: Tile_Hardwood_37
+  - first:
+      213: 4713297333257963473
+    second: Tile_Hardwood_38
+  - first:
+      213: 4012437400685852940
+    second: Tile_Hardwood_39
+  - first:
+      213: -3727934866583448677
+    second: Tile_Hardwood_40
+  - first:
+      213: -4501017240697559423
+    second: Tile_Hardwood_41
+  - first:
+      213: -3655019943857379352
+    second: Tile_Hardwood_42
+  - first:
+      213: -942631352847162892
+    second: Tile_Hardwood_43
+  - first:
+      213: -3864415809861739887
+    second: Tile_Hardwood_44
+  - first:
+      213: 4687341685459169930
+    second: Tile_Hardwood_45
+  - first:
+      213: 8882166509845702568
+    second: Tile_Hardwood_46
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile_Hardwood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81add18bf68197499696961d1771c77
+      internalID: 1588632658429793452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185284353b5bd6547aa3d6b57688d4ae
+      internalID: 7411595274630772268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c9138d61fd4cf49810f0394837c256
+      internalID: -5692943396459794096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d8dbd6064322489be4fa67d6a997c
+      internalID: -8551639436208936689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69c5ba369aadd4b8c9ec6debb636dc
+      internalID: -5811737299932442249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1407
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a1db402380a9148b37ba54991cf4a8
+      internalID: 3412274451666831015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d344de2c0bfd81e468ba80bdddb3614f
+      internalID: 4675913749199293150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6aa17126f2e994e96d22d94f629155
+      internalID: -3204718924680397797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd2d5106dec5c45ab2de28249708fd
+      internalID: 3448912525627745522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd473d500e370044b79d5facc3bdbcb
+      internalID: 1572190960680789468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9037ed79c9b32df40962d5c6d5a45785
+      internalID: -6259477279413630909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1206
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c32bc31c6fce5e4f88f5d236733099c
+      internalID: 8861621739103835587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e8eda63d8ea8041b7c6845d205ca94
+      internalID: 8692138185821164301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6564e8b4f8c1e449e854ecb4d3b2f7
+      internalID: -2656481365708116465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75b3fcfc2ece2440be2b835daf68ebd
+      internalID: 1180963731062111052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74095445e5124514fbca1f9548e5c1a8
+      internalID: 379948485111489258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5046c7329425eba47b9ca720658b7b66
+      internalID: -1987367167765276405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1005
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bfbeddc5608674d8eae65d65553bee
+      internalID: 1072623127681004983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca24bf66c97e4549ac232005500d843
+      internalID: -7631106251957027015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d4b86b8c9c63745b9c7c40daab4165
+      internalID: -2333335023145628427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38464e6d086f51e46ad3ae40de424eec
+      internalID: -8511847555261398709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f3ea0a173b36498e9ecf777bbef87
+      internalID: -8892319872003644568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc011ad7928bf54887298988ed5004a
+      internalID: 7502457149665839307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 804
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38f03e830a2530449852ca8878fbb3f
+      internalID: 4720956666158901076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff32f614b08193f45b014251008e47ab
+      internalID: 4364552724310586337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c773c638455634482db984ffe5ea3a
+      internalID: 2974049644168539311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94f19ba22598044ea1a3dafcb770605
+      internalID: 8434138833246893944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604c1c41bd7be3344942924b0fbecbd8
+      internalID: 8277601479189600464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb12f2d79cee14bacb937876cb4e8a
+      internalID: -5505544120264470048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 603
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cb89109e0455f44b35251154da4c51
+      internalID: -5023223268086591677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54d2d9d99039b5448782ac82ff379d7
+      internalID: 4715036860623407635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_31
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba815336edc33743ace957f9eb9f634
+      internalID: -2254260145363014826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c391346aecad4384bacadfc71b4dea8d
+      internalID: 3855183000837815502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983e6f5ccc1e77a4f9212fcd426ab6ad
+      internalID: -3526795104970504557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3362bf630ebc8b747905b7aa42c23776
+      internalID: 4775675604621564345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 402
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e086a3366d4dc4abcd977425189e2c
+      internalID: -254207524969287416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6d0fc4a7040045877499fe62de977
+      internalID: -1340231128000125706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c404f939b9002042bd55a77fa1afd8c
+      internalID: -6018638013462396962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8def35f91218504cb0afae64cf1f705
+      internalID: 4713297333257963473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec3954c409e9ea408b6c65a0665938f
+      internalID: 4012437400685852940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8499498d9f7175438a0af30944dd0ae
+      internalID: -3727934866583448677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 201
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f7e07f255ca454e8ca2d423e073839
+      internalID: -4501017240697559423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606117869a354eb4592c60ff1146eadb
+      internalID: -3655019943857379352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb279494c8af5468fd13f2f9ccd324
+      internalID: -942631352847162892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcd289d3c265544b9a2f0ba6fb0971d
+      internalID: -3864415809861739887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c970cd94a5608ed479714d97258def41
+      internalID: 4687341685459169930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Hardwood_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d455aae20c71b4ba595cb66da22b14
+      internalID: 8882166509845702568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
