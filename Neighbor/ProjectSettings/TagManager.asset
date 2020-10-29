@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - interactable
   layers:
   - Default
   - TransparentFX
@@ -41,11 +42,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
-    uniqueID: 1684570067
-    locked: 0
   - name: Walls
     uniqueID: 2051291061
+    locked: 0
+  - name: Floor
+    uniqueID: 1684570067
     locked: 0
   - name: Raised
     uniqueID: 1137450239

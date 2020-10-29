@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: d263662d62c23c4468e52f95562c51e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2884028947619424652
+    second: CriticalColliders_0
+  - first:
+      213: 1293559420275586810
+    second: CriticalColliders_1
+  - first:
+      213: -4721316322637887384
+    second: CriticalColliders_2
+  - first:
+      213: -7217366226439669092
+    second: CriticalColliders_3
+  - first:
+      213: -2748207593471567874
+    second: CriticalColliders_4
+  - first:
+      213: -5403300655882254517
+    second: CriticalColliders_5
+  - first:
+      213: -8918218634481486697
+    second: CriticalColliders_6
+  - first:
+      213: -5328315502569605321
+    second: CriticalColliders_7
+  - first:
+      213: 6121135777150919182
+    second: CriticalColliders_8
+  - first:
+      213: -7217100846544953751
+    second: CriticalColliders_9
+  - first:
+      213: -4013704152029636328
+    second: CriticalColliders_10
+  - first:
+      213: -8242335127487643968
+    second: CriticalColliders_11
+  - first:
+      213: 908227330265448013
+    second: CriticalColliders_12
+  - first:
+      213: -7902745341899271432
+    second: CriticalColliders_13
+  - first:
+      213: -278381201735123900
+    second: CriticalColliders_14
+  - first:
+      213: 4398669155652392825
+    second: CriticalColliders_15
+  - first:
+      213: -5853842494660461852
+    second: CriticalColliders_16
+  - first:
+      213: -761039883181152342
+    second: CriticalColliders_0
+  - first:
+      213: -888072330135449213
+    second: CriticalColliders_1
+  - first:
+      213: -1623824204014518841
+    second: CriticalColliders_2
+  - first:
+      213: 3351453969287745566
+    second: CriticalColliders_3
+  - first:
+      213: -599970913876345672
+    second: CriticalColliders_4
+  - first:
+      213: -2141055646566858072
+    second: CriticalColliders_5
+  - first:
+      213: -7703371724565596529
+    second: CriticalColliders_6
+  - first:
+      213: 1329673842509712644
+    second: CriticalColliders_7
+  - first:
+      213: 8574707122441760929
+    second: CriticalColliders_8
+  - first:
+      213: 8402439931277776431
+    second: CriticalColliders_9
+  - first:
+      213: -7045950516178302772
+    second: CriticalColliders_10
+  - first:
+      213: -1734230760648423361
+    second: CriticalColliders_11
+  - first:
+      213: 8313180449733884101
+    second: CriticalColliders_12
+  - first:
+      213: -3532480527407625024
+    second: CriticalColliders_13
+  - first:
+      213: -8015031483375677841
+    second: CriticalColliders_14
+  - first:
+      213: 2172666149466462598
+    second: CriticalColliders_15
+  - first:
+      213: 8728928540547833614
+    second: CriticalColliders_16
+  - first:
+      213: -6867861846995627492
+    second: CriticalColliders_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CriticalColliders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: 0.5}
+        - {x: -33, y: -1.5}
+        - {x: -3, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 1, y: -15.5}
+        - {x: -31, y: 0.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: aa72517224e3075f0800000000000000
+      internalID: -761039883181152342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 31, y: 0.5}
+        - {x: 1, y: -14.5}
+        - {x: -1, y: -14.5}
+        - {x: -31, y: 0.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -1.5}
+        - {x: -3, y: -16.5}
+        - {x: 3, y: -16.5}
+        - {x: 33, y: -1.5}
+        - {x: 33, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3815c63cbeeeca3f0800000000000000
+      internalID: -888072330135449213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -15.5}
+        - {x: -1, y: -16.5}
+        - {x: 3, y: -16.5}
+        - {x: 33, y: -1.5}
+        - {x: 33, y: 0.5}
+        - {x: 31, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd78066d740779e0800000000000000
+      internalID: -1623824204014518841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -1, y: 15.5}
+        - {x: 29, y: 0.5}
+        - {x: 29, y: -0.5}
+        - {x: -1, y: -15.5}
+        - {x: -1, y: -16.5}
+        - {x: 3, y: -16.5}
+        - {x: 33, y: -1.5}
+        - {x: 33, y: 1.5}
+        - {x: 3, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e101878d0a1c28e20800000000000000
+      internalID: 3351453969287745566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 16.5}
+        - {x: -1, y: 15.5}
+        - {x: 31, y: -0.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 1.5}
+        - {x: 3, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc75d2f1a97ca7f0800000000000000
+      internalID: -599970913876345672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16.5}
+        - {x: -33, y: 1.5}
+        - {x: -33, y: -0.5}
+        - {x: -31, y: -0.5}
+        - {x: -1, y: 14.5}
+        - {x: 1, y: 14.5}
+        - {x: 31, y: -0.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 1.5}
+        - {x: 3, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2c906bb317942e0800000000000000
+      internalID: -2141055646566858072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: 1.5}
+        - {x: -33, y: -0.5}
+        - {x: -31, y: -0.5}
+        - {x: 1, y: 15.5}
+        - {x: 1, y: 16.5}
+        - {x: -3, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86ba701b30281590800000000000000
+      internalID: -7703371724565596529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 16.5}
+        - {x: -33, y: 1.5}
+        - {x: -33, y: -1.5}
+        - {x: -3, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 1, y: -15.5}
+        - {x: -29, y: -0.5}
+        - {x: -29, y: 0.5}
+        - {x: 1, y: 15.5}
+        - {x: 1, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8be99053f37210800000000000000
+      internalID: 1329673842509712644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 31, y: 20.5}
+        - {x: -1, y: 4.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 31, y: -1.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0372672ba7ff670800000000000000
+      internalID: 8574707122441760929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 146
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 0, y: -16.5}
+        - {x: 0, y: 4.5}
+        - {x: -1, y: 5.5}
+        - {x: -31, y: 20.5}
+        - {x: -33, y: 20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f269e5679967b9470800000000000000
+      internalID: 8402439931277776431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 9, y: -12.5}
+        - {x: -27, y: 23.5}
+        - {x: -33, y: 20.5}
+      - - {x: -1, y: 28.5}
+        - {x: -1, y: 26.5}
+        - {x: 28, y: -2.5}
+        - {x: 29, y: -2.5}
+        - {x: 31, y: -1.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 20.5}
+        - {x: 31, y: 20.5}
+        - {x: 25, y: 17.5}
+        - {x: 23, y: 17.5}
+        - {x: 1, y: 28.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8463a2651c73e90800000000000000
+      internalID: -7045950516178302772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 36.5}
+        - {x: -1, y: 35.5}
+        - {x: 29, y: 20.5}
+        - {x: 29, y: 19.5}
+        - {x: -1, y: 4.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 31, y: -1.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 21.5}
+        - {x: 31, y: 22.5}
+        - {x: 3, y: 36.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38cef0cf46cee7e0800000000000000
+      internalID: -1734230760648423361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 36.5}
+        - {x: -33, y: 21.5}
+        - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 0, y: -16.5}
+        - {x: 0, y: 4.5}
+        - {x: -1, y: 5.5}
+        - {x: -29, y: 19.5}
+        - {x: -29, y: 20.5}
+        - {x: 1, y: 35.5}
+        - {x: 1, y: 36.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c83c1ce2995e5370800000000000000
+      internalID: 8313180449733884101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 36.5}
+        - {x: -33, y: 21.5}
+        - {x: -33, y: 19.5}
+        - {x: -31, y: 19.5}
+        - {x: -1, y: 34.5}
+        - {x: 1, y: 34.5}
+        - {x: 31, y: 19.5}
+        - {x: 32, y: 19.5}
+        - {x: 32, y: 21.5}
+        - {x: 31, y: 22.5}
+        - {x: 3, y: 36.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc42eb1dab1afec0800000000000000
+      internalID: -3532480527407625024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 5.5}
+        - {x: -1, y: 5.5}
+        - {x: -31, y: 20.5}
+        - {x: -33, y: 20.5}
+        - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 31, y: -1.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 20.5}
+        - {x: 31, y: 20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e02d1d453e4c090800000000000000
+      internalID: -8015031483375677841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 36.5}
+        - {x: -1, y: 35.5}
+        - {x: 31, y: 19.5}
+        - {x: 32, y: 19.5}
+        - {x: 32, y: 21.5}
+        - {x: 31, y: 22.5}
+        - {x: 3, y: 36.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689d6760a5cd62e10800000000000000
+      internalID: 2172666149466462598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_16
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 36.5}
+        - {x: -33, y: 21.5}
+        - {x: -33, y: 19.5}
+        - {x: -31, y: 19.5}
+        - {x: 1, y: 35.5}
+        - {x: 1, y: 36.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5f118242632970800000000000000
+      internalID: 8728928540547833614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 4.5}
+        - {x: -7, y: 1.5}
+        - {x: -7, y: -0.5}
+        - {x: -1, y: -3.5}
+        - {x: 1, y: -3.5}
+        - {x: 7, y: -0.5}
+        - {x: 7, y: 1.5}
+        - {x: 1, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c121e53a90470b0a0800000000000000
+      internalID: -6867861846995627492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

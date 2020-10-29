@@ -1,0 +1,1435 @@
+fileFormatVersion: 2
+guid: e2dd1f34b5c962d45b7c390068e6dfe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5792080629699822695
+    second: Furniture_Ceramic_0
+  - first:
+      213: 5150109875717014790
+    second: Furniture_Ceramic_1
+  - first:
+      213: 6989007986704807610
+    second: Furniture_Ceramic_2
+  - first:
+      213: 2188529968649218753
+    second: Furniture_Ceramic_3
+  - first:
+      213: 3375587765768275506
+    second: Furniture_Ceramic_4
+  - first:
+      213: 3857757616599935155
+    second: Furniture_Ceramic_5
+  - first:
+      213: 8835920382521331777
+    second: Furniture_Ceramic_6
+  - first:
+      213: 5858636809739994553
+    second: Furniture_Ceramic_7
+  - first:
+      213: 3534570104127012629
+    second: Furniture_Ceramic_8
+  - first:
+      213: -6476422804183846429
+    second: Furniture_Ceramic_9
+  - first:
+      213: -4721780799107436457
+    second: Furniture_Ceramic_10
+  - first:
+      213: -2993829086245400832
+    second: Furniture_Ceramic_11
+  - first:
+      213: -2740442645185713767
+    second: Furniture_Ceramic_12
+  - first:
+      213: 4255929707743787719
+    second: Furniture_Ceramic_13
+  - first:
+      213: 5892777720011035578
+    second: Furniture_Ceramic_14
+  - first:
+      213: 3937863445950041620
+    second: Furniture_Ceramic_15
+  - first:
+      213: -8630422613305241725
+    second: Furniture_Ceramic_16
+  - first:
+      213: 8585984652961492049
+    second: Furniture_Ceramic_17
+  - first:
+      213: 6176109006488954331
+    second: Furniture_Ceramic_18
+  - first:
+      213: -8903628841550753595
+    second: Furniture_Ceramic_19
+  - first:
+      213: 2957714011702447051
+    second: Furniture_Ceramic_20
+  - first:
+      213: 1852717193692755411
+    second: Furniture_Ceramic_21
+  - first:
+      213: -3920708616027150157
+    second: Furniture_Ceramic_22
+  - first:
+      213: -4957265210268661971
+    second: Furniture_Ceramic_23
+  - first:
+      213: -2506783242776394014
+    second: Furniture_Ceramic_24
+  - first:
+      213: 7663215211060330035
+    second: Furniture_Ceramic_25
+  - first:
+      213: 8124548062019706592
+    second: Furniture_Ceramic_0
+  - first:
+      213: 3762888658353713031
+    second: Furniture_Ceramic_1
+  - first:
+      213: 2497513710112944873
+    second: Furniture_Ceramic_2
+  - first:
+      213: 4989437308968788745
+    second: Furniture_Ceramic_3
+  - first:
+      213: -8458618858743580766
+    second: Furniture_Ceramic_4
+  - first:
+      213: -6483521085112131617
+    second: Furniture_Ceramic_5
+  - first:
+      213: -809851718248149708
+    second: Furniture_Ceramic_6
+  - first:
+      213: -3379381139589370801
+    second: Furniture_Ceramic_7
+  - first:
+      213: 1551300616544432738
+    second: Furniture_Ceramic_8
+  - first:
+      213: 6946429767681925457
+    second: Furniture_Ceramic_9
+  - first:
+      213: 5799591215013220222
+    second: Furniture_Ceramic_10
+  - first:
+      213: -3754348508941203052
+    second: Furniture_Ceramic_11
+  - first:
+      213: 4018437721729959905
+    second: Furniture_Ceramic_12
+  - first:
+      213: 3612764811437659796
+    second: Furniture_Ceramic_13
+  - first:
+      213: 6791568966385640901
+    second: Furniture_Ceramic_14
+  - first:
+      213: 5688320664953041870
+    second: Furniture_Ceramic_15
+  - first:
+      213: 3482512145578241540
+    second: Furniture_Ceramic_16
+  - first:
+      213: -8319681407447120162
+    second: Furniture_Ceramic_17
+  - first:
+      213: -6228383877330979201
+    second: Furniture_Ceramic_18
+  - first:
+      213: -3041060280432990257
+    second: Furniture_Ceramic_19
+  - first:
+      213: 8550027713588270912
+    second: Furniture_Ceramic_20
+  - first:
+      213: 7091273272714833902
+    second: Furniture_Ceramic_21
+  - first:
+      213: 7379098927501367621
+    second: Furniture_Ceramic_22
+  - first:
+      213: -2741783195471439840
+    second: Furniture_Ceramic_23
+  - first:
+      213: 7268005256806751616
+    second: Furniture_Ceramic_24
+  - first:
+      213: 5833514665040658043
+    second: Furniture_Ceramic_25
+  - first:
+      213: -7528314976904152992
+    second: Furniture_Ceramic_26
+  - first:
+      213: 9156188769808816287
+    second: Furniture_Ceramic_27
+  - first:
+      213: 7214251149219158842
+    second: Furniture_Ceramic_28
+  - first:
+      213: -3582726349120247914
+    second: Furniture_Ceramic_29
+  - first:
+      213: 3802935926419166144
+    second: Furniture_Ceramic_30
+  - first:
+      213: 6136646221114199224
+    second: Furniture_Ceramic_31
+  - first:
+      213: 4881648498574501941
+    second: Furniture_Ceramic_32
+  - first:
+      213: -7182077842825915323
+    second: Furniture_Ceramic_33
+  - first:
+      213: 6183191072987014161
+    second: Furniture_Ceramic_34
+  - first:
+      213: -8291321519761775658
+    second: Furniture_Ceramic_35
+  - first:
+      213: 2736128754882932872
+    second: Furniture_Ceramic_36
+  - first:
+      213: 4177256669020380397
+    second: Furniture_Ceramic_37
+  - first:
+      213: -8074038629821512600
+    second: Furniture_Ceramic_26
+  - first:
+      213: -4014896548224306341
+    second: Furniture_Ceramic_27
+  - first:
+      213: 4987386174656925012
+    second: Furniture_Ceramic_28
+  - first:
+      213: 4053331969617612868
+    second: Furniture_Ceramic_29
+  - first:
+      213: -6796277947200956561
+    second: Furniture_Ceramic_30
+  - first:
+      213: 1970787490578196319
+    second: Furniture_Ceramic_31
+  - first:
+      213: 6962878493558369186
+    second: Furniture_Ceramic_32
+  - first:
+      213: 6722319594933215050
+    second: Furniture_Ceramic_33
+  - first:
+      213: -6951056316291735203
+    second: Furniture_Ceramic_34
+  - first:
+      213: -8805038916554393898
+    second: Furniture_Ceramic_35
+  - first:
+      213: 33988816087200790
+    second: Furniture_Ceramic_36
+  - first:
+      213: -7347979598492621202
+    second: Furniture_Ceramic_37
+  - first:
+      213: -9008976179107370759
+    second: Furniture_Ceramic_38
+  - first:
+      213: -4520798249208026870
+    second: Furniture_Ceramic_39
+  - first:
+      213: 1092425304470909022
+    second: Furniture_Ceramic_40
+  - first:
+      213: -525851802620941974
+    second: Furniture_Ceramic_41
+  - first:
+      213: -1885124208823463672
+    second: Furniture_Ceramic_42
+  - first:
+      213: 2684495115953208989
+    second: Furniture_Ceramic_43
+  - first:
+      213: -4771937469212895790
+    second: Furniture_Ceramic_38
+  - first:
+      213: -8140216860580952834
+    second: Furniture_Ceramic_39
+  - first:
+      213: 3033356944402032585
+    second: Furniture_Ceramic_40
+  - first:
+      213: 6256661947624526612
+    second: Furniture_Ceramic_41
+  - first:
+      213: -2031232158764397804
+    second: Furniture_Ceramic_42
+  - first:
+      213: 7302453373055300180
+    second: Furniture_Ceramic_43
+  - first:
+      213: -1933489022930830715
+    second: Furniture_Ceramic_44
+  - first:
+      213: -577662295800438507
+    second: Furniture_Ceramic_45
+  - first:
+      213: -5068745494298675150
+    second: Furniture_Ceramic_46
+  - first:
+      213: -7211373474926403232
+    second: Furniture_Ceramic_47
+  - first:
+      213: -3402195455537969112
+    second: Furniture_Ceramic_48
+  - first:
+      213: -7821231801786994069
+    second: Furniture_Ceramic_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Ceramic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed54daa6130c070800000000000000
+      internalID: 8124548062019706592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fe4825c47783430800000000000000
+      internalID: 3762888658353713031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e233f8ac73f8a220800000000000000
+      internalID: 2497513710112944873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036a2e1cca0e3540800000000000000
+      internalID: 4989437308968788745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a73b22b6f2fc9a80800000000000000
+      internalID: -8458618858743580766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfd22c9ce7e506a0800000000000000
+      internalID: -6483521085112131617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d441d2724d2c4f0800000000000000
+      internalID: -809851718248149708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cee1e12c60a11d0800000000000000
+      internalID: -3379381139589370801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_8
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b9fc01b3578510800000000000000
+      internalID: 1551300616544432738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15161e7e11da66060800000000000000
+      internalID: 6946429767681925457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fc6558b794c7050800000000000000
+      internalID: 5799591215013220222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499ca892cefd5ebc0800000000000000
+      internalID: -3754348508941203052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e78ebb31db54c730800000000000000
+      internalID: 4018437721729959905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d5ca647e132230800000000000000
+      internalID: 3612764811437659796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5abfcddff704e50800000000000000
+      internalID: 6791568966385640901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec33a0bb189f0fe40800000000000000
+      internalID: 5688320664953041870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eac23685e545030800000000000000
+      internalID: 3482512145578241540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed641b8e6dd8a8c80800000000000000
+      internalID: -8319681407447120162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_18
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76baeaecd55099a0800000000000000
+      internalID: -6228383877330979201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7ed3489cbfbc5d0800000000000000
+      internalID: -3041060280432990257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479c20d7ecc7a670800000000000000
+      internalID: 8550027713588270912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefa3696873496260800000000000000
+      internalID: 7091273272714833902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5495f20e063d76660800000000000000
+      internalID: 7379098927501367621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_23
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0281ac6d5ba33f9d0800000000000000
+      internalID: -2741783195471439840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_24
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d53a506442dd460800000000000000
+      internalID: 7268005256806751616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb7c93eaec4f050800000000000000
+      internalID: 5833514665040658043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86405bee4a043ff80800000000000000
+      internalID: -8074038629821512600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_27
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53f5297cd83848c0800000000000000
+      internalID: -4014896548224306341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_28
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dce123d41c63540800000000000000
+      internalID: 4987386174656925012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_29
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440dacd63f3504830800000000000000
+      internalID: 4053331969617612868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67144a1735cea1a0800000000000000
+      internalID: -6796277947200956561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5762bfe7c4a95b10800000000000000
+      internalID: 1970787490578196319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe0c6591d11a060800000000000000
+      internalID: 6962878493558369186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f54a22e0a7a4d50800000000000000
+      internalID: 6722319594933215050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5122bdcb13e88f90800000000000000
+      internalID: -6951056316291735203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6f849a1c73ec580800000000000000
+      internalID: -8805038916554393898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_36
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b63de5a0c87000800000000000000
+      internalID: 33988816087200790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_37
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66a7078c7bb60a90800000000000000
+      internalID: -7347979598492621202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_38
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d55031972ca6cdb0800000000000000
+      internalID: -4771937469212895790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_39
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef44d6ed4e3280f80800000000000000
+      internalID: -8140216860580952834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c72c0cc116a81a20800000000000000
+      internalID: 3033356944402032585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131dd364e024d650800000000000000
+      internalID: 6256661947624526612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_42
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b8f701d1d9fc3e0800000000000000
+      internalID: -2031232158764397804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45270d917a6875560800000000000000
+      internalID: 7302453373055300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a371b4afdda25e0800000000000000
+      internalID: -1933489022930830715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_45
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511adaad33bbbf7f0800000000000000
+      internalID: -577662295800438507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_46
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238377b04d238a9b0800000000000000
+      internalID: -5068745494298675150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_47
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0616654380e0ceb90800000000000000
+      internalID: -7211373474926403232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_48
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82806304249f8c0d0800000000000000
+      internalID: -3402195455537969112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_49
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b627f7c6d17657390800000000000000
+      internalID: -7821231801786994069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
