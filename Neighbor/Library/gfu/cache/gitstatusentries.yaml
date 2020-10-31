@@ -1,0 +1,2910 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-10-31T19:22:18.446-04:00
+  initializedAtString: 2020-10-31T06:57:32.281-04:00
+  entries:
+  - path: Neighbor\Assets\Plugins.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ArtifactDB
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\Artifacts\02\02aa6612d4ce46d9526e21edf32d9236
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\02\02aa6612d4ce46d9526e21edf32d9236
+    projectPath: Library\Artifacts\02\02aa6612d4ce46d9526e21edf32d9236
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\03\038f33dd39ce58d79d04962f77d9deec
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\03\038f33dd39ce58d79d04962f77d9deec
+    projectPath: Library\Artifacts\03\038f33dd39ce58d79d04962f77d9deec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\04\04733fd8e3a6de4f79493aa46e5ad112
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\04\04733fd8e3a6de4f79493aa46e5ad112
+    projectPath: Library\Artifacts\04\04733fd8e3a6de4f79493aa46e5ad112
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\06\062a4c6e387e54d5482a4f35326fc985
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\06\062a4c6e387e54d5482a4f35326fc985
+    projectPath: Library\Artifacts\06\062a4c6e387e54d5482a4f35326fc985
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\06\06d62350b45184cf452c9e128b50be35
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\06\06d62350b45184cf452c9e128b50be35
+    projectPath: Library\Artifacts\06\06d62350b45184cf452c9e128b50be35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\09\0923e8a25769e8a6815b139d24cd9b08
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\09\0923e8a25769e8a6815b139d24cd9b08
+    projectPath: Library\Artifacts\09\0923e8a25769e8a6815b139d24cd9b08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\0a\0a3b96c35501c8d085a8351f78aecb75
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0a\0a3b96c35501c8d085a8351f78aecb75
+    projectPath: Library\Artifacts\0a\0a3b96c35501c8d085a8351f78aecb75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\0a\0a44f7e6a4ac58817de109b3ab52d2e1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0a\0a44f7e6a4ac58817de109b3ab52d2e1
+    projectPath: Library\Artifacts\0a\0a44f7e6a4ac58817de109b3ab52d2e1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\0b\0b5f4332585056ec8866fd62c44d0de8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0b\0b5f4332585056ec8866fd62c44d0de8
+    projectPath: Library\Artifacts\0b\0b5f4332585056ec8866fd62c44d0de8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\0e\0e6cf0f4ef529ed8105faa070ca1e6b2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0e\0e6cf0f4ef529ed8105faa070ca1e6b2
+    projectPath: Library\Artifacts\0e\0e6cf0f4ef529ed8105faa070ca1e6b2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\0f\0f5ff4c233a5a219f8e4ae48ae0d0a4b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0f\0f5ff4c233a5a219f8e4ae48ae0d0a4b
+    projectPath: Library\Artifacts\0f\0f5ff4c233a5a219f8e4ae48ae0d0a4b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\0f\0fd9aa7ec452701f854e10ee4f0b9888
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\0f\0fd9aa7ec452701f854e10ee4f0b9888
+    projectPath: Library\Artifacts\0f\0fd9aa7ec452701f854e10ee4f0b9888
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\10\1035fed43f69b90f1c0b8e417a995362
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\10\1035fed43f69b90f1c0b8e417a995362
+    projectPath: Library\Artifacts\10\1035fed43f69b90f1c0b8e417a995362
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\10\10feafe52013681f54633c354c746b2c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\10\10feafe52013681f54633c354c746b2c
+    projectPath: Library\Artifacts\10\10feafe52013681f54633c354c746b2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\11\11723211082481f269119297fcaeb9d3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\11\11723211082481f269119297fcaeb9d3
+    projectPath: Library\Artifacts\11\11723211082481f269119297fcaeb9d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\11\118a36effe23caa1428528c8f0f29800
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\11\118a36effe23caa1428528c8f0f29800
+    projectPath: Library\Artifacts\11\118a36effe23caa1428528c8f0f29800
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\13\13c1f7700a196674959a493e99d72f18
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\13\13c1f7700a196674959a493e99d72f18
+    projectPath: Library\Artifacts\13\13c1f7700a196674959a493e99d72f18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\15\150d6fea31c957766144fd5ef262768c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\15\150d6fea31c957766144fd5ef262768c
+    projectPath: Library\Artifacts\15\150d6fea31c957766144fd5ef262768c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\15\15c4441c413204c8de595cf002154067
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\15\15c4441c413204c8de595cf002154067
+    projectPath: Library\Artifacts\15\15c4441c413204c8de595cf002154067
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\17\17c630f38e7802e46ee642ac213a3c65
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\17\17c630f38e7802e46ee642ac213a3c65
+    projectPath: Library\Artifacts\17\17c630f38e7802e46ee642ac213a3c65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\18\18fe9da43f4e9323abcbd73330a69083
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\18\18fe9da43f4e9323abcbd73330a69083
+    projectPath: Library\Artifacts\18\18fe9da43f4e9323abcbd73330a69083
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\19\192c7b43b5fab360a23dba9ca9b7aaaf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\19\192c7b43b5fab360a23dba9ca9b7aaaf
+    projectPath: Library\Artifacts\19\192c7b43b5fab360a23dba9ca9b7aaaf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\19\19783f76063b0caf1615f430adcd2e67
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\19\19783f76063b0caf1615f430adcd2e67
+    projectPath: Library\Artifacts\19\19783f76063b0caf1615f430adcd2e67
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\19\19a0f3d81fc9f90b9b25448291697d86
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\19\19a0f3d81fc9f90b9b25448291697d86
+    projectPath: Library\Artifacts\19\19a0f3d81fc9f90b9b25448291697d86
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1a\1a43c495942926bad9c4273fa836506c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1a\1a43c495942926bad9c4273fa836506c
+    projectPath: Library\Artifacts\1a\1a43c495942926bad9c4273fa836506c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1b\1b41e8b44d96effc84973e9cd4c5dd42
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1b\1b41e8b44d96effc84973e9cd4c5dd42
+    projectPath: Library\Artifacts\1b\1b41e8b44d96effc84973e9cd4c5dd42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1b\1b8f55995785766ba3f991a1d89d31cf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1b\1b8f55995785766ba3f991a1d89d31cf
+    projectPath: Library\Artifacts\1b\1b8f55995785766ba3f991a1d89d31cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1b\1baa5aaf7a5eb5d47ab57e0940714119
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1b\1baa5aaf7a5eb5d47ab57e0940714119
+    projectPath: Library\Artifacts\1b\1baa5aaf7a5eb5d47ab57e0940714119
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1c\1c3d8d973a68454c18ed40d52da48d2d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1c\1c3d8d973a68454c18ed40d52da48d2d
+    projectPath: Library\Artifacts\1c\1c3d8d973a68454c18ed40d52da48d2d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1c\1cb9e3b7adc66a8fdc691233525f0d41
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1c\1cb9e3b7adc66a8fdc691233525f0d41
+    projectPath: Library\Artifacts\1c\1cb9e3b7adc66a8fdc691233525f0d41
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1d\1dc1a777ecc3af021d0fc15b6d64be20
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1d\1dc1a777ecc3af021d0fc15b6d64be20
+    projectPath: Library\Artifacts\1d\1dc1a777ecc3af021d0fc15b6d64be20
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1d\1df4d553c1aed9fcf45cf046290032c7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1d\1df4d553c1aed9fcf45cf046290032c7
+    projectPath: Library\Artifacts\1d\1df4d553c1aed9fcf45cf046290032c7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1e\1e35d6b7256de59278038eb2a5db1959
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1e\1e35d6b7256de59278038eb2a5db1959
+    projectPath: Library\Artifacts\1e\1e35d6b7256de59278038eb2a5db1959
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1e\1e38c930bf12ebd7f8e61dbe4766cc40
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1e\1e38c930bf12ebd7f8e61dbe4766cc40
+    projectPath: Library\Artifacts\1e\1e38c930bf12ebd7f8e61dbe4766cc40
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1e\1e467ddf23af051e00fd251e65682bde
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1e\1e467ddf23af051e00fd251e65682bde
+    projectPath: Library\Artifacts\1e\1e467ddf23af051e00fd251e65682bde
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\1e\1e702f53c7688071845c42d500641fa4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1e\1e702f53c7688071845c42d500641fa4
+    projectPath: Library\Artifacts\1e\1e702f53c7688071845c42d500641fa4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\1e\1ed2f2238c2c19bd90c2608414d3a7d8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\1e\1ed2f2238c2c19bd90c2608414d3a7d8
+    projectPath: Library\Artifacts\1e\1ed2f2238c2c19bd90c2608414d3a7d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\20\20bca72f75830b2546a5c31396dcb8b2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\20\20bca72f75830b2546a5c31396dcb8b2
+    projectPath: Library\Artifacts\20\20bca72f75830b2546a5c31396dcb8b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\21\21c4a749770ec4dbdb24a1ce936292fe
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\21\21c4a749770ec4dbdb24a1ce936292fe
+    projectPath: Library\Artifacts\21\21c4a749770ec4dbdb24a1ce936292fe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\21\21cf47b558ffd15b65de3dacfda3deca
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\21\21cf47b558ffd15b65de3dacfda3deca
+    projectPath: Library\Artifacts\21\21cf47b558ffd15b65de3dacfda3deca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\22\22627ea20d72598b008b38dd04673804
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\22\22627ea20d72598b008b38dd04673804
+    projectPath: Library\Artifacts\22\22627ea20d72598b008b38dd04673804
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\23\237b5a70bac842d22ca908ea2aca53c3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\23\237b5a70bac842d22ca908ea2aca53c3
+    projectPath: Library\Artifacts\23\237b5a70bac842d22ca908ea2aca53c3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\24\24f85f16064baafa76ea5f5fe9b2d0af
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\24\24f85f16064baafa76ea5f5fe9b2d0af
+    projectPath: Library\Artifacts\24\24f85f16064baafa76ea5f5fe9b2d0af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\25\2553347dbff3f9bfe47cb7c29cda4f3a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\25\2553347dbff3f9bfe47cb7c29cda4f3a
+    projectPath: Library\Artifacts\25\2553347dbff3f9bfe47cb7c29cda4f3a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\25\2587bf1eb9a9c2a230a6f18f28977499
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\25\2587bf1eb9a9c2a230a6f18f28977499
+    projectPath: Library\Artifacts\25\2587bf1eb9a9c2a230a6f18f28977499
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\27\2729009199a8fa76a828cfb1be0ed707
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\27\2729009199a8fa76a828cfb1be0ed707
+    projectPath: Library\Artifacts\27\2729009199a8fa76a828cfb1be0ed707
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\27\278e03b2b7e2728d0740013f1bb6883d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\27\278e03b2b7e2728d0740013f1bb6883d
+    projectPath: Library\Artifacts\27\278e03b2b7e2728d0740013f1bb6883d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\28\28bb8456dfac53599329a0144621cf23
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\28\28bb8456dfac53599329a0144621cf23
+    projectPath: Library\Artifacts\28\28bb8456dfac53599329a0144621cf23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\28\28e0c7ffb202ade46771cfb64e7d7c3d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\28\28e0c7ffb202ade46771cfb64e7d7c3d
+    projectPath: Library\Artifacts\28\28e0c7ffb202ade46771cfb64e7d7c3d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\2a\2a9d9ecff502c47f0c6142a960abbb0b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2a\2a9d9ecff502c47f0c6142a960abbb0b
+    projectPath: Library\Artifacts\2a\2a9d9ecff502c47f0c6142a960abbb0b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\2b\2b27123a77f3b90754959be0d296d08d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2b\2b27123a77f3b90754959be0d296d08d
+    projectPath: Library\Artifacts\2b\2b27123a77f3b90754959be0d296d08d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\2c\2cb3035a4777380efbeb6ad1a380350c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2c\2cb3035a4777380efbeb6ad1a380350c
+    projectPath: Library\Artifacts\2c\2cb3035a4777380efbeb6ad1a380350c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\2d\2d610aba0b31e8e7a31f0a63f2e6b100
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2d\2d610aba0b31e8e7a31f0a63f2e6b100
+    projectPath: Library\Artifacts\2d\2d610aba0b31e8e7a31f0a63f2e6b100
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\2d\2dce6157f7ba31be03de518b6c745076
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2d\2dce6157f7ba31be03de518b6c745076
+    projectPath: Library\Artifacts\2d\2dce6157f7ba31be03de518b6c745076
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\2e\2ea971e6220043732b9b2025a6017e8a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2e\2ea971e6220043732b9b2025a6017e8a
+    projectPath: Library\Artifacts\2e\2ea971e6220043732b9b2025a6017e8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\2f\2f5b6b5583dd9502d2f9e603de4fd069
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\2f\2f5b6b5583dd9502d2f9e603de4fd069
+    projectPath: Library\Artifacts\2f\2f5b6b5583dd9502d2f9e603de4fd069
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\30\30374fb3af772ef5164ccca35faa4601
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\30\30374fb3af772ef5164ccca35faa4601
+    projectPath: Library\Artifacts\30\30374fb3af772ef5164ccca35faa4601
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\30\30c0434bfb8bf4f23039de616e42ea26
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\30\30c0434bfb8bf4f23039de616e42ea26
+    projectPath: Library\Artifacts\30\30c0434bfb8bf4f23039de616e42ea26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\31\312bb0a51626264731e09f4a7bab2f05
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\31\312bb0a51626264731e09f4a7bab2f05
+    projectPath: Library\Artifacts\31\312bb0a51626264731e09f4a7bab2f05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\31\312d9623bd4bca4212602f5695f5ba6f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\31\312d9623bd4bca4212602f5695f5ba6f
+    projectPath: Library\Artifacts\31\312d9623bd4bca4212602f5695f5ba6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\31\314194d6d04e71741ca59bca865ab35b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\31\314194d6d04e71741ca59bca865ab35b
+    projectPath: Library\Artifacts\31\314194d6d04e71741ca59bca865ab35b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\31\31ba7d6ba758b5c254e914f67a584d7b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\31\31ba7d6ba758b5c254e914f67a584d7b
+    projectPath: Library\Artifacts\31\31ba7d6ba758b5c254e914f67a584d7b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\31\31c955c876212ad95b952a336a824cd1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\31\31c955c876212ad95b952a336a824cd1
+    projectPath: Library\Artifacts\31\31c955c876212ad95b952a336a824cd1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\32\3219abb9467998fbaaf7605e65bd4fc1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\32\3219abb9467998fbaaf7605e65bd4fc1
+    projectPath: Library\Artifacts\32\3219abb9467998fbaaf7605e65bd4fc1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\32\3280af0e8fe4c41f6e18f21beb17d20c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\32\3280af0e8fe4c41f6e18f21beb17d20c
+    projectPath: Library\Artifacts\32\3280af0e8fe4c41f6e18f21beb17d20c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\32\32e39fcf08eab12586e195d3d050f8d5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\32\32e39fcf08eab12586e195d3d050f8d5
+    projectPath: Library\Artifacts\32\32e39fcf08eab12586e195d3d050f8d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\33\33ec2e72a821dff68f8bdfc40fdbe2c3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\33\33ec2e72a821dff68f8bdfc40fdbe2c3
+    projectPath: Library\Artifacts\33\33ec2e72a821dff68f8bdfc40fdbe2c3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\34\349ec4f2d17154cc93ce428b2b76c7b9
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\34\349ec4f2d17154cc93ce428b2b76c7b9
+    projectPath: Library\Artifacts\34\349ec4f2d17154cc93ce428b2b76c7b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\36\360faa18e9ab300dc1614f21f9bfde9a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\36\360faa18e9ab300dc1614f21f9bfde9a
+    projectPath: Library\Artifacts\36\360faa18e9ab300dc1614f21f9bfde9a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\36\36894e650b9f62e3d0c52a205de2d2b3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\36\36894e650b9f62e3d0c52a205de2d2b3
+    projectPath: Library\Artifacts\36\36894e650b9f62e3d0c52a205de2d2b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\36\36b5f60e7888fcc189d62cc3c5fc7761
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\36\36b5f60e7888fcc189d62cc3c5fc7761
+    projectPath: Library\Artifacts\36\36b5f60e7888fcc189d62cc3c5fc7761
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\36\36c503f2e3b6c00089eabdf9f5aab494
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\36\36c503f2e3b6c00089eabdf9f5aab494
+    projectPath: Library\Artifacts\36\36c503f2e3b6c00089eabdf9f5aab494
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\36\36ed7f8d01b49b8d46545e0066b28923
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\36\36ed7f8d01b49b8d46545e0066b28923
+    projectPath: Library\Artifacts\36\36ed7f8d01b49b8d46545e0066b28923
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\38\386ee9506972879fbdf13c2a49d49a2f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\38\386ee9506972879fbdf13c2a49d49a2f
+    projectPath: Library\Artifacts\38\386ee9506972879fbdf13c2a49d49a2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\38\387d2a15d3368a272ae2c51b3763a884
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\38\387d2a15d3368a272ae2c51b3763a884
+    projectPath: Library\Artifacts\38\387d2a15d3368a272ae2c51b3763a884
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\38\38a9c8fa56610cdab39c023541d6c21e
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\38\38a9c8fa56610cdab39c023541d6c21e
+    projectPath: Library\Artifacts\38\38a9c8fa56610cdab39c023541d6c21e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\38\38e19666a4aaecc66a39980411b06c3f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\38\38e19666a4aaecc66a39980411b06c3f
+    projectPath: Library\Artifacts\38\38e19666a4aaecc66a39980411b06c3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\39\3967bc4a8fd5cfd7f502e5fe49a6c45a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\39\3967bc4a8fd5cfd7f502e5fe49a6c45a
+    projectPath: Library\Artifacts\39\3967bc4a8fd5cfd7f502e5fe49a6c45a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\3a\3a5ad69f5c63d20efb9bd7da17b3cbda
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3a\3a5ad69f5c63d20efb9bd7da17b3cbda
+    projectPath: Library\Artifacts\3a\3a5ad69f5c63d20efb9bd7da17b3cbda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\3a\3a857d40d6eecdeecba7a80ccdd0af41
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3a\3a857d40d6eecdeecba7a80ccdd0af41
+    projectPath: Library\Artifacts\3a\3a857d40d6eecdeecba7a80ccdd0af41
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\3b\3ba7b71bc5b55b2835cd3eb61ae801ce
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3b\3ba7b71bc5b55b2835cd3eb61ae801ce
+    projectPath: Library\Artifacts\3b\3ba7b71bc5b55b2835cd3eb61ae801ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\3b\3bac63f3873f917cac71d801d1190f81
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3b\3bac63f3873f917cac71d801d1190f81
+    projectPath: Library\Artifacts\3b\3bac63f3873f917cac71d801d1190f81
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\3c\3c4b0d673107eb04e25266e999a204d0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3c\3c4b0d673107eb04e25266e999a204d0
+    projectPath: Library\Artifacts\3c\3c4b0d673107eb04e25266e999a204d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\3f\3f443032f5724a93723e3cb82a26d9cc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3f\3f443032f5724a93723e3cb82a26d9cc
+    projectPath: Library\Artifacts\3f\3f443032f5724a93723e3cb82a26d9cc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\3f\3fb4caf1dab2b69baf645f3fdf104ee0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\3f\3fb4caf1dab2b69baf645f3fdf104ee0
+    projectPath: Library\Artifacts\3f\3fb4caf1dab2b69baf645f3fdf104ee0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\40\40cc37c9948af2da51b2ec7bc64c37d0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\40\40cc37c9948af2da51b2ec7bc64c37d0
+    projectPath: Library\Artifacts\40\40cc37c9948af2da51b2ec7bc64c37d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\43\431fb577156f5e88c275270d2d4e0d64
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\43\431fb577156f5e88c275270d2d4e0d64
+    projectPath: Library\Artifacts\43\431fb577156f5e88c275270d2d4e0d64
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\44\446af2eea1639316e01482157d5bfb74
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\44\446af2eea1639316e01482157d5bfb74
+    projectPath: Library\Artifacts\44\446af2eea1639316e01482157d5bfb74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\45\45240f608babe574837fe038c2f5fc50
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\45\45240f608babe574837fe038c2f5fc50
+    projectPath: Library\Artifacts\45\45240f608babe574837fe038c2f5fc50
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\45\45ea5764042269f3546810b8da1fcf53
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\45\45ea5764042269f3546810b8da1fcf53
+    projectPath: Library\Artifacts\45\45ea5764042269f3546810b8da1fcf53
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\46\467896cb5ec68045fe2bf6705a4a6fa7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\46\467896cb5ec68045fe2bf6705a4a6fa7
+    projectPath: Library\Artifacts\46\467896cb5ec68045fe2bf6705a4a6fa7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
+    projectPath: Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\48\48777bc5891efddf879c1b0541c8e5e3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\48\48777bc5891efddf879c1b0541c8e5e3
+    projectPath: Library\Artifacts\48\48777bc5891efddf879c1b0541c8e5e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\49\49cbaeef2038aa15a8986390efdec500
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\49\49cbaeef2038aa15a8986390efdec500
+    projectPath: Library\Artifacts\49\49cbaeef2038aa15a8986390efdec500
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\4a\4aa7ebf9a81302adca2f1b806c9844ad
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\4a\4aa7ebf9a81302adca2f1b806c9844ad
+    projectPath: Library\Artifacts\4a\4aa7ebf9a81302adca2f1b806c9844ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\4a\4af96cd8ade960e863e454cbd399acbd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\4a\4af96cd8ade960e863e454cbd399acbd
+    projectPath: Library\Artifacts\4a\4af96cd8ade960e863e454cbd399acbd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\4d\4d1e9c7779c7f776e33da21b5457c9d2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\4d\4d1e9c7779c7f776e33da21b5457c9d2
+    projectPath: Library\Artifacts\4d\4d1e9c7779c7f776e33da21b5457c9d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\50\50ea7a9ffb15eaf513fce5c44ff010cf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\50\50ea7a9ffb15eaf513fce5c44ff010cf
+    projectPath: Library\Artifacts\50\50ea7a9ffb15eaf513fce5c44ff010cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\51\517dc242e3d358839c9717e99f443567
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\51\517dc242e3d358839c9717e99f443567
+    projectPath: Library\Artifacts\51\517dc242e3d358839c9717e99f443567
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
+    projectPath: Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\53\53e739db710795f32930cb5fad265536
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\53\53e739db710795f32930cb5fad265536
+    projectPath: Library\Artifacts\53\53e739db710795f32930cb5fad265536
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\53\53ff84c9572ce41ad12e33cc8c6334e8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\53\53ff84c9572ce41ad12e33cc8c6334e8
+    projectPath: Library\Artifacts\53\53ff84c9572ce41ad12e33cc8c6334e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\54\54d1387ea381b33ae0108aa8457faee2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\54\54d1387ea381b33ae0108aa8457faee2
+    projectPath: Library\Artifacts\54\54d1387ea381b33ae0108aa8457faee2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\55\5508fed72d3eb7426c9d8ab491d509bc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\55\5508fed72d3eb7426c9d8ab491d509bc
+    projectPath: Library\Artifacts\55\5508fed72d3eb7426c9d8ab491d509bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\55\552d0560becae4a0b9e5c93de6a2af47
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\55\552d0560becae4a0b9e5c93de6a2af47
+    projectPath: Library\Artifacts\55\552d0560becae4a0b9e5c93de6a2af47
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\55\5531da4b482227fcb4d86979f2c0ffcf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\55\5531da4b482227fcb4d86979f2c0ffcf
+    projectPath: Library\Artifacts\55\5531da4b482227fcb4d86979f2c0ffcf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\58\58629337af1d986e6b172b341d53cb67
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\58\58629337af1d986e6b172b341d53cb67
+    projectPath: Library\Artifacts\58\58629337af1d986e6b172b341d53cb67
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\5a\5ac0de45f4b1a0161332e0795b8015e9
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\5a\5ac0de45f4b1a0161332e0795b8015e9
+    projectPath: Library\Artifacts\5a\5ac0de45f4b1a0161332e0795b8015e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\5a\5ae44091751e220e5c1e9b5fbd51fe25
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\5a\5ae44091751e220e5c1e9b5fbd51fe25
+    projectPath: Library\Artifacts\5a\5ae44091751e220e5c1e9b5fbd51fe25
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\5b\5b48b327df52c11cb3992657150f8956
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\5b\5b48b327df52c11cb3992657150f8956
+    projectPath: Library\Artifacts\5b\5b48b327df52c11cb3992657150f8956
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\5f\5f5e3bb579209d624c421708cba4e56b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\5f\5f5e3bb579209d624c421708cba4e56b
+    projectPath: Library\Artifacts\5f\5f5e3bb579209d624c421708cba4e56b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\5f\5f8689505d0672ab334b2dd098c6c7a0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\5f\5f8689505d0672ab334b2dd098c6c7a0
+    projectPath: Library\Artifacts\5f\5f8689505d0672ab334b2dd098c6c7a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\61\616fde3b2c49a8522a794c6a654675f1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\61\616fde3b2c49a8522a794c6a654675f1
+    projectPath: Library\Artifacts\61\616fde3b2c49a8522a794c6a654675f1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\61\61fa8a6eca51a54f0b7567d2a5f44e91
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\61\61fa8a6eca51a54f0b7567d2a5f44e91
+    projectPath: Library\Artifacts\61\61fa8a6eca51a54f0b7567d2a5f44e91
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\63\63ccae2425cf1e4db1504db41d7461b3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\63\63ccae2425cf1e4db1504db41d7461b3
+    projectPath: Library\Artifacts\63\63ccae2425cf1e4db1504db41d7461b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\65\65eba9848d5e14e2489ae6af4c75e0ec
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\65\65eba9848d5e14e2489ae6af4c75e0ec
+    projectPath: Library\Artifacts\65\65eba9848d5e14e2489ae6af4c75e0ec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\66\6604f7ca4f878b645bec6ffecd4abb24
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\66\6604f7ca4f878b645bec6ffecd4abb24
+    projectPath: Library\Artifacts\66\6604f7ca4f878b645bec6ffecd4abb24
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\66\66fae44c9276e5bd1131fed251854b5c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\66\66fae44c9276e5bd1131fed251854b5c
+    projectPath: Library\Artifacts\66\66fae44c9276e5bd1131fed251854b5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\68\6883ad40e8df3f7065e7b2389242d687
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\68\6883ad40e8df3f7065e7b2389242d687
+    projectPath: Library\Artifacts\68\6883ad40e8df3f7065e7b2389242d687
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\68\688771abd565fc3fe2660bd31223d636
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\68\688771abd565fc3fe2660bd31223d636
+    projectPath: Library\Artifacts\68\688771abd565fc3fe2660bd31223d636
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\69\69b5d15f4280abe4f833da6d01725425
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\69\69b5d15f4280abe4f833da6d01725425
+    projectPath: Library\Artifacts\69\69b5d15f4280abe4f833da6d01725425
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\69\69cbc25cb2cbc4fe1a707ea49523c44a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\69\69cbc25cb2cbc4fe1a707ea49523c44a
+    projectPath: Library\Artifacts\69\69cbc25cb2cbc4fe1a707ea49523c44a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\69\69ebd7adc26e746041a2b865b66763e3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\69\69ebd7adc26e746041a2b865b66763e3
+    projectPath: Library\Artifacts\69\69ebd7adc26e746041a2b865b66763e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\6b\6b36e1d78bbd576482d85c76b5c5f5f1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\6b\6b36e1d78bbd576482d85c76b5c5f5f1
+    projectPath: Library\Artifacts\6b\6b36e1d78bbd576482d85c76b5c5f5f1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\6b\6bfa95b0a43ed1faaf983aedba426bcd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\6b\6bfa95b0a43ed1faaf983aedba426bcd
+    projectPath: Library\Artifacts\6b\6bfa95b0a43ed1faaf983aedba426bcd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\6f\6f19a95bf127f9d72efd4cffdd2f907c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\6f\6f19a95bf127f9d72efd4cffdd2f907c
+    projectPath: Library\Artifacts\6f\6f19a95bf127f9d72efd4cffdd2f907c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\6f\6f7b0bb5422d24106f788775abc27f5a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\6f\6f7b0bb5422d24106f788775abc27f5a
+    projectPath: Library\Artifacts\6f\6f7b0bb5422d24106f788775abc27f5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\70\70f99e71a7f95e4a7797449cfe5f5cd5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\70\70f99e71a7f95e4a7797449cfe5f5cd5
+    projectPath: Library\Artifacts\70\70f99e71a7f95e4a7797449cfe5f5cd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\72\72319252a053c04aa8cc9f36fcd986db
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\72\72319252a053c04aa8cc9f36fcd986db
+    projectPath: Library\Artifacts\72\72319252a053c04aa8cc9f36fcd986db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\72\72eefe6cabc69f6dd29511e6f0cee06a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\72\72eefe6cabc69f6dd29511e6f0cee06a
+    projectPath: Library\Artifacts\72\72eefe6cabc69f6dd29511e6f0cee06a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\73\73da1d0b5ecf402cb63422fb222f6250
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\73\73da1d0b5ecf402cb63422fb222f6250
+    projectPath: Library\Artifacts\73\73da1d0b5ecf402cb63422fb222f6250
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\73\73db117ba5288722f75162a111a7ff39
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\73\73db117ba5288722f75162a111a7ff39
+    projectPath: Library\Artifacts\73\73db117ba5288722f75162a111a7ff39
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\74\7450d3da20db593dc8c3d73a73db4509
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\74\7450d3da20db593dc8c3d73a73db4509
+    projectPath: Library\Artifacts\74\7450d3da20db593dc8c3d73a73db4509
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\74\74cc931108f9c552c8948a7787a97710
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\74\74cc931108f9c552c8948a7787a97710
+    projectPath: Library\Artifacts\74\74cc931108f9c552c8948a7787a97710
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\75\75185c61da063111ab2e8c5df224f185
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\75\75185c61da063111ab2e8c5df224f185
+    projectPath: Library\Artifacts\75\75185c61da063111ab2e8c5df224f185
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\75\7569b5b365c18c8466909c376f727f42
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\75\7569b5b365c18c8466909c376f727f42
+    projectPath: Library\Artifacts\75\7569b5b365c18c8466909c376f727f42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\77\7705f7bff62ad2584e593740e15c8514
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\77\7705f7bff62ad2584e593740e15c8514
+    projectPath: Library\Artifacts\77\7705f7bff62ad2584e593740e15c8514
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\77\771305a77847eaf2e37c4bbbe1ec1721
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\77\771305a77847eaf2e37c4bbbe1ec1721
+    projectPath: Library\Artifacts\77\771305a77847eaf2e37c4bbbe1ec1721
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\78\78f24bee2fa2b3f508d453572a4ef97b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\78\78f24bee2fa2b3f508d453572a4ef97b
+    projectPath: Library\Artifacts\78\78f24bee2fa2b3f508d453572a4ef97b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\79\79b5814493c032c10cf4efd9b1ff1364
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\79\79b5814493c032c10cf4efd9b1ff1364
+    projectPath: Library\Artifacts\79\79b5814493c032c10cf4efd9b1ff1364
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7a\7a801eb5da2e8bce902afac6ed2855fc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7a\7a801eb5da2e8bce902afac6ed2855fc
+    projectPath: Library\Artifacts\7a\7a801eb5da2e8bce902afac6ed2855fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7b\7b1b2ec31a60a9df127d76fb4bbcd2c1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7b\7b1b2ec31a60a9df127d76fb4bbcd2c1
+    projectPath: Library\Artifacts\7b\7b1b2ec31a60a9df127d76fb4bbcd2c1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7b\7b48309cd4475961324b2bc6fd0a2add
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7b\7b48309cd4475961324b2bc6fd0a2add
+    projectPath: Library\Artifacts\7b\7b48309cd4475961324b2bc6fd0a2add
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7b\7b729d0eebad55b944ead5cc52b3bce4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7b\7b729d0eebad55b944ead5cc52b3bce4
+    projectPath: Library\Artifacts\7b\7b729d0eebad55b944ead5cc52b3bce4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7c\7c68986dc14633321a96399a8c6ee4f7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7c\7c68986dc14633321a96399a8c6ee4f7
+    projectPath: Library\Artifacts\7c\7c68986dc14633321a96399a8c6ee4f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7c\7c7e51dba16da187151d441477524763
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7c\7c7e51dba16da187151d441477524763
+    projectPath: Library\Artifacts\7c\7c7e51dba16da187151d441477524763
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7c\7cab8258e3cc3df93f14f2ecc2142a00
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7c\7cab8258e3cc3df93f14f2ecc2142a00
+    projectPath: Library\Artifacts\7c\7cab8258e3cc3df93f14f2ecc2142a00
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\7d\7d49450a48cc1e219bcafdfe837198e9
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7d\7d49450a48cc1e219bcafdfe837198e9
+    projectPath: Library\Artifacts\7d\7d49450a48cc1e219bcafdfe837198e9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\7d\7d8de01074395f4be5a3c9cef6a5b8da
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7d\7d8de01074395f4be5a3c9cef6a5b8da
+    projectPath: Library\Artifacts\7d\7d8de01074395f4be5a3c9cef6a5b8da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7e\7e31a6cdcc1dfc5d770d60ee8436fbe3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7e\7e31a6cdcc1dfc5d770d60ee8436fbe3
+    projectPath: Library\Artifacts\7e\7e31a6cdcc1dfc5d770d60ee8436fbe3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\7e\7e96a9ca1afbdd9499a40dba5af71df9
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7e\7e96a9ca1afbdd9499a40dba5af71df9
+    projectPath: Library\Artifacts\7e\7e96a9ca1afbdd9499a40dba5af71df9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\7e\7ef6939ff0ab899d68dd42b2b11507dd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\7e\7ef6939ff0ab899d68dd42b2b11507dd
+    projectPath: Library\Artifacts\7e\7ef6939ff0ab899d68dd42b2b11507dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\81\8100565098a3da8c01f4408c3b0683a8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\81\8100565098a3da8c01f4408c3b0683a8
+    projectPath: Library\Artifacts\81\8100565098a3da8c01f4408c3b0683a8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\81\816246100a102bede6441435965c07b0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\81\816246100a102bede6441435965c07b0
+    projectPath: Library\Artifacts\81\816246100a102bede6441435965c07b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\82\82e474a6ef85e2ae992831f4fdf4b8c7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\82\82e474a6ef85e2ae992831f4fdf4b8c7
+    projectPath: Library\Artifacts\82\82e474a6ef85e2ae992831f4fdf4b8c7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\88\882a0634d325e980296046a68d8d2f4b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\88\882a0634d325e980296046a68d8d2f4b
+    projectPath: Library\Artifacts\88\882a0634d325e980296046a68d8d2f4b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\88\88a82faaf9f78b39df818dfe91d71d5b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\88\88a82faaf9f78b39df818dfe91d71d5b
+    projectPath: Library\Artifacts\88\88a82faaf9f78b39df818dfe91d71d5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\8a\8a40b8168f1e85245417147446f27cfd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\8a\8a40b8168f1e85245417147446f27cfd
+    projectPath: Library\Artifacts\8a\8a40b8168f1e85245417147446f27cfd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\8a\8a6f79f539bc5b979114f5648be023d2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\8a\8a6f79f539bc5b979114f5648be023d2
+    projectPath: Library\Artifacts\8a\8a6f79f539bc5b979114f5648be023d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\8c\8c097f7bf7e0c2d5eb7439052187a519
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\8c\8c097f7bf7e0c2d5eb7439052187a519
+    projectPath: Library\Artifacts\8c\8c097f7bf7e0c2d5eb7439052187a519
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\8c\8c71e66c10d910f472f7976e11ecb188
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\8c\8c71e66c10d910f472f7976e11ecb188
+    projectPath: Library\Artifacts\8c\8c71e66c10d910f472f7976e11ecb188
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\8d\8dc5c32fc5039dd7cda1bbf19acb5186
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\8d\8dc5c32fc5039dd7cda1bbf19acb5186
+    projectPath: Library\Artifacts\8d\8dc5c32fc5039dd7cda1bbf19acb5186
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\90\90b205527983184e085e2d32602b71c1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\90\90b205527983184e085e2d32602b71c1
+    projectPath: Library\Artifacts\90\90b205527983184e085e2d32602b71c1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\91\911eb6f53298fdaba1bacdf5d9234c09
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\91\911eb6f53298fdaba1bacdf5d9234c09
+    projectPath: Library\Artifacts\91\911eb6f53298fdaba1bacdf5d9234c09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\91\91a8f812e08e5b19ef02e0204d2e9d56
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\91\91a8f812e08e5b19ef02e0204d2e9d56
+    projectPath: Library\Artifacts\91\91a8f812e08e5b19ef02e0204d2e9d56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\91\91bccb6339ab0af500820bfdb56a9478
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\91\91bccb6339ab0af500820bfdb56a9478
+    projectPath: Library\Artifacts\91\91bccb6339ab0af500820bfdb56a9478
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\92\9220db111e5b18b5904deb1702350cba
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\92\9220db111e5b18b5904deb1702350cba
+    projectPath: Library\Artifacts\92\9220db111e5b18b5904deb1702350cba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\93\934bb083342f0fc3e1cd309e947703b5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\93\934bb083342f0fc3e1cd309e947703b5
+    projectPath: Library\Artifacts\93\934bb083342f0fc3e1cd309e947703b5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\96\967e82e5a62ce1c7a135e67a3423e229
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\96\967e82e5a62ce1c7a135e67a3423e229
+    projectPath: Library\Artifacts\96\967e82e5a62ce1c7a135e67a3423e229
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\96\96fe5077ae4d59cfa2ba18de86129966
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\96\96fe5077ae4d59cfa2ba18de86129966
+    projectPath: Library\Artifacts\96\96fe5077ae4d59cfa2ba18de86129966
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\97\9773cab1c7303500c2cff39bb29ad73b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\97\9773cab1c7303500c2cff39bb29ad73b
+    projectPath: Library\Artifacts\97\9773cab1c7303500c2cff39bb29ad73b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\9a\9a253d7feae98f1803691530c1afcfd5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\9a\9a253d7feae98f1803691530c1afcfd5
+    projectPath: Library\Artifacts\9a\9a253d7feae98f1803691530c1afcfd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\9a\9abd84af3f4124f5711b64f14ec9c739
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\9a\9abd84af3f4124f5711b64f14ec9c739
+    projectPath: Library\Artifacts\9a\9abd84af3f4124f5711b64f14ec9c739
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\9e\9e532bdb12fcf24777c2095c2901fd47
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\9e\9e532bdb12fcf24777c2095c2901fd47
+    projectPath: Library\Artifacts\9e\9e532bdb12fcf24777c2095c2901fd47
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\9f\9ff1e0a7f999992f79c3f9b60e9383b3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\9f\9ff1e0a7f999992f79c3f9b60e9383b3
+    projectPath: Library\Artifacts\9f\9ff1e0a7f999992f79c3f9b60e9383b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\a0\a042d2f716957beeb968fb00f0659a2c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a0\a042d2f716957beeb968fb00f0659a2c
+    projectPath: Library\Artifacts\a0\a042d2f716957beeb968fb00f0659a2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\a1\a1b6cea13f49ba5f9a347367a2a65d79
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a1\a1b6cea13f49ba5f9a347367a2a65d79
+    projectPath: Library\Artifacts\a1\a1b6cea13f49ba5f9a347367a2a65d79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\a4\a428508e2bc08af8200b571651fedb29
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a4\a428508e2bc08af8200b571651fedb29
+    projectPath: Library\Artifacts\a4\a428508e2bc08af8200b571651fedb29
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\a7\a75369d423e4511231f0445bd88d00d1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a7\a75369d423e4511231f0445bd88d00d1
+    projectPath: Library\Artifacts\a7\a75369d423e4511231f0445bd88d00d1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\a7\a7fd400ce93b98e40c88f1f94f27bc14
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a7\a7fd400ce93b98e40c88f1f94f27bc14
+    projectPath: Library\Artifacts\a7\a7fd400ce93b98e40c88f1f94f27bc14
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\a9\a9749735b98bc9ac280c1763369ea98d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\a9\a9749735b98bc9ac280c1763369ea98d
+    projectPath: Library\Artifacts\a9\a9749735b98bc9ac280c1763369ea98d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\aa\aadbf44c706e5c3d87ac5a32ab18571a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\aa\aadbf44c706e5c3d87ac5a32ab18571a
+    projectPath: Library\Artifacts\aa\aadbf44c706e5c3d87ac5a32ab18571a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ab\ab6ffc51eeb45f7382ed10cf520e8fc2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ab\ab6ffc51eeb45f7382ed10cf520e8fc2
+    projectPath: Library\Artifacts\ab\ab6ffc51eeb45f7382ed10cf520e8fc2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ab\abf8d7919f2c3321980436411d177eaf
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ab\abf8d7919f2c3321980436411d177eaf
+    projectPath: Library\Artifacts\ab\abf8d7919f2c3321980436411d177eaf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ac\ac7217a02dc38f374e3c9b9d46db70f7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ac\ac7217a02dc38f374e3c9b9d46db70f7
+    projectPath: Library\Artifacts\ac\ac7217a02dc38f374e3c9b9d46db70f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\af\af11e1505c40a155e9c982549a60256a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\af\af11e1505c40a155e9c982549a60256a
+    projectPath: Library\Artifacts\af\af11e1505c40a155e9c982549a60256a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\af\aff0f3dff732c0bf036f43a5cd5fc6f4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\af\aff0f3dff732c0bf036f43a5cd5fc6f4
+    projectPath: Library\Artifacts\af\aff0f3dff732c0bf036f43a5cd5fc6f4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\b0\b0de69fbfe3c55008ecb6ef55a96a727
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b0\b0de69fbfe3c55008ecb6ef55a96a727
+    projectPath: Library\Artifacts\b0\b0de69fbfe3c55008ecb6ef55a96a727
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b2\b225298d9448f1c67910a0c6bb08f155
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b2\b225298d9448f1c67910a0c6bb08f155
+    projectPath: Library\Artifacts\b2\b225298d9448f1c67910a0c6bb08f155
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b5\b556ccfe802fd576236c45c832d16534
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b5\b556ccfe802fd576236c45c832d16534
+    projectPath: Library\Artifacts\b5\b556ccfe802fd576236c45c832d16534
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b5\b5f3919a31383c55c9acbe30f8dbc349
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b5\b5f3919a31383c55c9acbe30f8dbc349
+    projectPath: Library\Artifacts\b5\b5f3919a31383c55c9acbe30f8dbc349
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b6\b649e70fef1acf291cb18dfa4b9b665f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b6\b649e70fef1acf291cb18dfa4b9b665f
+    projectPath: Library\Artifacts\b6\b649e70fef1acf291cb18dfa4b9b665f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\b6\b65397f08368cc4d500ed65a7cc64e30
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b6\b65397f08368cc4d500ed65a7cc64e30
+    projectPath: Library\Artifacts\b6\b65397f08368cc4d500ed65a7cc64e30
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b7\b774bb30688cc8635aa4f6ba8da64912
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b7\b774bb30688cc8635aa4f6ba8da64912
+    projectPath: Library\Artifacts\b7\b774bb30688cc8635aa4f6ba8da64912
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\b7\b7b763bb9bee541cccb0dedc72ddfb74
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b7\b7b763bb9bee541cccb0dedc72ddfb74
+    projectPath: Library\Artifacts\b7\b7b763bb9bee541cccb0dedc72ddfb74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b7\b7f9f5e32a9d9880770ab3d86a2349d3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b7\b7f9f5e32a9d9880770ab3d86a2349d3
+    projectPath: Library\Artifacts\b7\b7f9f5e32a9d9880770ab3d86a2349d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b8\b83256e6c739d21d33c37f8b4992bdcb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b8\b83256e6c739d21d33c37f8b4992bdcb
+    projectPath: Library\Artifacts\b8\b83256e6c739d21d33c37f8b4992bdcb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\b9\b9cf9f784b8dab53e9d41043c82fc773
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\b9\b9cf9f784b8dab53e9d41043c82fc773
+    projectPath: Library\Artifacts\b9\b9cf9f784b8dab53e9d41043c82fc773
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ba\baa581013865edfa60c87f1f60646eaa
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ba\baa581013865edfa60c87f1f60646eaa
+    projectPath: Library\Artifacts\ba\baa581013865edfa60c87f1f60646eaa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\bb\bb676d4e0894dd890009cba4a21fa835
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\bb\bb676d4e0894dd890009cba4a21fa835
+    projectPath: Library\Artifacts\bb\bb676d4e0894dd890009cba4a21fa835
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\bb\bb9c9857b74343ae27d4f08ec8ac6e54
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\bb\bb9c9857b74343ae27d4f08ec8ac6e54
+    projectPath: Library\Artifacts\bb\bb9c9857b74343ae27d4f08ec8ac6e54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\bb\bbdd22e04b181cf38609988ec9e56a2f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\bb\bbdd22e04b181cf38609988ec9e56a2f
+    projectPath: Library\Artifacts\bb\bbdd22e04b181cf38609988ec9e56a2f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\bd\bd30413ceb86e62ceed5de07b67c652b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\bd\bd30413ceb86e62ceed5de07b67c652b
+    projectPath: Library\Artifacts\bd\bd30413ceb86e62ceed5de07b67c652b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\be\be2b7b09440f93c4b2a742cf23feac47
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\be\be2b7b09440f93c4b2a742cf23feac47
+    projectPath: Library\Artifacts\be\be2b7b09440f93c4b2a742cf23feac47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\be\be4bf8b471425d6a13a67a7a86025c64
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\be\be4bf8b471425d6a13a67a7a86025c64
+    projectPath: Library\Artifacts\be\be4bf8b471425d6a13a67a7a86025c64
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\be\be977d0a9c2c8b81aa933fc14d2c89b0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\be\be977d0a9c2c8b81aa933fc14d2c89b0
+    projectPath: Library\Artifacts\be\be977d0a9c2c8b81aa933fc14d2c89b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\be\bedcd25b3493a95f205a80959addfd25
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\be\bedcd25b3493a95f205a80959addfd25
+    projectPath: Library\Artifacts\be\bedcd25b3493a95f205a80959addfd25
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c1\c17292bdfc607becaf341778630bcd15
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c1\c17292bdfc607becaf341778630bcd15
+    projectPath: Library\Artifacts\c1\c17292bdfc607becaf341778630bcd15
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c2\c215e372694545a3f9aa229b05f6c4ba
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c2\c215e372694545a3f9aa229b05f6c4ba
+    projectPath: Library\Artifacts\c2\c215e372694545a3f9aa229b05f6c4ba
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\c3\c33a1ffba0d554edc48f1d481ea153b5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c3\c33a1ffba0d554edc48f1d481ea153b5
+    projectPath: Library\Artifacts\c3\c33a1ffba0d554edc48f1d481ea153b5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c3\c3647d57599d043332ef55757e581de6
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c3\c3647d57599d043332ef55757e581de6
+    projectPath: Library\Artifacts\c3\c3647d57599d043332ef55757e581de6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c3\c37d843eebc56d409af9439c55a96286
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c3\c37d843eebc56d409af9439c55a96286
+    projectPath: Library\Artifacts\c3\c37d843eebc56d409af9439c55a96286
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c3\c3f78152416fac577630e6dc26423141
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c3\c3f78152416fac577630e6dc26423141
+    projectPath: Library\Artifacts\c3\c3f78152416fac577630e6dc26423141
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\c4\c42d879b4db9d078aa6dd2644143d5ef
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c4\c42d879b4db9d078aa6dd2644143d5ef
+    projectPath: Library\Artifacts\c4\c42d879b4db9d078aa6dd2644143d5ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c4\c4afb015c2d0cfa0a600035b45ed9412
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c4\c4afb015c2d0cfa0a600035b45ed9412
+    projectPath: Library\Artifacts\c4\c4afb015c2d0cfa0a600035b45ed9412
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c4\c4eca00d5f7758b681d4b17735849918
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c4\c4eca00d5f7758b681d4b17735849918
+    projectPath: Library\Artifacts\c4\c4eca00d5f7758b681d4b17735849918
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c8\c86bc95aac468be36ca482cf1771e5f5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c8\c86bc95aac468be36ca482cf1771e5f5
+    projectPath: Library\Artifacts\c8\c86bc95aac468be36ca482cf1771e5f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c8\c89dd6822191dd5c3b4d8f26b9aa4826
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c8\c89dd6822191dd5c3b4d8f26b9aa4826
+    projectPath: Library\Artifacts\c8\c89dd6822191dd5c3b4d8f26b9aa4826
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\c9\c93edd6da5700ba4b9935c719fcda152
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\c9\c93edd6da5700ba4b9935c719fcda152
+    projectPath: Library\Artifacts\c9\c93edd6da5700ba4b9935c719fcda152
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ca\cadfe19941a0ef9ca0a0e0772c7a0f6b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ca\cadfe19941a0ef9ca0a0e0772c7a0f6b
+    projectPath: Library\Artifacts\ca\cadfe19941a0ef9ca0a0e0772c7a0f6b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\cd\cd624513cd50d6ff6398fb589b52e3ab
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\cd\cd624513cd50d6ff6398fb589b52e3ab
+    projectPath: Library\Artifacts\cd\cd624513cd50d6ff6398fb589b52e3ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\cd\cd823430c503748ca044586dd5f68e3a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\cd\cd823430c503748ca044586dd5f68e3a
+    projectPath: Library\Artifacts\cd\cd823430c503748ca044586dd5f68e3a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\cd\cd98fb9213a56135b5d37dc45769a4aa
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\cd\cd98fb9213a56135b5d37dc45769a4aa
+    projectPath: Library\Artifacts\cd\cd98fb9213a56135b5d37dc45769a4aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ce\ce8e08c5c14a40f12bbd85356d606039
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ce\ce8e08c5c14a40f12bbd85356d606039
+    projectPath: Library\Artifacts\ce\ce8e08c5c14a40f12bbd85356d606039
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\cf\cfef435118c2341a1ceda982d515ccbe
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\cf\cfef435118c2341a1ceda982d515ccbe
+    projectPath: Library\Artifacts\cf\cfef435118c2341a1ceda982d515ccbe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\d0\d0d4e0c2fe7507f97e9ac21ec3031754
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d0\d0d4e0c2fe7507f97e9ac21ec3031754
+    projectPath: Library\Artifacts\d0\d0d4e0c2fe7507f97e9ac21ec3031754
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\d0\d0d9cc249bc61ae309a25d83d5d63d97
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d0\d0d9cc249bc61ae309a25d83d5d63d97
+    projectPath: Library\Artifacts\d0\d0d9cc249bc61ae309a25d83d5d63d97
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\d1\d14bb6f27591bd9bdd35623f2a37b228
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d1\d14bb6f27591bd9bdd35623f2a37b228
+    projectPath: Library\Artifacts\d1\d14bb6f27591bd9bdd35623f2a37b228
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\d2\d235e659dcaf9803b47b80d396b347b2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d2\d235e659dcaf9803b47b80d396b347b2
+    projectPath: Library\Artifacts\d2\d235e659dcaf9803b47b80d396b347b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\d4\d42c3040f3bfc83a59c5949fbeca6aeb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d4\d42c3040f3bfc83a59c5949fbeca6aeb
+    projectPath: Library\Artifacts\d4\d42c3040f3bfc83a59c5949fbeca6aeb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\d5\d593d449c9b9b4c14056ed04b62fbbe1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d5\d593d449c9b9b4c14056ed04b62fbbe1
+    projectPath: Library\Artifacts\d5\d593d449c9b9b4c14056ed04b62fbbe1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\d8\d85ad59d1151b04b79f2592f8e9505e5
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\d8\d85ad59d1151b04b79f2592f8e9505e5
+    projectPath: Library\Artifacts\d8\d85ad59d1151b04b79f2592f8e9505e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\da\da25e20848240a961322a6f39f4d7653
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\da\da25e20848240a961322a6f39f4d7653
+    projectPath: Library\Artifacts\da\da25e20848240a961322a6f39f4d7653
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\db\dbf97263c7fe4cb36d69f405681355a4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\db\dbf97263c7fe4cb36d69f405681355a4
+    projectPath: Library\Artifacts\db\dbf97263c7fe4cb36d69f405681355a4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\dc\dcbe2a0b9d9c7ee0c6b5b2e0587600fd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\dc\dcbe2a0b9d9c7ee0c6b5b2e0587600fd
+    projectPath: Library\Artifacts\dc\dcbe2a0b9d9c7ee0c6b5b2e0587600fd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\df\df8954836f8adda63c5f5be224195803
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\df\df8954836f8adda63c5f5be224195803
+    projectPath: Library\Artifacts\df\df8954836f8adda63c5f5be224195803
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\df\dff24917ae4829c36303aef7cecf3d99
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\df\dff24917ae4829c36303aef7cecf3d99
+    projectPath: Library\Artifacts\df\dff24917ae4829c36303aef7cecf3d99
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e1\e1126df6ea6b2096df94ffce4c754cf8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e1\e1126df6ea6b2096df94ffce4c754cf8
+    projectPath: Library\Artifacts\e1\e1126df6ea6b2096df94ffce4c754cf8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e4\e40619e975f1382016bd7d9da4b91a7a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e4\e40619e975f1382016bd7d9da4b91a7a
+    projectPath: Library\Artifacts\e4\e40619e975f1382016bd7d9da4b91a7a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e4\e45121f4439d209b69648bedea542155
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e4\e45121f4439d209b69648bedea542155
+    projectPath: Library\Artifacts\e4\e45121f4439d209b69648bedea542155
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e5\e50d09888971b285a56900c604f73f6c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e5\e50d09888971b285a56900c604f73f6c
+    projectPath: Library\Artifacts\e5\e50d09888971b285a56900c604f73f6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e6\e61bc1dac97e447a4a38371f04ec316a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e6\e61bc1dac97e447a4a38371f04ec316a
+    projectPath: Library\Artifacts\e6\e61bc1dac97e447a4a38371f04ec316a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e7\e794b78b95fabbc9f92d35f2da8fa8bc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e7\e794b78b95fabbc9f92d35f2da8fa8bc
+    projectPath: Library\Artifacts\e7\e794b78b95fabbc9f92d35f2da8fa8bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e7\e7fc7d19a34756dcdb4a35fc59a28953
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e7\e7fc7d19a34756dcdb4a35fc59a28953
+    projectPath: Library\Artifacts\e7\e7fc7d19a34756dcdb4a35fc59a28953
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e9\e949d9be87792c858beae047981734c0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e9\e949d9be87792c858beae047981734c0
+    projectPath: Library\Artifacts\e9\e949d9be87792c858beae047981734c0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\e9\e960fc76eec0f83005e2f1a3b1072e97
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e9\e960fc76eec0f83005e2f1a3b1072e97
+    projectPath: Library\Artifacts\e9\e960fc76eec0f83005e2f1a3b1072e97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e9\e982f8eeb3e2cda44632cf8e5890d71c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e9\e982f8eeb3e2cda44632cf8e5890d71c
+    projectPath: Library\Artifacts\e9\e982f8eeb3e2cda44632cf8e5890d71c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\e9\e98e07c9db7d7fe45e185f5df6dc27db
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\e9\e98e07c9db7d7fe45e185f5df6dc27db
+    projectPath: Library\Artifacts\e9\e98e07c9db7d7fe45e185f5df6dc27db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\eb\eb0ae58c9eddec837d8d9aca4e8cfa52
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\eb\eb0ae58c9eddec837d8d9aca4e8cfa52
+    projectPath: Library\Artifacts\eb\eb0ae58c9eddec837d8d9aca4e8cfa52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ec\eca0f9f48fd6071a49b19a3345b812d8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ec\eca0f9f48fd6071a49b19a3345b812d8
+    projectPath: Library\Artifacts\ec\eca0f9f48fd6071a49b19a3345b812d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ed\ed4a12cbac02684b1be2c83332f7adc1
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ed\ed4a12cbac02684b1be2c83332f7adc1
+    projectPath: Library\Artifacts\ed\ed4a12cbac02684b1be2c83332f7adc1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ef\ef62592da1a6bdf22c50e0be8d1a5974
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ef\ef62592da1a6bdf22c50e0be8d1a5974
+    projectPath: Library\Artifacts\ef\ef62592da1a6bdf22c50e0be8d1a5974
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\f1\f10447c2cf2ab4e025aa57b85a799629
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f1\f10447c2cf2ab4e025aa57b85a799629
+    projectPath: Library\Artifacts\f1\f10447c2cf2ab4e025aa57b85a799629
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f1\f11cc93857a70e124422a675c6f69cd2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f1\f11cc93857a70e124422a675c6f69cd2
+    projectPath: Library\Artifacts\f1\f11cc93857a70e124422a675c6f69cd2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f1\f12955bbe858fa9772c45e5a4009faf0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f1\f12955bbe858fa9772c45e5a4009faf0
+    projectPath: Library\Artifacts\f1\f12955bbe858fa9772c45e5a4009faf0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f2\f2fa4d5d276d1137a7bb30099c64766e
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f2\f2fa4d5d276d1137a7bb30099c64766e
+    projectPath: Library\Artifacts\f2\f2fa4d5d276d1137a7bb30099c64766e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f2\f2fcd3e236f213a961d0371e64a6ddb9
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f2\f2fcd3e236f213a961d0371e64a6ddb9
+    projectPath: Library\Artifacts\f2\f2fcd3e236f213a961d0371e64a6ddb9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f3\f34a909625fd747d5376eb935ec40fd3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f3\f34a909625fd747d5376eb935ec40fd3
+    projectPath: Library\Artifacts\f3\f34a909625fd747d5376eb935ec40fd3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f6\f6bd3d35a9cf1d6feaf19777999784d7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f6\f6bd3d35a9cf1d6feaf19777999784d7
+    projectPath: Library\Artifacts\f6\f6bd3d35a9cf1d6feaf19777999784d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\f8\f83f2bba1b4e95621844d3c9b585d631
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\f8\f83f2bba1b4e95621844d3c9b585d631
+    projectPath: Library\Artifacts\f8\f83f2bba1b4e95621844d3c9b585d631
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\fc\fc6922612166fa0ed49e5301a6915b61
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\fc\fc6922612166fa0ed49e5301a6915b61
+    projectPath: Library\Artifacts\fc\fc6922612166fa0ed49e5301a6915b61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\fd\fdc78a847eaee073b24441a07a44839b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\fd\fdc78a847eaee073b24441a07a44839b
+    projectPath: Library\Artifacts\fd\fdc78a847eaee073b24441a07a44839b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\fe\fe853108f31289f153a2895c4956f3be
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\fe\fe853108f31289f153a2895c4956f3be
+    projectPath: Library\Artifacts\fe\fe853108f31289f153a2895c4956f3be
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\fe\fed12320b370c0f0aa20e0ee48cd47e7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\fe\fed12320b370c0f0aa20e0ee48cd47e7
+    projectPath: Library\Artifacts\fe\fed12320b370c0f0aa20e0ee48cd47e7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Neighbor\Library\Artifacts\ff\ff455a8d328d1a86d616d24b4d65c1cc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ff\ff455a8d328d1a86d616d24b4d65c1cc
+    projectPath: Library\Artifacts\ff\ff455a8d328d1a86d616d24b4d65c1cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\Artifacts\ff\ffbe77ac3140d26a34483d591b9c627d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\Artifacts\ff\ffbe77ac3140d26a34483d591b9c627d
+    projectPath: Library\Artifacts\ff\ffbe77ac3140d26a34483d591b9c627d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\EditorInstance.json
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\gituser.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Placeholder.EditorTests.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Placeholder.EditorTests.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Placeholder.EditorTests.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ShaderCache\1\15791ab870745d3f5fde0f356e96596d.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\1\15791ab870745d3f5fde0f356e96596d.bin
+    projectPath: Library\ShaderCache\1\15791ab870745d3f5fde0f356e96596d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\1\1c2d610b683f18b51f48fbb53d982e0c.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\1\1c2d610b683f18b51f48fbb53d982e0c.bin
+    projectPath: Library\ShaderCache\1\1c2d610b683f18b51f48fbb53d982e0c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\1\1d705e3df763dc901e820e2760aa26c0.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\1\1d705e3df763dc901e820e2760aa26c0.bin
+    projectPath: Library\ShaderCache\1\1d705e3df763dc901e820e2760aa26c0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\1\1e3a5392db4f45ea11ed4622d992d66d.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\1\1e3a5392db4f45ea11ed4622d992d66d.bin
+    projectPath: Library\ShaderCache\1\1e3a5392db4f45ea11ed4622d992d66d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\1\1fdbd4cf047b5f27f0b13e829e02df07.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\1\1fdbd4cf047b5f27f0b13e829e02df07.bin
+    projectPath: Library\ShaderCache\1\1fdbd4cf047b5f27f0b13e829e02df07.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\2\26211a6fce5e999bc47b01c259eca9e0.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\2\26211a6fce5e999bc47b01c259eca9e0.bin
+    projectPath: Library\ShaderCache\2\26211a6fce5e999bc47b01c259eca9e0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\3\34f202337ac36b7771fe3b645f4b8772.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\3\34f202337ac36b7771fe3b645f4b8772.bin
+    projectPath: Library\ShaderCache\3\34f202337ac36b7771fe3b645f4b8772.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\3\3d87abac083066d801802b0bc194ee80.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\3\3d87abac083066d801802b0bc194ee80.bin
+    projectPath: Library\ShaderCache\3\3d87abac083066d801802b0bc194ee80.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\4\4088ddb17dfc79c8527a17af0263ec7a.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\4\4088ddb17dfc79c8527a17af0263ec7a.bin
+    projectPath: Library\ShaderCache\4\4088ddb17dfc79c8527a17af0263ec7a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\4\41d0cc672245f14ebdd60a1cbac71bb1.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\4\41d0cc672245f14ebdd60a1cbac71bb1.bin
+    projectPath: Library\ShaderCache\4\41d0cc672245f14ebdd60a1cbac71bb1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\4\46083124420c6e81bcf6269795ba542a.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\4\46083124420c6e81bcf6269795ba542a.bin
+    projectPath: Library\ShaderCache\4\46083124420c6e81bcf6269795ba542a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\4\4adc531c8102096ae315ecdbf1d3c111.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\4\4adc531c8102096ae315ecdbf1d3c111.bin
+    projectPath: Library\ShaderCache\4\4adc531c8102096ae315ecdbf1d3c111.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\5\547e1047de9bb5e5c9c5c556a60ffab8.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\5\547e1047de9bb5e5c9c5c556a60ffab8.bin
+    projectPath: Library\ShaderCache\5\547e1047de9bb5e5c9c5c556a60ffab8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\5\593425f48101d3c3522c0da653bf158e.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\5\593425f48101d3c3522c0da653bf158e.bin
+    projectPath: Library\ShaderCache\5\593425f48101d3c3522c0da653bf158e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\5\5b73414f9424754a8fa2493748ec1e36.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\5\5b73414f9424754a8fa2493748ec1e36.bin
+    projectPath: Library\ShaderCache\5\5b73414f9424754a8fa2493748ec1e36.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\6\64dffbb11d6884741d1321a38d0bafad.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\6\64dffbb11d6884741d1321a38d0bafad.bin
+    projectPath: Library\ShaderCache\6\64dffbb11d6884741d1321a38d0bafad.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\7\70b232a937c8104a41f253dc1dfd71da.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\7\70b232a937c8104a41f253dc1dfd71da.bin
+    projectPath: Library\ShaderCache\7\70b232a937c8104a41f253dc1dfd71da.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\7\718fbeda85b018d651a4b34cd79be2e9.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\7\718fbeda85b018d651a4b34cd79be2e9.bin
+    projectPath: Library\ShaderCache\7\718fbeda85b018d651a4b34cd79be2e9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\7\7c3e782e53a3a34632496ff351597f8e.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\7\7c3e782e53a3a34632496ff351597f8e.bin
+    projectPath: Library\ShaderCache\7\7c3e782e53a3a34632496ff351597f8e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\8\82ef79dd5dcc0dbfdfe9edefdc27b707.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\8\82ef79dd5dcc0dbfdfe9edefdc27b707.bin
+    projectPath: Library\ShaderCache\8\82ef79dd5dcc0dbfdfe9edefdc27b707.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\8\8dd5d5a31ebc9a240486c5be01d7ebea.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\8\8dd5d5a31ebc9a240486c5be01d7ebea.bin
+    projectPath: Library\ShaderCache\8\8dd5d5a31ebc9a240486c5be01d7ebea.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\9\910e366d5a48eb3456d7bd61da8d9ce2.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\9\910e366d5a48eb3456d7bd61da8d9ce2.bin
+    projectPath: Library\ShaderCache\9\910e366d5a48eb3456d7bd61da8d9ce2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\a\ac9c096d1cb05869df9dedb2632caa5b.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\a\ac9c096d1cb05869df9dedb2632caa5b.bin
+    projectPath: Library\ShaderCache\a\ac9c096d1cb05869df9dedb2632caa5b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\a\ad5c6ca399a9ae7d15c777c48a6a2367.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\a\ad5c6ca399a9ae7d15c777c48a6a2367.bin
+    projectPath: Library\ShaderCache\a\ad5c6ca399a9ae7d15c777c48a6a2367.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\c\c21baa1a4d89da1d0f8e9bc43cc5eebf.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\c\c21baa1a4d89da1d0f8e9bc43cc5eebf.bin
+    projectPath: Library\ShaderCache\c\c21baa1a4d89da1d0f8e9bc43cc5eebf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\c\cd5d8503c2c748605c98f547eb54585c.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\c\cd5d8503c2c748605c98f547eb54585c.bin
+    projectPath: Library\ShaderCache\c\cd5d8503c2c748605c98f547eb54585c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\c\cea0c72953859839ec277938a559e8f8.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\c\cea0c72953859839ec277938a559e8f8.bin
+    projectPath: Library\ShaderCache\c\cea0c72953859839ec277938a559e8f8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\d\d3c6c2352b044efd8244f7fcce103d63.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\d\d3c6c2352b044efd8244f7fcce103d63.bin
+    projectPath: Library\ShaderCache\d\d3c6c2352b044efd8244f7fcce103d63.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\d\db6f833a8adca58632ae9ae7cf64b158.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\d\db6f833a8adca58632ae9ae7cf64b158.bin
+    projectPath: Library\ShaderCache\d\db6f833a8adca58632ae9ae7cf64b158.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\d\ddc2c4c557c8c9642511967e3d3ed577.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\d\ddc2c4c557c8c9642511967e3d3ed577.bin
+    projectPath: Library\ShaderCache\d\ddc2c4c557c8c9642511967e3d3ed577.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\d\ddc392541bc66e73234a1436633f0a9c.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\d\ddc392541bc66e73234a1436633f0a9c.bin
+    projectPath: Library\ShaderCache\d\ddc392541bc66e73234a1436633f0a9c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\e\ebb5cb903a406529c921eb54286dc218.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\e\ebb5cb903a406529c921eb54286dc218.bin
+    projectPath: Library\ShaderCache\e\ebb5cb903a406529c921eb54286dc218.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\ShaderCache\f\f3d5f61bbe8a09175940fdfbdc276b2a.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\f\f3d5f61bbe8a09175940fdfbdc276b2a.bin
+    projectPath: Library\ShaderCache\f\f3d5f61bbe8a09175940fdfbdc276b2a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\ShaderCache\f\f7362f0c53503552e5242435dcc6079f.bin
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\ShaderCache\f\f7362f0c53503552e5242435dcc6079f.bin
+    projectPath: Library\ShaderCache\f\f7362f0c53503552e5242435dcc6079f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\SourceAssetDB
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\StateCache\Hierarchy\7b92f2-mainStage.json
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\StateCache\Hierarchy\7b92f2-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\7b92f2-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\StateCache\SceneView\cef0f5-mainStage.json
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\StateCache\SceneView\cef0f5-mainStage.json
+    projectPath: Library\StateCache\SceneView\cef0f5-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    projectPath: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Neighbor\Temp\UnityLockfile
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-0bbd1055bf66fbb4ea9b354cad12c7b8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-0bbd1055bf66fbb4ea9b354cad12c7b8
+    projectPath: Temp\UnityTempFile-0bbd1055bf66fbb4ea9b354cad12c7b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-0eb4250e61dd2c04b89150c3910d50c4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-0eb4250e61dd2c04b89150c3910d50c4
+    projectPath: Temp\UnityTempFile-0eb4250e61dd2c04b89150c3910d50c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-0f63eea0e31af1f4f8f85ab3a57a3309
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-0f63eea0e31af1f4f8f85ab3a57a3309
+    projectPath: Temp\UnityTempFile-0f63eea0e31af1f4f8f85ab3a57a3309
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-1787d71d758d3094793b544dc8cedd8a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-1787d71d758d3094793b544dc8cedd8a
+    projectPath: Temp\UnityTempFile-1787d71d758d3094793b544dc8cedd8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-1dbf5d61e53716c4bb6c68255a57bfca
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-1dbf5d61e53716c4bb6c68255a57bfca
+    projectPath: Temp\UnityTempFile-1dbf5d61e53716c4bb6c68255a57bfca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-1f90356b3bf0cb544bb3f8d77edeac88
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-1f90356b3bf0cb544bb3f8d77edeac88
+    projectPath: Temp\UnityTempFile-1f90356b3bf0cb544bb3f8d77edeac88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-1ff3f4665698dcf4faeb5f2430de48cc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-1ff3f4665698dcf4faeb5f2430de48cc
+    projectPath: Temp\UnityTempFile-1ff3f4665698dcf4faeb5f2430de48cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-27cf7fec02409c443b921e4ca1ddb48a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-27cf7fec02409c443b921e4ca1ddb48a
+    projectPath: Temp\UnityTempFile-27cf7fec02409c443b921e4ca1ddb48a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-2935bf7aff7d36c449c7a5a6c266d11a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-2935bf7aff7d36c449c7a5a6c266d11a
+    projectPath: Temp\UnityTempFile-2935bf7aff7d36c449c7a5a6c266d11a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-2bd32a23f5fe1e144bc676fef4e4d8d0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-2bd32a23f5fe1e144bc676fef4e4d8d0
+    projectPath: Temp\UnityTempFile-2bd32a23f5fe1e144bc676fef4e4d8d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3264a9ab3e1a3d846bd0e58205e759c3
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3264a9ab3e1a3d846bd0e58205e759c3
+    projectPath: Temp\UnityTempFile-3264a9ab3e1a3d846bd0e58205e759c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3355486294199fc4bbac1e164544dc1d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3355486294199fc4bbac1e164544dc1d
+    projectPath: Temp\UnityTempFile-3355486294199fc4bbac1e164544dc1d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-337413258339c8d4490b3f0035229dbb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-337413258339c8d4490b3f0035229dbb
+    projectPath: Temp\UnityTempFile-337413258339c8d4490b3f0035229dbb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-36136149bb4068a4b8eabfd0d4ca9065
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-36136149bb4068a4b8eabfd0d4ca9065
+    projectPath: Temp\UnityTempFile-36136149bb4068a4b8eabfd0d4ca9065
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3afa315985db01f44876959cf8ba9e06
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3afa315985db01f44876959cf8ba9e06
+    projectPath: Temp\UnityTempFile-3afa315985db01f44876959cf8ba9e06
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3b6e6e3ba53459b4a8aeda3fde3f23a7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3b6e6e3ba53459b4a8aeda3fde3f23a7
+    projectPath: Temp\UnityTempFile-3b6e6e3ba53459b4a8aeda3fde3f23a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3c3f5cf47493c3c499667118c8cab513
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3c3f5cf47493c3c499667118c8cab513
+    projectPath: Temp\UnityTempFile-3c3f5cf47493c3c499667118c8cab513
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-3d8b089a1f299e54b8810adc1d540134
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-3d8b089a1f299e54b8810adc1d540134
+    projectPath: Temp\UnityTempFile-3d8b089a1f299e54b8810adc1d540134
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-404ff73cb8149bd45bf8e56b51024fac
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-404ff73cb8149bd45bf8e56b51024fac
+    projectPath: Temp\UnityTempFile-404ff73cb8149bd45bf8e56b51024fac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-49e1e6c5b43a28d46bdd46a3a729c4b6
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-49e1e6c5b43a28d46bdd46a3a729c4b6
+    projectPath: Temp\UnityTempFile-49e1e6c5b43a28d46bdd46a3a729c4b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-4b76aab08779c194ba75e7bf63d943ed
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-4b76aab08779c194ba75e7bf63d943ed
+    projectPath: Temp\UnityTempFile-4b76aab08779c194ba75e7bf63d943ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-4e162e51f79ec6549bd661be13edd85d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-4e162e51f79ec6549bd661be13edd85d
+    projectPath: Temp\UnityTempFile-4e162e51f79ec6549bd661be13edd85d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-5155a5abdb70fe344a21f53125b228af
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-5155a5abdb70fe344a21f53125b228af
+    projectPath: Temp\UnityTempFile-5155a5abdb70fe344a21f53125b228af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-53a6a8483d4ce414fa54f29f48114c1d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-53a6a8483d4ce414fa54f29f48114c1d
+    projectPath: Temp\UnityTempFile-53a6a8483d4ce414fa54f29f48114c1d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-551480baaafc1e14187a3fb079dea15a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-551480baaafc1e14187a3fb079dea15a
+    projectPath: Temp\UnityTempFile-551480baaafc1e14187a3fb079dea15a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-5650c49b0e9a73846af7d02866ecce6c
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-5650c49b0e9a73846af7d02866ecce6c
+    projectPath: Temp\UnityTempFile-5650c49b0e9a73846af7d02866ecce6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-57640a6408054974387c121d6d240b8e
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-57640a6408054974387c121d6d240b8e
+    projectPath: Temp\UnityTempFile-57640a6408054974387c121d6d240b8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-5788d896ecd17ce4dab5ac5effc1e14b
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-5788d896ecd17ce4dab5ac5effc1e14b
+    projectPath: Temp\UnityTempFile-5788d896ecd17ce4dab5ac5effc1e14b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-591b122ed2d61814ab362135d25507ed
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-591b122ed2d61814ab362135d25507ed
+    projectPath: Temp\UnityTempFile-591b122ed2d61814ab362135d25507ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-5ad452b4d002c364ba29207166e2bc1e
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-5ad452b4d002c364ba29207166e2bc1e
+    projectPath: Temp\UnityTempFile-5ad452b4d002c364ba29207166e2bc1e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-5d5537ca2887b2f4e92098ae5ac5ed45
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-5d5537ca2887b2f4e92098ae5ac5ed45
+    projectPath: Temp\UnityTempFile-5d5537ca2887b2f4e92098ae5ac5ed45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-61a90bfbbdf43814f90aa184c59e770f
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-61a90bfbbdf43814f90aa184c59e770f
+    projectPath: Temp\UnityTempFile-61a90bfbbdf43814f90aa184c59e770f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-643d6d7f59949b84799e756c626dc085
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-643d6d7f59949b84799e756c626dc085
+    projectPath: Temp\UnityTempFile-643d6d7f59949b84799e756c626dc085
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-67ef36810659f684eaa8d9c53c4e658e
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-67ef36810659f684eaa8d9c53c4e658e
+    projectPath: Temp\UnityTempFile-67ef36810659f684eaa8d9c53c4e658e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-6b7c1f1cc3e39804d97bad91062a8141
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-6b7c1f1cc3e39804d97bad91062a8141
+    projectPath: Temp\UnityTempFile-6b7c1f1cc3e39804d97bad91062a8141
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-6f47823343ff45d4ebf62e0f22153f09
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-6f47823343ff45d4ebf62e0f22153f09
+    projectPath: Temp\UnityTempFile-6f47823343ff45d4ebf62e0f22153f09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-774e571fb62cf4d4abbf893b2c1a479d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-774e571fb62cf4d4abbf893b2c1a479d
+    projectPath: Temp\UnityTempFile-774e571fb62cf4d4abbf893b2c1a479d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-798f5af592495eb40bcce6d93839afe6
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-798f5af592495eb40bcce6d93839afe6
+    projectPath: Temp\UnityTempFile-798f5af592495eb40bcce6d93839afe6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-7c94da0efac93464bafa2b5012c841fc
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-7c94da0efac93464bafa2b5012c841fc
+    projectPath: Temp\UnityTempFile-7c94da0efac93464bafa2b5012c841fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-7e51f95437015d74bb32b69d6da76be8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-7e51f95437015d74bb32b69d6da76be8
+    projectPath: Temp\UnityTempFile-7e51f95437015d74bb32b69d6da76be8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-81f8e83cd00eaa9449175720e17d2a5d
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-81f8e83cd00eaa9449175720e17d2a5d
+    projectPath: Temp\UnityTempFile-81f8e83cd00eaa9449175720e17d2a5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-82045ac009f79eb45844dd979fb0ecbb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-82045ac009f79eb45844dd979fb0ecbb
+    projectPath: Temp\UnityTempFile-82045ac009f79eb45844dd979fb0ecbb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-821ed8381d8cae141809211b21e2f176
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-821ed8381d8cae141809211b21e2f176
+    projectPath: Temp\UnityTempFile-821ed8381d8cae141809211b21e2f176
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-85be5eb54f494ca42a6010d62f2ccde4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-85be5eb54f494ca42a6010d62f2ccde4
+    projectPath: Temp\UnityTempFile-85be5eb54f494ca42a6010d62f2ccde4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-860b144f6f2f76a4fa2e7ce8e65b8d33
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-860b144f6f2f76a4fa2e7ce8e65b8d33
+    projectPath: Temp\UnityTempFile-860b144f6f2f76a4fa2e7ce8e65b8d33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-888d146b773d22f48a608733d9d1de00
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-888d146b773d22f48a608733d9d1de00
+    projectPath: Temp\UnityTempFile-888d146b773d22f48a608733d9d1de00
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-88dea4894d07f294285578ae4a3aeb67
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-88dea4894d07f294285578ae4a3aeb67
+    projectPath: Temp\UnityTempFile-88dea4894d07f294285578ae4a3aeb67
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-8a47a6c39c498aa41b9d22ace384a3d6
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-8a47a6c39c498aa41b9d22ace384a3d6
+    projectPath: Temp\UnityTempFile-8a47a6c39c498aa41b9d22ace384a3d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-8c1c48703fe47a747926918ea66d1b55
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-8c1c48703fe47a747926918ea66d1b55
+    projectPath: Temp\UnityTempFile-8c1c48703fe47a747926918ea66d1b55
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-9374bf99cd25a2840b9806978c23ba09
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-9374bf99cd25a2840b9806978c23ba09
+    projectPath: Temp\UnityTempFile-9374bf99cd25a2840b9806978c23ba09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-95110a06b4630b84ca25ebcc2b73d29a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-95110a06b4630b84ca25ebcc2b73d29a
+    projectPath: Temp\UnityTempFile-95110a06b4630b84ca25ebcc2b73d29a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-9badc75ecbfd6934ebbf355c186b3d21
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-9badc75ecbfd6934ebbf355c186b3d21
+    projectPath: Temp\UnityTempFile-9badc75ecbfd6934ebbf355c186b3d21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-9c019aff5902b664a8795d7951fe06b2
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-9c019aff5902b664a8795d7951fe06b2
+    projectPath: Temp\UnityTempFile-9c019aff5902b664a8795d7951fe06b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-9e0202957163fa94c82baa851257720a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-9e0202957163fa94c82baa851257720a
+    projectPath: Temp\UnityTempFile-9e0202957163fa94c82baa851257720a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-9ecd37f5f2e8cd94eb34032a9ba31ccd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-9ecd37f5f2e8cd94eb34032a9ba31ccd
+    projectPath: Temp\UnityTempFile-9ecd37f5f2e8cd94eb34032a9ba31ccd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-a098a025a2f55dc45ae27337d91f61f8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-a098a025a2f55dc45ae27337d91f61f8
+    projectPath: Temp\UnityTempFile-a098a025a2f55dc45ae27337d91f61f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-a224c5b2a212363408f790ba1bf80589
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-a224c5b2a212363408f790ba1bf80589
+    projectPath: Temp\UnityTempFile-a224c5b2a212363408f790ba1bf80589
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-a395e78b8e6da4d40b830592a9b1ea85
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-a395e78b8e6da4d40b830592a9b1ea85
+    projectPath: Temp\UnityTempFile-a395e78b8e6da4d40b830592a9b1ea85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-b5bf11407de5ef84dbc370269e0ac7c0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-b5bf11407de5ef84dbc370269e0ac7c0
+    projectPath: Temp\UnityTempFile-b5bf11407de5ef84dbc370269e0ac7c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-b5c3eb3105206a642a1a8f467937a1f7
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-b5c3eb3105206a642a1a8f467937a1f7
+    projectPath: Temp\UnityTempFile-b5c3eb3105206a642a1a8f467937a1f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-c3e79103d8395b743a1b3e2d2694f850
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-c3e79103d8395b743a1b3e2d2694f850
+    projectPath: Temp\UnityTempFile-c3e79103d8395b743a1b3e2d2694f850
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-c4df981c50e0fbb47957f400eba807fb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-c4df981c50e0fbb47957f400eba807fb
+    projectPath: Temp\UnityTempFile-c4df981c50e0fbb47957f400eba807fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-caee6681f805b6e4b8cb5ed0829d84e4
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-caee6681f805b6e4b8cb5ed0829d84e4
+    projectPath: Temp\UnityTempFile-caee6681f805b6e4b8cb5ed0829d84e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-cbb2ab472f7504644a0fe86f5ae558fb
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-cbb2ab472f7504644a0fe86f5ae558fb
+    projectPath: Temp\UnityTempFile-cbb2ab472f7504644a0fe86f5ae558fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-cbf1be146408deb45af16c738f48a772
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-cbf1be146408deb45af16c738f48a772
+    projectPath: Temp\UnityTempFile-cbf1be146408deb45af16c738f48a772
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-d0b8ada642ee4f54d90630aa9b31a738
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-d0b8ada642ee4f54d90630aa9b31a738
+    projectPath: Temp\UnityTempFile-d0b8ada642ee4f54d90630aa9b31a738
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-d0e5307a800a4c24b936278c5030c8f8
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-d0e5307a800a4c24b936278c5030c8f8
+    projectPath: Temp\UnityTempFile-d0e5307a800a4c24b936278c5030c8f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-d0f5528e3b6bbe241bc3de13c3386607
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-d0f5528e3b6bbe241bc3de13c3386607
+    projectPath: Temp\UnityTempFile-d0f5528e3b6bbe241bc3de13c3386607
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-d7a2e71fdfa4f3a4dbc962292fd03e8a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-d7a2e71fdfa4f3a4dbc962292fd03e8a
+    projectPath: Temp\UnityTempFile-d7a2e71fdfa4f3a4dbc962292fd03e8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e04ac1a080b1b3e4bbd52c9645c73dff
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e04ac1a080b1b3e4bbd52c9645c73dff
+    projectPath: Temp\UnityTempFile-e04ac1a080b1b3e4bbd52c9645c73dff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e1a7726ea2c1ddc4b93336e589edb020
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e1a7726ea2c1ddc4b93336e589edb020
+    projectPath: Temp\UnityTempFile-e1a7726ea2c1ddc4b93336e589edb020
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e2248edf3b8f3d94380826294386008a
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e2248edf3b8f3d94380826294386008a
+    projectPath: Temp\UnityTempFile-e2248edf3b8f3d94380826294386008a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e33e496d2cadcb5409140a020aef1991
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e33e496d2cadcb5409140a020aef1991
+    projectPath: Temp\UnityTempFile-e33e496d2cadcb5409140a020aef1991
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e3f0c4f98c37c774189c5f09c11199cd
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e3f0c4f98c37c774189c5f09c11199cd
+    projectPath: Temp\UnityTempFile-e3f0c4f98c37c774189c5f09c11199cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e69cf74e53c106044b4636f5947237ac
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e69cf74e53c106044b4636f5947237ac
+    projectPath: Temp\UnityTempFile-e69cf74e53c106044b4636f5947237ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e7c731adc50c0e04db293b4e0b039b79
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e7c731adc50c0e04db293b4e0b039b79
+    projectPath: Temp\UnityTempFile-e7c731adc50c0e04db293b4e0b039b79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-e9e68e88b386a8945a06df61afd9e7d0
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-e9e68e88b386a8945a06df61afd9e7d0
+    projectPath: Temp\UnityTempFile-e9e68e88b386a8945a06df61afd9e7d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-ef15b11a64ecd5c4d8144e5b2fb51c02
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-ef15b11a64ecd5c4d8144e5b2fb51c02
+    projectPath: Temp\UnityTempFile-ef15b11a64ecd5c4d8144e5b2fb51c02
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-ef43553852ee6a44e9a4668e2d74cf63
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-ef43553852ee6a44e9a4668e2d74cf63
+    projectPath: Temp\UnityTempFile-ef43553852ee6a44e9a4668e2d74cf63
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-f2766c339d35149409348cddfda74758
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-f2766c339d35149409348cddfda74758
+    projectPath: Temp\UnityTempFile-f2766c339d35149409348cddfda74758
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-f349124354054c044ba41a4a19448974
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-f349124354054c044ba41a4a19448974
+    projectPath: Temp\UnityTempFile-f349124354054c044ba41a4a19448974
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-f9ae104579e912649a21c67c46c26837
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-f9ae104579e912649a21c67c46c26837
+    projectPath: Temp\UnityTempFile-f9ae104579e912649a21c67c46c26837
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Neighbor\Temp\UnityTempFile-fceae61a57e6dc14db4e121624f7c5ee
+    fullPath: C:\Users\monke\Desktop\GameDev\Neighbuorhood\Neighbor\Temp\UnityTempFile-fceae61a57e6dc14db4e121624f7c5ee
+    projectPath: Temp\UnityTempFile-fceae61a57e6dc14db4e121624f7c5ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
