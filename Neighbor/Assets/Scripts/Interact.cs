@@ -8,7 +8,7 @@ public class Interact : MonoBehaviour
 
     private CapsuleCollider2D check;
     private ContactFilter2D filter;
-    private Collider2D[] results = new Collider2D[50];
+    private Collider2D[] results = new Collider2D[30];
     private List<GameObject> return_objects;
 
     void Start()
@@ -21,7 +21,7 @@ public class Interact : MonoBehaviour
 
     public List<GameObject> interaction()
     {
-        results = new Collider2D[50];
+        results = new Collider2D[30];
         check.OverlapCollider(filter, results);
         return_objects = new List<GameObject>();
 

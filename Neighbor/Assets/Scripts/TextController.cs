@@ -54,7 +54,7 @@ public class TextController : MonoBehaviour
                     inspect_text.text = text.GetComponent<TextMeshPro>().text;
                     inspecting = true;
                     rise = 0f;
-                    life = 50f;
+                    life = 120f;
                 }
             }
             else

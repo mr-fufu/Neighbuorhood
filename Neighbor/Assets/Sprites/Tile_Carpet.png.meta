@@ -125,6 +125,165 @@ TextureImporter:
   - first:
       213: -4776546577438665599
     second: Tile_Carpet_21
+  - first:
+      213: 2531991163323442237
+    second: Tile_Carpet_19
+  - first:
+      213: 5583837935101052141
+    second: Tile_Carpet_20
+  - first:
+      213: -2400392079650510343
+    second: Tile_Carpet_21
+  - first:
+      213: 5470280770494383253
+    second: Tile_Carpet_22
+  - first:
+      213: 8418627712101597409
+    second: Tile_Carpet_23
+  - first:
+      213: -2179338358487431609
+    second: Tile_Carpet_24
+  - first:
+      213: 6382441217893712260
+    second: Tile_Carpet_25
+  - first:
+      213: 8308070652886418862
+    second: Tile_Carpet_26
+  - first:
+      213: 121221690068053304
+    second: Tile_Carpet_27
+  - first:
+      213: -4963785922079426956
+    second: Tile_Carpet_28
+  - first:
+      213: 3177247371274454522
+    second: Tile_Carpet_29
+  - first:
+      213: 5038862950570897355
+    second: Tile_Carpet_30
+  - first:
+      213: -1012281088976398155
+    second: Tile_Carpet_31
+  - first:
+      213: -6958432227584845202
+    second: Tile_Carpet_32
+  - first:
+      213: -2212016148191863367
+    second: Tile_Carpet_33
+  - first:
+      213: 8857649491491180396
+    second: Tile_Carpet_34
+  - first:
+      213: -2045524613423652031
+    second: Tile_Carpet_35
+  - first:
+      213: 9162791190971775210
+    second: Tile_Carpet_36
+  - first:
+      213: 9126923974140627409
+    second: Tile_Carpet_22
+  - first:
+      213: -6280210333847175323
+    second: Tile_Carpet_23
+  - first:
+      213: -1390137737836365664
+    second: Tile_Carpet_24
+  - first:
+      213: 167478751831895389
+    second: Tile_Carpet_25
+  - first:
+      213: 317933517439283920
+    second: Tile_Carpet_26
+  - first:
+      213: 8322011554222210945
+    second: Tile_Carpet_27
+  - first:
+      213: 1680128590489255812
+    second: Tile_Carpet_28
+  - first:
+      213: 6038087685846806409
+    second: Tile_Carpet_29
+  - first:
+      213: 5320822117762363008
+    second: Tile_Carpet_30
+  - first:
+      213: -5139186756533384850
+    second: Tile_Carpet_31
+  - first:
+      213: 7033341682324025561
+    second: Tile_Carpet_32
+  - first:
+      213: -3016661637073687498
+    second: Tile_Carpet_33
+  - first:
+      213: 7564114428901365753
+    second: Tile_Carpet_34
+  - first:
+      213: -1798795148097897252
+    second: Tile_Carpet_35
+  - first:
+      213: 5944152541151423773
+    second: Tile_Carpet_36
+  - first:
+      213: -6121361664443956010
+    second: Tile_Carpet_37
+  - first:
+      213: 4544592937061249605
+    second: Tile_Carpet_38
+  - first:
+      213: -7167693919773027979
+    second: Tile_Carpet_39
+  - first:
+      213: -212033845370601001
+    second: Tile_Carpet_40
+  - first:
+      213: -8781857770712143355
+    second: Tile_Carpet_41
+  - first:
+      213: -2601690558865285858
+    second: Tile_Carpet_42
+  - first:
+      213: -9062435285124224978
+    second: Tile_Carpet_37
+  - first:
+      213: -8828048491425217447
+    second: Tile_Carpet_38
+  - first:
+      213: -5944824281067217573
+    second: Tile_Carpet_39
+  - first:
+      213: -4931008567226592689
+    second: Tile_Carpet_40
+  - first:
+      213: -1246004093654454661
+    second: Tile_Carpet_41
+  - first:
+      213: 7615745339807931891
+    second: Tile_Carpet_42
+  - first:
+      213: -822531096564691020
+    second: Tile_Carpet_43
+  - first:
+      213: 2533961958238583194
+    second: Tile_Carpet_44
+  - first:
+      213: -237623716777380998
+    second: Tile_Carpet_45
+  - first:
+      213: 7342889333106471454
+    second: Tile_Carpet_46
+  - first:
+      213: 6725959549263650883
+    second: Tile_Carpet_47
+  - first:
+      213: -2599806850438513816
+    second: Tile_Carpet_48
+  - first:
+      213: 4192684128713742143
+    second: Tile_Carpet_49
+  - first:
+      213: -8813293303032947027
+    second: Tile_Carpet_50
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -213,7 +372,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -234,7 +393,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 66
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -255,7 +414,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 132
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -276,7 +435,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 198
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -297,7 +456,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -318,7 +477,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 330
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -339,7 +498,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 396
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -360,7 +519,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 462
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -381,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 528
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -402,7 +561,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 594
-        y: 502
+        y: 1255
         width: 66
         height: 251
       alignment: 0
@@ -423,7 +582,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -444,7 +603,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 66
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -465,7 +624,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 132
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -486,7 +645,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 198
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -507,7 +666,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -528,7 +687,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 330
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -549,7 +708,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 396
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -570,7 +729,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 462
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -591,7 +750,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 528
-        y: 251
+        y: 1004
         width: 66
         height: 251
       alignment: 0
@@ -612,6 +771,447 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 594
+        y: 1004
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3462584c80732320800000000000000
+      internalID: 2531991163323442237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de48c0d7407cd7d40800000000000000
+      internalID: 5583837935101052141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f925c21f1810bed0800000000000000
+      internalID: -2400392079650510343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d906aa7ff859ae70800000000000000
+      internalID: 9126923974140627409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f3d40b9f538d8a0800000000000000
+      internalID: -6280210333847175323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8f56bb71d35bce0800000000000000
+      internalID: -1390137737836365664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dad569901035200800000000000000
+      internalID: 167478751831895389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2b82189d6896400800000000000000
+      internalID: 317933517439283920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f7c1aaa69bd7370800000000000000
+      internalID: 8322011554222210945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ff6152d04015710800000000000000
+      internalID: 1680128590489255812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_29
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 753
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f2f8552c89bc350800000000000000
+      internalID: 6038087685846806409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e6442768b57d940800000000000000
+      internalID: 5320822117762363008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_31
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e698f6e9fd0fda8b0800000000000000
+      internalID: -5139186756533384850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d03fdeeef27b9160800000000000000
+      internalID: 7033341682324025561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cacaa593aa226d0800000000000000
+      internalID: -3016661637073687498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f792172ff129f860800000000000000
+      internalID: 7564114428901365753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcbdedd7556907e0800000000000000
+      internalID: -1798795148097897252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_36
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de0122e3fdd7250800000000000000
+      internalID: 5944152541151423773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_37
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28643e7f13cb3280800000000000000
+      internalID: -9062435285124224978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544da88ba87c7580800000000000000
+      internalID: -8828048491425217447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_39
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 502
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d1fda30ddbf7da0800000000000000
+      internalID: -5944824281067217573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_40
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 251
         width: 66
         height: 251
@@ -622,14 +1222,203 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dab8098c9ab814e0800000000000000
-      internalID: -2010652052144211242
+      spriteID: f421d0e65d9819bb0800000000000000
+      internalID: -4931008567226592689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile_Carpet_20
+      name: Tile_Carpet_41
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e2b01e0ed45bee0800000000000000
+      internalID: -1246004093654454661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd961f590090b960800000000000000
+      internalID: 7615745339807931891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_43
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf8c8c5358c594f0800000000000000
+      internalID: -822531096564691020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99f92bb9f07a2320800000000000000
+      internalID: 2533961958238583194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_45
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73b6431d7ac3bcf0800000000000000
+      internalID: -237623716777380998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_46
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12f0d4b1fe27e560800000000000000
+      internalID: 7342889333106471454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_47
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340a18b0398675d50800000000000000
+      internalID: 6725959549263650883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_48
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b3cf2a171abebd0800000000000000
+      internalID: -2599806850438513816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_49
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 251
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37966350086f2a30800000000000000
+      internalID: 4192684128713742143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_50
       rect:
         serializedVersion: 2
         x: 0
@@ -643,29 +1432,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1a6dfb110887f510800000000000000
-      internalID: 1582883332389956122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Carpet_21
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 0
-        width: 66
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18419aee13c46bdb0800000000000000
-      internalID: -4776546577438665599
+      spriteID: dae546b8f64e0b580800000000000000
+      internalID: -8813293303032947027
       vertices: []
       indices: 
       edges: []

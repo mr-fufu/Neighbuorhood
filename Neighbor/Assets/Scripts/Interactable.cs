@@ -16,8 +16,8 @@ public class Interactable : MonoBehaviour
 
     public void interaction(GameController game_controller)
     {
-        Debug.Log("interacted with");
-        Debug.Log(interact_name);
+        //Debug.Log("interacted with");
+        //Debug.Log(interact_name);
 
         if (observe)
         {
@@ -28,5 +28,4 @@ public class Interactable : MonoBehaviour
             GetComponent<Door>().useDoor(game_controller);
         }
     }
-
 }
