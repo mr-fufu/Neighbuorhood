@@ -64,12 +64,19 @@ public class GameController : MonoBehaviour
     {
         moving = true;
         move_to = destination.transform.position;
-        fade_control.opaque = false;
+        fade_control.opaque = true;
         player_control.frozen = true;
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            introducing = false;
+            back_block.gameObject.SetActive(false);
+            player_control.frozen = false;
+        }
+
         if (introducing)
         {
             if (started)
@@ -106,7 +113,6 @@ public class GameController : MonoBehaviour
                 {
                     nextIntro();
                 }
-
             }
 
             if (change_sprite_back && intro_fade_sprt.hold_transparency)
