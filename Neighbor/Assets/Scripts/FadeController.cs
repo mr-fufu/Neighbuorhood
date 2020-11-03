@@ -1,29 +1,63 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class FadeController : MonoBehaviour
 {
-    public GameObject black_obj;
-    public bool black;
+    public GameObject fade_obj;
+    public bool text;
+    public bool opaque;
 
+    private Vector4 init_color;
     private float alpha;
-    [System.NonSerialized] public bool hold_black;
+    [System.NonSerialized] public bool hold_transparency;
     private SpriteRenderer sprite;
+    private TextMeshProUGUI text_comp;
 
     void Start()
     {
-        black_obj.SetActive(true);
-        sprite = black_obj.GetComponent<SpriteRenderer>();
-        alpha = 0;
-        sprite.color = new Vector4(0, 0, 0, alpha);
+        fade_obj.SetActive(true);
+
+        init_color = new Vector4(0, 0, 0, 0);
+
+        if (text)
+        {
+            text_comp = fade_obj.GetComponent<TextMeshProUGUI>();
+            init_color = text_comp.color;
+        }
+        else
+        {
+            sprite = fade_obj.GetComponent<SpriteRenderer>();
+            init_color = sprite.color;
+        }
+
+
+
+        if (opaque)
+        {
+            alpha = 1;
+        }
+        else
+        {
+            alpha = 0;
+        }
+
+        if (text)
+        {
+            text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+        }
+        else
+        {
+            sprite.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+        }
     }
 
     void Update()
     {
-        if (black != hold_black)
+        if (opaque != hold_transparency)
         {
-            if (black)
+            if (opaque)
             {
                 if (alpha < 1f)
                 {
@@ -32,7 +66,7 @@ public class FadeController : MonoBehaviour
                 else
                 {
                     alpha = 1f;
-                    hold_black = black;
+                    hold_transparency = opaque;
                 }
             }
             else
@@ -44,10 +78,17 @@ public class FadeController : MonoBehaviour
                 else
                 {
                     alpha = 0f;
-                    hold_black = black;
+                    hold_transparency = opaque;
                 }
             }
-            sprite.color = new Vector4(0, 0, 0, alpha);
+            if (text)
+            {
+                text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+            }
+            else
+            {
+                sprite.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+            }
         }
     }
 }

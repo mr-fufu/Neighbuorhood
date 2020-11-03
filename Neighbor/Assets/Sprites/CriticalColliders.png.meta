@@ -107,6 +107,27 @@ TextureImporter:
   - first:
       213: -6867861846995627492
     second: CriticalColliders_17
+  - first:
+      213: -5844197421103033466
+    second: CriticalColliders_17
+  - first:
+      213: -213484821481424400
+    second: CriticalColliders_18
+  - first:
+      213: -291253820818095316
+    second: CriticalColliders_19
+  - first:
+      213: 4067188587235833995
+    second: CriticalColliders_18
+  - first:
+      213: -971840631975790234
+    second: CriticalColliders_19
+  - first:
+      213: 3291439639263198005
+    second: CriticalColliders_20
+  - first:
+      213: -8650910990980697601
+    second: CriticalColliders_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -735,8 +756,80 @@ TextureImporter:
         - {x: 1, y: 4.5}
       tessellationDetail: 0
       bones: []
-      spriteID: c121e53a90470b0a0800000000000000
-      internalID: -6867861846995627492
+      spriteID: 68356edc86d35eea0800000000000000
+      internalID: -5844197421103033466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f6b0a87e817830800000000000000
+      internalID: 4067188587235833995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 73
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669bac028145382f0800000000000000
+      internalID: -971840631975790234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriticalColliders_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -21, y: 14.5}
+        - {x: -25, y: 8.5}
+        - {x: -25, y: 4.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -0.5}
+        - {x: -1, y: -16.5}
+        - {x: 1, y: -16.5}
+        - {x: 1, y: 4.5}
+        - {x: -19, y: 14.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1b217c94ac1f780800000000000000
+      internalID: -8650910990980697601
       vertices: []
       indices: 
       edges: []

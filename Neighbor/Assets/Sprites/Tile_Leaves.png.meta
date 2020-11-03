@@ -1,0 +1,886 @@
+fileFormatVersion: 2
+guid: 0849608bac8059f46b85869375c6cb5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -381247325562223295
+    second: Tile_Leaves_0
+  - first:
+      213: 3006434906829042928
+    second: Tile_Leaves_1
+  - first:
+      213: -3027398178359364805
+    second: Tile_Leaves_2
+  - first:
+      213: 3438663451721360138
+    second: Tile_Leaves_3
+  - first:
+      213: 8357848582586869351
+    second: Tile_Leaves_4
+  - first:
+      213: -330801729483463877
+    second: Tile_Leaves_5
+  - first:
+      213: -1665743571133735928
+    second: Tile_Leaves_6
+  - first:
+      213: -3533591651080515265
+    second: Tile_Leaves_7
+  - first:
+      213: 9055373884382141924
+    second: Tile_Leaves_8
+  - first:
+      213: 3916325995213769175
+    second: Tile_Leaves_9
+  - first:
+      213: -2988628833163436570
+    second: Tile_Leaves_10
+  - first:
+      213: 3836516201980156442
+    second: Tile_Leaves_11
+  - first:
+      213: -1662184657141700337
+    second: Tile_Leaves_12
+  - first:
+      213: -31806395027412832
+    second: Tile_Leaves_13
+  - first:
+      213: -8543765669873675055
+    second: Tile_Leaves_14
+  - first:
+      213: -6612539616618314413
+    second: Tile_Leaves_15
+  - first:
+      213: -6181288719476322697
+    second: Tile_Leaves_16
+  - first:
+      213: -4896199198052924391
+    second: Tile_Leaves_17
+  - first:
+      213: -5398768456120849279
+    second: Tile_Leaves_18
+  - first:
+      213: -1526644750198813419
+    second: Tile_Leaves_19
+  - first:
+      213: -6533043591120927771
+    second: Tile_Leaves_20
+  - first:
+      213: -2909919742127943122
+    second: Tile_Leaves_21
+  - first:
+      213: -8993253880284750443
+    second: Tile_Leaves_22
+  - first:
+      213: 363342248783222841
+    second: Tile_Leaves_23
+  - first:
+      213: -1321373185772304008
+    second: Tile_Leaves_24
+  - first:
+      213: 8628419868916606910
+    second: Tile_Leaves_25
+  - first:
+      213: 2624914457007044021
+    second: Tile_Leaves_26
+  - first:
+      213: -5502287489486359038
+    second: Tile_Leaves_0
+  - first:
+      213: -8547612688440524968
+    second: Tile_Leaves_1
+  - first:
+      213: -727908687785717136
+    second: Tile_Leaves_2
+  - first:
+      213: 9008634417462677666
+    second: Tile_Leaves_3
+  - first:
+      213: -2246394597459105254
+    second: Tile_Leaves_4
+  - first:
+      213: -811076912406698381
+    second: Tile_Leaves_5
+  - first:
+      213: 3435739590445077691
+    second: Tile_Leaves_6
+  - first:
+      213: 3699892102762782296
+    second: Tile_Leaves_7
+  - first:
+      213: 1684046407762226942
+    second: Tile_Leaves_8
+  - first:
+      213: 1730527976484404155
+    second: Tile_Leaves_9
+  - first:
+      213: -4979356435403000503
+    second: Tile_Leaves_10
+  - first:
+      213: -6262726983446038725
+    second: Tile_Leaves_11
+  - first:
+      213: -1177129191459716022
+    second: Tile_Leaves_12
+  - first:
+      213: -4663814909573810712
+    second: Tile_Leaves_13
+  - first:
+      213: 1337506940757251057
+    second: Tile_Leaves_14
+  - first:
+      213: -361893274344079815
+    second: Tile_Leaves_15
+  - first:
+      213: -6530863819806492500
+    second: Tile_Leaves_16
+  - first:
+      213: 1359675744659471727
+    second: Tile_Leaves_17
+  - first:
+      213: 3572321646049396680
+    second: Tile_Leaves_18
+  - first:
+      213: 7388795285793810400
+    second: Tile_Leaves_19
+  - first:
+      213: 100199945524062106
+    second: Tile_Leaves_20
+  - first:
+      213: -3826743260792352945
+    second: Tile_Leaves_21
+  - first:
+      213: -2864135692394512902
+    second: Tile_Leaves_22
+  - first:
+      213: 4302956837786198408
+    second: Tile_Leaves_23
+  - first:
+      213: 328185624370886824
+    second: Tile_Leaves_24
+  - first:
+      213: 945230648913516856
+    second: Tile_Leaves_25
+  - first:
+      213: -7363669224619269096
+    second: Tile_Leaves_26
+  - first:
+      213: -5041294163815133923
+    second: Tile_Leaves_27
+  - first:
+      213: 6208525140528315329
+    second: Tile_Leaves_28
+  - first:
+      213: 862178957319813867
+    second: Tile_Leaves_27
+  - first:
+      213: 4912964933788460350
+    second: Tile_Leaves_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile_Leaves_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206f6114ea2f3a3b0800000000000000
+      internalID: -5502287489486359038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f71eb0c87c06980800000000000000
+      internalID: -8547612688440524968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0729c93b7e2f5e5f0800000000000000
+      internalID: -727908687785717136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0983cd549150d70800000000000000
+      internalID: 9008634417462677666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ae719f30433d0e0800000000000000
+      internalID: -2246394597459105254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3766a7e68d97eb4f0800000000000000
+      internalID: -811076912406698381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4993544f23eaf20800000000000000
+      internalID: 3435739590445077691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ed27cb348a85330800000000000000
+      internalID: 3699892102762782296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efea0ff094fee5710800000000000000
+      internalID: 1684046407762226942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_9
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 482
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb7a30a602140810800000000000000
+      internalID: 1730527976484404155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945bfb924b5c5eab0800000000000000
+      internalID: -4979356435403000503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f17a6df25619a0800000000000000
+      internalID: -6262726983446038725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a440d40bc3ff9afe0800000000000000
+      internalID: -1177129191459716022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5bea8bc0dc64fb0800000000000000
+      internalID: -4663814909573810712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39478e977cf8210800000000000000
+      internalID: 1337506940757251057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e3e100cfb4afaf0800000000000000
+      internalID: -361893274344079815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8bbf735f5bd55a0800000000000000
+      internalID: -6530863819806492500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d742ac2e98ed210800000000000000
+      internalID: 1359675744659471727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c786303c9f639130800000000000000
+      internalID: 3572321646049396680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_19
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 241
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e722d73a264a8660800000000000000
+      internalID: 7388795285793810400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97a97fc15bf36100800000000000000
+      internalID: 100199945524062106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f0add774da4eac0800000000000000
+      internalID: -3826743260792352945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdbe4a33cb8048d0800000000000000
+      internalID: -2864135692394512902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_23
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a518227c27bb30800000000000000
+      internalID: 4302956837786198408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a834092613fd8400800000000000000
+      internalID: 328185624370886824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_25
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8395d4364422e1d00800000000000000
+      internalID: 945230648913516856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_26
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814a717caddfec990800000000000000
+      internalID: -7363669224619269096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_27
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea3dd3913317fb00800000000000000
+      internalID: 862178957319813867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Leaves_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 76
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356968c39b5e2440800000000000000
+      internalID: 4912964933788460350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

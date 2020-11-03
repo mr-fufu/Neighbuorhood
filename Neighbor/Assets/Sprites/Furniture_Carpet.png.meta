@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 4fef40b43ceed4544911944cd5f3a0e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3705481340949444618
+    second: Furniture_Carpet_0
+  - first:
+      213: 1849787755206346648
+    second: Furniture_Carpet_1
+  - first:
+      213: -5667847262322996207
+    second: Furniture_Carpet_2
+  - first:
+      213: -5682646993029349164
+    second: Furniture_Carpet_3
+  - first:
+      213: -215352243436896044
+    second: Furniture_Carpet_4
+  - first:
+      213: 2201505107836691227
+    second: Furniture_Carpet_5
+  - first:
+      213: -1002776824299701633
+    second: Furniture_Carpet_6
+  - first:
+      213: -1551087375527214168
+    second: Furniture_Carpet_7
+  - first:
+      213: -299147579324861802
+    second: Furniture_Carpet_8
+  - first:
+      213: 267414647140417076
+    second: Furniture_Carpet_9
+  - first:
+      213: -3108942827006150041
+    second: Furniture_Carpet_10
+  - first:
+      213: -7014088868193562061
+    second: Furniture_Carpet_11
+  - first:
+      213: 5806517605183802218
+    second: Furniture_Carpet_12
+  - first:
+      213: 8657843179557918607
+    second: Furniture_Carpet_13
+  - first:
+      213: -506863675736573517
+    second: Furniture_Carpet_0
+  - first:
+      213: -8957007193091316506
+    second: Furniture_Carpet_1
+  - first:
+      213: -797480036332695553
+    second: Furniture_Carpet_2
+  - first:
+      213: -8273957973736002313
+    second: Furniture_Carpet_3
+  - first:
+      213: -1199565505001776799
+    second: Furniture_Carpet_4
+  - first:
+      213: 7464019754657891589
+    second: Furniture_Carpet_5
+  - first:
+      213: 2065752831084457814
+    second: Furniture_Carpet_6
+  - first:
+      213: 2126184385381402613
+    second: Furniture_Carpet_7
+  - first:
+      213: 7191251753473062709
+    second: Furniture_Carpet_8
+  - first:
+      213: 811504064567442419
+    second: Furniture_Carpet_9
+  - first:
+      213: -1756988633832010122
+    second: Furniture_Carpet_10
+  - first:
+      213: -310129228727899148
+    second: Furniture_Carpet_11
+  - first:
+      213: 5074291516767426156
+    second: Furniture_Carpet_12
+  - first:
+      213: -20036156133273763
+    second: Furniture_Carpet_13
+  - first:
+      213: 8974578731519844882
+    second: Furniture_Carpet_14
+  - first:
+      213: 7942131533744650023
+    second: Furniture_Carpet_15
+  - first:
+      213: -8418998061916912458
+    second: Furniture_Carpet_16
+  - first:
+      213: -2120262569858874702
+    second: Furniture_Carpet_17
+  - first:
+      213: -6241231072608259100
+    second: Furniture_Carpet_18
+  - first:
+      213: -5089524642867473662
+    second: Furniture_Carpet_19
+  - first:
+      213: -6511897037637564492
+    second: Furniture_Carpet_20
+  - first:
+      213: -3976869378470483324
+    second: Furniture_Carpet_21
+  - first:
+      213: -5721223461921623843
+    second: Furniture_Carpet_22
+  - first:
+      213: 4225808063427271103
+    second: Furniture_Carpet_23
+  - first:
+      213: -9180388817753073075
+    second: Furniture_Carpet_24
+  - first:
+      213: -74512122168274485
+    second: Furniture_Carpet_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Carpet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b93c222c2247f8f0800000000000000
+      internalID: -506863675736573517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46c250a6152b380800000000000000
+      internalID: -8957007193091316506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff8ce6d128cee4f0800000000000000
+      internalID: -797480036332695553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc64f86f0ffc2d80800000000000000
+      internalID: -8273957973736002313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1699e8d57894a5fe0800000000000000
+      internalID: -1199565505001776799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505c1e8bb66859760800000000000000
+      internalID: 7464019754657891589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65feb8a41470bac10800000000000000
+      internalID: 2065752831084457814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f704a9fe69b18d10800000000000000
+      internalID: 2126184385381402613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_8
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537ba207e557cc360800000000000000
+      internalID: 7191251753473062709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbf35ea5aa034b00800000000000000
+      internalID: 811504064567442419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e4b0e752ced97e0800000000000000
+      internalID: -1756988633832010122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb253f0c1332bbf0800000000000000
+      internalID: -310129228727899148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6653bfef318b6640800000000000000
+      internalID: 5074291516767426156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f030fd831d8bff0800000000000000
+      internalID: -20036156133273763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21224059ecb1c8c70800000000000000
+      internalID: 8974578731519844882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727374cfc8e183e60800000000000000
+      internalID: 7942131533744650023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b48db25ed5b92b80800000000000000
+      internalID: -8418998061916912458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b241052d605392e0800000000000000
+      internalID: -2120262569858874702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_18
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3fd0c2861b269a0800000000000000
+      internalID: -6241231072608259100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20399428d406e59b0800000000000000
+      internalID: -5089524642867473662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7c1b1552811a5a0800000000000000
+      internalID: -6511897037637564492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a6322ee525fc8c0800000000000000
+      internalID: -3976869378470483324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f78fd2912a90b0800000000000000
+      internalID: -5721223461921623843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_23
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9509d5b0615aa30800000000000000
+      internalID: 4225808063427271103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_24
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a1cd19205b89080800000000000000
+      internalID: -9180388817753073075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Carpet_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc113b2ae9747fef0800000000000000
+      internalID: -74512122168274485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
