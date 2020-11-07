@@ -1,0 +1,1801 @@
+fileFormatVersion: 2
+guid: ba85c9e5c68302741a85c3dc0d76f7f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5158970717911427877
+    second: Furniture_Cement_0
+  - first:
+      213: -6224695592658812857
+    second: Furniture_Cement_1
+  - first:
+      213: 1150449500887517980
+    second: Furniture_Cement_2
+  - first:
+      213: -7353725737210357911
+    second: Furniture_Cement_3
+  - first:
+      213: -6082170905387364791
+    second: Furniture_Cement_4
+  - first:
+      213: 7099656599938411541
+    second: Furniture_Cement_5
+  - first:
+      213: -3015425325027914257
+    second: Furniture_Cement_6
+  - first:
+      213: 4209586124954220282
+    second: Furniture_Cement_7
+  - first:
+      213: 482085299115730239
+    second: Furniture_Cement_8
+  - first:
+      213: -6194104767449291940
+    second: Furniture_Cement_9
+  - first:
+      213: -793874513759866148
+    second: Furniture_Cement_10
+  - first:
+      213: -2521523320783709369
+    second: Furniture_Cement_11
+  - first:
+      213: -8358718193613556020
+    second: Furniture_Cement_12
+  - first:
+      213: -5567792948874431150
+    second: Furniture_Cement_13
+  - first:
+      213: 5918070519625220715
+    second: Furniture_Cement_14
+  - first:
+      213: 4826604598628338958
+    second: Furniture_Cement_15
+  - first:
+      213: -5888243158247876757
+    second: Furniture_Cement_16
+  - first:
+      213: -2242144360251225049
+    second: Furniture_Cement_17
+  - first:
+      213: 2995156239186259702
+    second: Furniture_Cement_18
+  - first:
+      213: -7276238033206953618
+    second: Furniture_Cement_19
+  - first:
+      213: -1685125149433910329
+    second: Furniture_Cement_20
+  - first:
+      213: 8509045679397237344
+    second: Furniture_Cement_21
+  - first:
+      213: -7868993541023972363
+    second: Furniture_Cement_22
+  - first:
+      213: 4187141030094606856
+    second: Furniture_Cement_23
+  - first:
+      213: 9046269022105056339
+    second: Furniture_Cement_24
+  - first:
+      213: -8353511170475193796
+    second: Furniture_Cement_25
+  - first:
+      213: -327467266898106933
+    second: Furniture_Cement_26
+  - first:
+      213: -6698762667783643963
+    second: Furniture_Cement_27
+  - first:
+      213: -6635545772462857183
+    second: Furniture_Cement_28
+  - first:
+      213: 6385990503070437441
+    second: Furniture_Cement_29
+  - first:
+      213: 1770826465204450168
+    second: Furniture_Cement_30
+  - first:
+      213: 3513869533960135621
+    second: Furniture_Cement_31
+  - first:
+      213: -2706376833600912348
+    second: Furniture_Cement_32
+  - first:
+      213: -7924960652691580794
+    second: Furniture_Cement_33
+  - first:
+      213: 251796597538284092
+    second: Furniture_Cement_34
+  - first:
+      213: -6199625055948659575
+    second: Furniture_Cement_35
+  - first:
+      213: -7694180294267785843
+    second: Furniture_Cement_36
+  - first:
+      213: -5513921311644310137
+    second: Furniture_Cement_37
+  - first:
+      213: 7499780389565419073
+    second: Furniture_Cement_38
+  - first:
+      213: -6510954520330709611
+    second: Furniture_Cement_39
+  - first:
+      213: 1039315289442189045
+    second: Furniture_Cement_40
+  - first:
+      213: -4983148923397118466
+    second: Furniture_Cement_41
+  - first:
+      213: -7020805901017876699
+    second: Furniture_Cement_42
+  - first:
+      213: 5669744867935967779
+    second: Furniture_Cement_43
+  - first:
+      213: 7175544288981754492
+    second: Furniture_Cement_44
+  - first:
+      213: 6290615315071620640
+    second: Furniture_Cement_45
+  - first:
+      213: 8014782644550312668
+    second: Furniture_Cement_46
+  - first:
+      213: -2826957800699004360
+    second: Furniture_Cement_47
+  - first:
+      213: -1469192289465153948
+    second: Furniture_Cement_48
+  - first:
+      213: -577405489102545820
+    second: Furniture_Cement_49
+  - first:
+      213: -4596940647328631693
+    second: Furniture_Cement_50
+  - first:
+      213: -4811357264487985379
+    second: Furniture_Cement_51
+  - first:
+      213: 5586575641075844585
+    second: Furniture_Cement_52
+  - first:
+      213: -2014044263928634395
+    second: Furniture_Cement_0
+  - first:
+      213: 7261849486377494372
+    second: Furniture_Cement_1
+  - first:
+      213: 8735609969224369345
+    second: Furniture_Cement_2
+  - first:
+      213: -3991975930429901832
+    second: Furniture_Cement_3
+  - first:
+      213: -2631121325340521616
+    second: Furniture_Cement_4
+  - first:
+      213: -6986774951099650844
+    second: Furniture_Cement_5
+  - first:
+      213: 1697616111696739491
+    second: Furniture_Cement_6
+  - first:
+      213: 7238400978398085798
+    second: Furniture_Cement_7
+  - first:
+      213: 3213960566662458925
+    second: Furniture_Cement_8
+  - first:
+      213: -966570550341305838
+    second: Furniture_Cement_9
+  - first:
+      213: -492005118339165303
+    second: Furniture_Cement_10
+  - first:
+      213: -1825304305135491371
+    second: Furniture_Cement_11
+  - first:
+      213: 574805996771763861
+    second: Furniture_Cement_12
+  - first:
+      213: -3844113506186729986
+    second: Furniture_Cement_13
+  - first:
+      213: 7356329553613760215
+    second: Furniture_Cement_14
+  - first:
+      213: -5312699887844876114
+    second: Furniture_Cement_15
+  - first:
+      213: 1147476133159034031
+    second: Furniture_Cement_16
+  - first:
+      213: -1615182251460405075
+    second: Furniture_Cement_17
+  - first:
+      213: -5666845655226485756
+    second: Furniture_Cement_18
+  - first:
+      213: 1635289247933441262
+    second: Furniture_Cement_19
+  - first:
+      213: 2171980312349382014
+    second: Furniture_Cement_20
+  - first:
+      213: -6640675786456896529
+    second: Furniture_Cement_21
+  - first:
+      213: -2930990049930742836
+    second: Furniture_Cement_22
+  - first:
+      213: -8091210919635180602
+    second: Furniture_Cement_23
+  - first:
+      213: -8213481782252927250
+    second: Furniture_Cement_24
+  - first:
+      213: 8438391080478591998
+    second: Furniture_Cement_25
+  - first:
+      213: -8445509094488439246
+    second: Furniture_Cement_26
+  - first:
+      213: 2409473758985034519
+    second: Furniture_Cement_27
+  - first:
+      213: -3050918924530254622
+    second: Furniture_Cement_28
+  - first:
+      213: -8970861497477425976
+    second: Furniture_Cement_29
+  - first:
+      213: -1772817589255097044
+    second: Furniture_Cement_30
+  - first:
+      213: 8920053479547852327
+    second: Furniture_Cement_31
+  - first:
+      213: -1030383026853156265
+    second: Furniture_Cement_32
+  - first:
+      213: -4344611338444092420
+    second: Furniture_Cement_33
+  - first:
+      213: -5480594490988885002
+    second: Furniture_Cement_34
+  - first:
+      213: -3313937917582172940
+    second: Furniture_Cement_35
+  - first:
+      213: -3181461363419946238
+    second: Furniture_Cement_36
+  - first:
+      213: 5536895852034275354
+    second: Furniture_Cement_37
+  - first:
+      213: -2842370749100099054
+    second: Furniture_Cement_38
+  - first:
+      213: 7512641968242695979
+    second: Furniture_Cement_39
+  - first:
+      213: 3361628929173285762
+    second: Furniture_Cement_40
+  - first:
+      213: -1619365375225132664
+    second: Furniture_Cement_41
+  - first:
+      213: -3408676713974548167
+    second: Furniture_Cement_42
+  - first:
+      213: -2785637757161964032
+    second: Furniture_Cement_43
+  - first:
+      213: -4794751129758230927
+    second: Furniture_Cement_44
+  - first:
+      213: -4035963888204638235
+    second: Furniture_Cement_45
+  - first:
+      213: -4071626395928529913
+    second: Furniture_Cement_46
+  - first:
+      213: 780962107945306058
+    second: Furniture_Cement_47
+  - first:
+      213: -4527103268492390807
+    second: Furniture_Cement_48
+  - first:
+      213: -5182960370896665155
+    second: Furniture_Cement_49
+  - first:
+      213: -2352285061687033806
+    second: Furniture_Cement_50
+  - first:
+      213: -1968992778759392334
+    second: Furniture_Cement_51
+  - first:
+      213: 8283935021584731721
+    second: Furniture_Cement_52
+  - first:
+      213: 5215037980383604490
+    second: Furniture_Cement_53
+  - first:
+      213: 1146792424000177072
+    second: Furniture_Cement_54
+  - first:
+      213: -3613385948320762531
+    second: Furniture_Cement_55
+  - first:
+      213: 7063130890743010446
+    second: Furniture_Cement_53
+  - first:
+      213: 4763811129610878161
+    second: Furniture_Cement_54
+  - first:
+      213: -1248512893903318971
+    second: Furniture_Cement_55
+  - first:
+      213: -7942244777806019679
+    second: Furniture_Cement_56
+  - first:
+      213: -980395380188046509
+    second: Furniture_Cement_57
+  - first:
+      213: 2176396696422817618
+    second: Furniture_Cement_58
+  - first:
+      213: 3080539876810049048
+    second: Furniture_Cement_59
+  - first:
+      213: 5977395273758757737
+    second: Furniture_Cement_56
+  - first:
+      213: 8638260425325087363
+    second: Furniture_Cement_57
+  - first:
+      213: -5517924137669311825
+    second: Furniture_Cement_58
+  - first:
+      213: 8375146994596660439
+    second: Furniture_Cement_59
+  - first:
+      213: 690362891112264887
+    second: Furniture_Cement_60
+  - first:
+      213: -1210319172330722980
+    second: Furniture_Cement_61
+  - first:
+      213: 8069858514302383926
+    second: Furniture_Cement_60
+  - first:
+      213: 6585334333975489419
+    second: Furniture_Cement_61
+  - first:
+      213: 7620842633983795734
+    second: Furniture_Cement_62
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Cement_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ee9ea96dac04e0800000000000000
+      internalID: -2014044263928634395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46722e702a547c460800000000000000
+      internalID: 7261849486377494372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4caf7dbfe1b3970800000000000000
+      internalID: 8735609969224369345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3f0daaa07a998c0800000000000000
+      internalID: -3991975930429901832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b8f1a48116c7bd0800000000000000
+      internalID: -2631121325340521616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecab12133df90f90800000000000000
+      internalID: -6986774951099650844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acf9a6fbd42f8710800000000000000
+      internalID: 1697616111696739491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a20243d657f37460800000000000000
+      internalID: 7238400978398085798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e670a6b184a9c20800000000000000
+      internalID: 3213960566662458925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1158
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a7d80a43d0692f0800000000000000
+      internalID: -966570550341305838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98358bd93fb0c29f0800000000000000
+      internalID: -492005118339165303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d66865c7673ba6e0800000000000000
+      internalID: -1825304305135491371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5966854320f1af700800000000000000
+      internalID: 574805996771763861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef565731227f6aac0800000000000000
+      internalID: -3844113506186729986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d62bd5e0cee61660800000000000000
+      internalID: 7356329553613760215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0afb2999f7546b0800000000000000
+      internalID: -5312699887844876114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_16
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facde29a677acef00800000000000000
+      internalID: 1147476133159034031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_17
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8df26cc48b599e0800000000000000
+      internalID: -1615182251460405075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_18
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404724b96e15b51b0800000000000000
+      internalID: -5666845655226485756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_19
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 965
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4a61828e6b1b610800000000000000
+      internalID: 1635289247933441262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e751ab0269c642e10800000000000000
+      internalID: 2171980312349382014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe2b75e8497d3a0800000000000000
+      internalID: -6640675786456896529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc37ca124180357d0800000000000000
+      internalID: -2930990049930742836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_23
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c32264a98e36bf80800000000000000
+      internalID: -8091210919635180602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_24
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee60caff5d9d30e80800000000000000
+      internalID: -8213481782252927250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb40cbaaff2b1570800000000000000
+      internalID: 8438391080478591998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2368fab89368bca80800000000000000
+      internalID: -8445509094488439246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_27
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b9deb2e9b207120800000000000000
+      internalID: 2409473758985034519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_28
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec7bd01765f8a5d0800000000000000
+      internalID: -3050918924530254622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_29
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 772
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c411a96ff8118380800000000000000
+      internalID: -8970861497477425976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25b2ec9bcfa567e0800000000000000
+      internalID: -1772817589255097044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726dfe111656acb70800000000000000
+      internalID: 8920053479547852327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a63d5a81853b1f0800000000000000
+      internalID: -1030383026853156265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc7e4a107d4b3c0800000000000000
+      internalID: -4344611338444092420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_34
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb05ae095401f3b0800000000000000
+      internalID: -5480594490988885002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc11de95078202d0800000000000000
+      internalID: -3313937917582172940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_36
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20369befebd29d3d0800000000000000
+      internalID: -3181461363419946238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_37
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1836d2117107dc40800000000000000
+      internalID: 5536895852034275354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_38
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a7debfcdedd88d0800000000000000
+      internalID: -2842370749100099054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_39
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 579
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1cc10114424860800000000000000
+      internalID: 7512641968242695979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bec0e43b7e6ae20800000000000000
+      internalID: 3361628929173285762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889832065cbd689e0800000000000000
+      internalID: -1619365375225132664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b66da692f1b0d0800000000000000
+      internalID: -3408676713974548167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ef173083d6759d0800000000000000
+      internalID: -2785637757161964032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_44
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769b5c404f957db0800000000000000
+      internalID: -4794751129758230927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e712452a306df7c0800000000000000
+      internalID: -4035963888204638235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_46
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70473948d5dae77c0800000000000000
+      internalID: -4071626395928529913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_47
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ce1346e886da00800000000000000
+      internalID: 780962107945306058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_48
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e400c109f7c21c0800000000000000
+      internalID: -4527103268492390807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_49
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db507cfc00d6218b0800000000000000
+      internalID: -5182960370896665155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230cfa703310b5fd0800000000000000
+      internalID: -2352285061687033806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3bcb8ff7bbca4e0800000000000000
+      internalID: -1968992778759392334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ec9ff030376f270800000000000000
+      internalID: 8283935021584731721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_53
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8453d08f18450260800000000000000
+      internalID: 7063130890743010446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_54
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc328d8bf47c1240800000000000000
+      internalID: 4763811129610878161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540d56d43246caee0800000000000000
+      internalID: -1248512893903318971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_56
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635d76f459f3f250800000000000000
+      internalID: 5977395273758757737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_57
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a01d0e61441e770800000000000000
+      internalID: 8638260425325087363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_58
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2caa46b356c63b0800000000000000
+      internalID: -5517924137669311825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_59
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44d9271df7a3470800000000000000
+      internalID: 8375146994596660439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b7a41095edff60800000000000000
+      internalID: 8069858514302383926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_61
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8beac7afaec36b50800000000000000
+      internalID: 6585334333975489419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_62
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a1c7affba2c960800000000000000
+      internalID: 7620842633983795734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
