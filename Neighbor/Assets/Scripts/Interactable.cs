@@ -16,9 +16,6 @@ public class Interactable : MonoBehaviour
 
     public void interaction(GameController game_controller)
     {
-        //Debug.Log("interacted with");
-        //Debug.Log(interact_name);
-
         if (observe)
         {
             game_controller.text_control.show_text(inspect_text);
@@ -26,6 +23,10 @@ public class Interactable : MonoBehaviour
         if (door)
         {
             GetComponent<Door>().useDoor(game_controller);
+        }
+        if (pickup)
+        {
+            game_controller.inv_control.addItem(inventory_item);
         }
     }
 }

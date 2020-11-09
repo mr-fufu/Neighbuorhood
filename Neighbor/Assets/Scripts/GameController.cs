@@ -5,6 +5,7 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    public Inventory inv_control;
     public FadeController fade_control;
     public TextController text_control;
     public GameObject player;
@@ -45,6 +46,7 @@ public class GameController : MonoBehaviour
     public float intro_time = 0;
     public bool ready_change = true;
     private bool started;
+    private bool check_inv = false;
 
     void Start()
     {
@@ -137,6 +139,41 @@ public class GameController : MonoBehaviour
                 back_block.gameObject.SetActive(false);
             }
         }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                check_inv = !check_inv;
+
+                inv_control.GetComponent<Inventory>().toggleInv();
+            }
+
+            if (check_inv)
+            {
+                player_control.frozen = true;
+
+                if (Input.GetKeyDown(KeyCode.W))
+                {
+                    inv_control.inv_move(1, 0);
+                }
+                else if (Input.GetKeyDown(KeyCode.S))
+                {
+                    inv_control.inv_move(-1, 0);
+                }
+                else if (Input.GetKeyDown(KeyCode.A))
+                {
+                    inv_control.inv_move(0, -1);
+                }
+                else if (Input.GetKeyDown(KeyCode.D))
+                {
+                    inv_control.inv_move(0, 1);
+                }
+            }
+            else
+            {
+                player_control.frozen = false;
+            }
+        }
 
         if (choosing)
         {
@@ -175,7 +212,7 @@ public class GameController : MonoBehaviour
             {
                 started = true;
             }
-            else
+            else if (!check_inv)
             {
                 if (!choosing)
                 {
