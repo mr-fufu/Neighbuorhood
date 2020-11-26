@@ -154,11 +154,11 @@ public class GameController : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.W))
                 {
-                    inv_control.inv_move(1, 0);
+                    inv_control.inv_move(-1, 0);
                 }
                 else if (Input.GetKeyDown(KeyCode.S))
                 {
-                    inv_control.inv_move(-1, 0);
+                    inv_control.inv_move(1, 0);
                 }
                 else if (Input.GetKeyDown(KeyCode.A))
                 {

@@ -4,36 +4,43 @@ using UnityEngine;
 
 public class Container : MonoBehaviour
 {
-    [System.NonSerialized] public bool show = true;
-    [System.NonSerialized] public bool hold;
+    public bool show;
+    public bool hold;
 
-    private Vector4 init_color;
-    private float alpha;
-    private SpriteRenderer[] sprite;
+    public float alpha;
+    public List<SpriteRenderer> sprite;
 
-    private float destination = -20.0f;
+    public float destination = 0.0f;
+    public float slide = 0.0f;
 
-    public string description;
+    public int no_items;
 
     void Start()
     {
-        sprite = GetComponentsInChildren<SpriteRenderer>();
+        //transform.localPosition = new Vector2(20.0f, transform.localPosition.y);
     }
 
     void Update()
     {
+        for (int c = 0; c < sprite.Count; c++)
+        {
+            sprite[c].color = new Vector4(1, 1, 1, alpha);
+        }
+
         if (show != hold)
         {
-            transform.position = new Vector2(Mathf.Lerp(transform.position.x, destination, alpha), transform.position.y);
+            transform.localPosition = new Vector2(Mathf.Lerp(transform.localPosition.x, destination, slide), transform.localPosition.y);
 
             if (show)
             {
                 if (alpha < 1f)
                 {
-                    alpha += 0.02f;
+                    slide += 0.05f;
+                    alpha += 0.05f;
                 }
                 else
                 {
+                    slide = 0.0f;
                     alpha = 1f;
                     hold = show;
                     destination = -20.0f;
@@ -41,22 +48,45 @@ public class Container : MonoBehaviour
             }
             else
             {
-                if (alpha > 0)
+                if (alpha > 0f)
                 {
-                    alpha -= 0.02f;
+                    slide += 0.05f;
+                    alpha -= 0.05f;
                 }
                 else
                 {
+                    slide = 0.0f;
                     alpha = 0f;
                     hold = show;
                     destination = 0.0f;
-                    transform.position = new Vector2(transform.position.x + 20.0f, transform.position.y);
+
+                    transform.localPosition = new Vector2(20.0f, transform.localPosition.y);
                 }
             }
-            for (int c = 0; c<sprite.Length; c++)
-            {
-                sprite[c].color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
-            }
         }
+    }
+
+    public void add_item(SpriteRenderer new_sprite)
+    {
+        sprite.Add(new_sprite);
+        new_sprite.color = new Vector4(1, 1, 1, 0);
+        no_items++;
+    }
+
+    public void hideNext()
+    {
+
+    }
+    public void showNext()
+    {
+
+    }
+    public void hidePrev()
+    {
+
+    }
+    public void showPrev()
+    {
+
     }
 }

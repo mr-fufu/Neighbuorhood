@@ -5,7 +5,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public GameObject container_template;
-    private List<GameObject> container = new List<GameObject>();
+    public List<GameObject> container = new List<GameObject>();
 
     public GameObject selector;
 
@@ -22,10 +22,14 @@ public class Inventory : MonoBehaviour
     public bool inventory_visible;
     public bool inventory_hold;
     private bool inv_transition;
+    public bool transit;
 
     void Start()
     {
         GameObject init_cont = Instantiate(container_template, transform);
+        init_cont.transform.localPosition = new Vector2(0, 0);
+        init_cont.GetComponent<Container>().alpha = 1.0f;
+        init_cont.GetComponent<Container>().show = true;
         container.Add(init_cont);
     }
 
@@ -33,7 +37,17 @@ public class Inventory : MonoBehaviour
     {
         if (container[con_index].transform.childCount > 0)
         {
-            selector.transform.position = container[con_index].transform.GetChild(inv_index).position;
+            if (!transit)
+            {
+                selector.transform.position = container[con_index].transform.GetChild(inv_index).position;
+            }
+            else
+            {
+                if (container[con_index].GetComponent<Container>().hold == false)
+                {
+                    transit = false;
+                }
+            }
         }
 
         if (inventory_hold != inventory_visible)
@@ -65,29 +79,50 @@ public class Inventory : MonoBehaviour
 
     public void inv_move(int v, int h)
     {
-        Debug.Log(v);
-        Debug.Log(h);
-
-        if (inv_index%2 == 0)
+        if (h != 0)
         {
-            if (h > 0)
+            if (inv_index % 2 == 0)
             {
-                inv_index += 2 * v + h;
+                if (h > 0)
+                {
+                    inv_index += h;
+                }
+                else
+                {
+                    if (con_index > 0)
+                    {
+                        con_Move(false);
+                    }
+                }
             }
             else
             {
-                con_Move(false);
+                if (h < 0)
+                {
+                    inv_index += -Mathf.Abs(h);
+                }
+                else
+                {
+                    if (con_index < container.Count - 1)
+                    {
+                        con_Move(true);
+                    }
+                }
             }
         }
-        else
+
         {
-            if (h < 0)
+            if (v < 0 && inv_index < 2)
             {
-                inv_index += 2 * v - Mathf.Abs(h);
+                inv_index += (container[con_index].GetComponent<Container>().no_items + 2) + 2 * v;
             }
-            else
+            else if (v > 0 && inv_index > container[con_index].GetComponent<Container>().no_items - 3)
             {
-                con_Move(true);
+                inv_index += -(container[con_index].GetComponent<Container>().no_items + 2) + 2 * v;
+            }
+            else if (inv_index > 2);
+            {
+                inv_index += 2 * v;
             }
         }
     }
@@ -96,6 +131,8 @@ public class Inventory : MonoBehaviour
     {
         if (container.Count > 1)
         {
+            transit = true;
+
             container[con_index].GetComponent<Container>().show = false;
 
             if (next)
@@ -113,15 +150,18 @@ public class Inventory : MonoBehaviour
             }
             else
             {
-                if (con_index > container.Count)
+                Debug.Log(con_index);
+                Debug.Log(container.Count);
+
+                if (con_index == 0)
                 {
-                    container[con_index - 1].GetComponent<Container>().show = true;
-                    con_index -= 1;
+                    container[container.Count - 1].GetComponent<Container>().show = true;
+                    con_index = container.Count - 1;
                 }
                 else
                 {
-                    container[container.Count].GetComponent<Container>().show = true;
-                    con_index = container.Count;
+                    container[con_index - 1].GetComponent<Container>().show = true;
+                    con_index -= 1;
                 }
             }
         }
@@ -146,14 +186,19 @@ public class Inventory : MonoBehaviour
         if (inv_count < 8)
         {
             GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
+            container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
             inv_count++;
         }
         else
         {
             GameObject new_cont = Instantiate(container_template, transform);
+            new_cont.GetComponent<Container>().show = false;
+            new_cont.GetComponent<Container>().destination = 0.0f;
+            new_cont.transform.localPosition = new Vector2(20, 0);
             container.Add(new_cont);
             GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
+            container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
             inv_count = 1;
         }
