@@ -8,12 +8,15 @@ public class FadeController : MonoBehaviour
     public GameObject fade_obj;
     public bool text;
     public bool opaque;
+    public bool pingpong;
 
     private Vector4 init_color;
     private float alpha;
     [System.NonSerialized] public bool hold_transparency;
     private SpriteRenderer sprite;
     private TextMeshProUGUI text_comp;
+    private TextMeshPro text_comp_alt;
+    private bool alt;
 
     void Start()
     {
@@ -23,16 +26,24 @@ public class FadeController : MonoBehaviour
 
         if (text)
         {
-            text_comp = fade_obj.GetComponent<TextMeshProUGUI>();
-            init_color = text_comp.color;
+            if (fade_obj.GetComponent<TextMeshProUGUI>() != null)
+            {
+                alt = false;
+                text_comp = fade_obj.GetComponent<TextMeshProUGUI>();
+                init_color = text_comp.color;
+            }
+            else
+            {
+                alt = true;
+                text_comp_alt = fade_obj.GetComponent<TextMeshPro>();
+                init_color = text_comp_alt.color;
+            }
         }
         else
         {
             sprite = fade_obj.GetComponent<SpriteRenderer>();
             init_color = sprite.color;
         }
-
-
 
         if (opaque)
         {
@@ -45,7 +56,14 @@ public class FadeController : MonoBehaviour
 
         if (text)
         {
-            text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+            if (!alt)
+            {
+                text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+            }
+            else
+            {
+                text_comp_alt.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+            }
         }
         else
         {
@@ -83,12 +101,23 @@ public class FadeController : MonoBehaviour
             }
             if (text)
             {
-                text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+                if (!alt)
+                {
+                    text_comp.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+                }
+                else
+                {
+                    text_comp_alt.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
+                }
             }
             else
             {
                 sprite.color = new Vector4(init_color[0], init_color[1], init_color[2], alpha);
             }
+        }
+        else if (pingpong)
+        {
+            opaque = !opaque;
         }
     }
 }

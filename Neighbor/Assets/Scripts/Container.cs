@@ -43,7 +43,6 @@ public class Container : MonoBehaviour
                     slide = 0.0f;
                     alpha = 1f;
                     hold = show;
-                    destination = -20.0f;
                 }
             }
             else
@@ -58,9 +57,6 @@ public class Container : MonoBehaviour
                     slide = 0.0f;
                     alpha = 0f;
                     hold = show;
-                    destination = 0.0f;
-
-                    transform.localPosition = new Vector2(20.0f, transform.localPosition.y);
                 }
             }
         }

@@ -133,33 +133,51 @@ public class Inventory : MonoBehaviour
         {
             transit = true;
 
-            container[con_index].GetComponent<Container>().show = false;
-
             if (next)
             {
+                container[con_index].GetComponent<Container>().destination = -40.0f;
+                container[con_index].GetComponent<Container>().show = false;
+
+                if (con_index == container.Count - 2)
+                {
+                    Debug.Log(container.Count - 2);
+                    if (inv_index >= inv_count)
+                    {
+                        inv_index = inv_count - 1;
+                    }
+                }
+
                 if (con_index < container.Count)
                 {
+                    container[con_index + 1].gameObject.transform.localPosition = new Vector2(40, container[con_index + 1].gameObject.transform.localPosition.y);
+                    container[con_index + 1].GetComponent<Container>().destination = 0.0f;
                     container[con_index + 1].GetComponent<Container>().show = true;
                     con_index += 1;
                 }
                 else
                 {
+                    container[0].gameObject.transform.localPosition = new Vector2(40, container[0].gameObject.transform.localPosition.y);
+                    container[0].GetComponent<Container>().destination = 0.0f;
                     container[0].GetComponent<Container>().show = true;
                     con_index = 0;
                 }
             }
             else
             {
-                Debug.Log(con_index);
-                Debug.Log(container.Count);
+                container[con_index].GetComponent<Container>().destination = 40.0f;
+                container[con_index].GetComponent<Container>().show = false;
 
                 if (con_index == 0)
                 {
+                    container[container.Count - 1].gameObject.transform.localPosition = new Vector2(-40, container[container.Count - 1].gameObject.transform.localPosition.y);
+                    container[container.Count - 1].GetComponent<Container>().destination = 0.0f;
                     container[container.Count - 1].GetComponent<Container>().show = true;
                     con_index = container.Count - 1;
                 }
                 else
                 {
+                    container[con_index - 1].gameObject.transform.localPosition = new Vector2(-40, container[con_index - 1].gameObject.transform.localPosition.y);
+                    container[con_index - 1].GetComponent<Container>().destination = 0.0f;
                     container[con_index - 1].GetComponent<Container>().show = true;
                     con_index -= 1;
                 }

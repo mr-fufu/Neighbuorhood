@@ -36,6 +36,15 @@ public class GameController : MonoBehaviour
     public Sprite introsprt2;
     public Sprite introsprt3;
 
+    public GameObject start_screen;
+    public FadeController dark_bg;
+    public FadeController initial_fade;
+    public FadeController title_name;
+    public FadeController start_text;
+
+    public float title_slide;
+    public bool title_change;
+    public bool title = true;
     public bool introducing = true;
     public bool change_slide;
     public bool change_text;
@@ -47,6 +56,7 @@ public class GameController : MonoBehaviour
     public bool ready_change = true;
     private bool started;
     private bool check_inv = false;
+    private bool change_replace;
 
     void Start()
     {
@@ -60,6 +70,9 @@ public class GameController : MonoBehaviour
         introsprts[2] = introsprt3;
         player_control.frozen = true;
         back_block.gameObject.SetActive(true);
+        start_screen.SetActive(true);
+        initial_fade.opaque = true;
+        initial_fade.hold_transparency = true;
     }
     
     public void movePlayerTo(GameObject destination)
@@ -76,67 +89,107 @@ public class GameController : MonoBehaviour
         {
             introducing = false;
             back_block.gameObject.SetActive(false);
+            start_screen.SetActive(false);
             player_control.frozen = false;
         }
 
         if (introducing)
         {
-            if (started)
+            if (title)
             {
-                if (intro_time > 0)
+                initial_fade.opaque = false;
+
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    intro_time -= 0.1f;
+                    start_text.pingpong = false;
+                    start_text.opaque = false;
+                    start_text.hold_transparency = true;
+                    dark_bg.opaque = false;
+                    title_name.opaque = false;
+
+                    title_slide = introsprt.gameObject.transform.localPosition.x;
+                    title_change = true;
                 }
-                else if (ready_change)
+
+                if (title_change && dark_bg.hold_transparency == false)
                 {
-                    ready_change = false;
-                    change_slide = true;
-                }
-            }
-
-            if (change_slide)
-            {
-                change_slide = false;
-                change_text = true;
-                intro_fade_txt.opaque = false;
-            }
-
-            if (change_text && !intro_fade_txt.hold_transparency)
-            {
-                change_text = false;
-                change_sprite = true;
-                intro_fade_sprt.opaque = false;
-            }
-
-            if (change_sprite && !intro_fade_sprt.hold_transparency)
-            {
-                change_sprite = false;
-                if (!ready_change)
-                {
-                    nextIntro();
+                    if (title_slide > 0)
+                    {
+                        title_slide -= 0.05f + introsprt.gameObject.transform.localPosition.x/30f;
+                        introsprt.gameObject.transform.localPosition = new Vector2(title_slide, introsprt.gameObject.transform.localPosition.y);
+                    }
+                    else
+                    {
+                        title_slide = 0.0f;
+                        introsprt.gameObject.transform.localPosition = new Vector2(title_slide, introsprt.gameObject.transform.localPosition.y);
+                        title = false;
+                    }
                 }
             }
-
-            if (change_sprite_back && intro_fade_sprt.hold_transparency)
+            else
             {
-                change_sprite_back = false;
-                change_text_back = true;
-                intro_fade_txt.opaque = true;
-            }
+                if (started)
+                {
+                    if (intro_time > 0)
+                    {
+                        intro_time -= 0.1f;
+                    }
+                    else if (ready_change)
+                    {
+                        ready_change = false;
+                        change_slide = true;
+                    }
+                }
 
-            if (change_text_back && intro_fade_txt.hold_transparency)
-            {
-                change_text_back = false;
-                intro_time = 20f;
-                change_slide = false;
-                ready_change = true;
-            }
+                if (change_slide)
+                {
+                    change_slide = false;
+                    change_text = true;
+                    intro_fade_txt.opaque = false;
+                }
 
-            if (intro_count==3 && !back_block.hold_transparency)
-            {
-                introducing = false;
-                player_control.frozen = false;
-                back_block.gameObject.SetActive(false);
+                if (change_text && !intro_fade_txt.hold_transparency)
+                {
+                    change_text = false;
+                    change_sprite = true;
+                    if (intro_count != 0)
+                    {
+                        intro_fade_sprt.opaque = false;
+                    }
+                    else
+                    {
+                        change_replace = true;
+                    }
+                }
+
+                if (change_sprite && (!intro_fade_sprt.hold_transparency || change_replace))
+                {
+                    change_sprite = false;
+                    if (!ready_change)
+                    {
+                        nextIntro();
+                    }
+                }
+
+                if (change_sprite_back && intro_fade_sprt.hold_transparency)
+                {
+                    change_sprite_back = false;
+                    change_text_back = true;
+                    intro_fade_txt.opaque = true;
+                }
+                if (change_text_back && intro_fade_txt.hold_transparency)
+                {
+                    change_text_back = false;
+                    intro_time = 20f;
+                    change_slide = false;
+                    ready_change = true;
+                }
+                if (intro_count == 3 && !back_block.hold_transparency)
+                {
+                    introducing = false;
+                    player_control.frozen = false;
+                    back_block.gameObject.SetActive(false);
+                }
             }
         }
         else
@@ -303,6 +356,7 @@ public class GameController : MonoBehaviour
 
             change_sprite_back = true;
             intro_fade_sprt.opaque = true;
+            change_replace = false;
         }
         else
         {
