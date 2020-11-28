@@ -69,7 +69,7 @@ public class GameController : MonoBehaviour
         introsprts[1] = introsprt2;
         introsprts[2] = introsprt3;
         player_control.frozen = true;
-        back_block.gameObject.SetActive(true);
+        back_block.gameObject.transform.parent.gameObject.SetActive(true);
         start_screen.SetActive(true);
         initial_fade.opaque = true;
         initial_fade.hold_transparency = true;
@@ -88,7 +88,7 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             introducing = false;
-            back_block.gameObject.SetActive(false);
+            back_block.gameObject.transform.parent.gameObject.SetActive(false);
             start_screen.SetActive(false);
             player_control.frozen = false;
         }
@@ -188,7 +188,7 @@ public class GameController : MonoBehaviour
                 {
                     introducing = false;
                     player_control.frozen = false;
-                    back_block.gameObject.SetActive(false);
+                    back_block.gameObject.transform.parent.gameObject.SetActive(false);
                 }
             }
         }

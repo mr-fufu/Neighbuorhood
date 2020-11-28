@@ -26,7 +26,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087487603086391436}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Inspect The :'
+  m_text: Strange Object
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06208225c5ed0e74385346a4a28c29cb, type: 2}
-  m_sharedMaterial: {fileID: -1356269313883278228, guid: 06208225c5ed0e74385346a4a28c29cb,
+  m_fontAsset: {fileID: 11400000, guid: 9153e7f7dcfb7dd40bc9abdb477025f2, type: 2}
+  m_sharedMaterial: {fileID: 1766636794365747529, guid: 9153e7f7dcfb7dd40bc9abdb477025f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -131,12 +131,12 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.26908112, y: 25.127281, z: -0.600647, w: -25.374481}
+  m_margin: {x: 10, y: 20, z: 0, w: -20}
   m_textInfo:
     textComponent: {fileID: 5992558659084492553}
-    characterCount: 13
+    characterCount: 14
     spriteCount: 0
-    spaceCount: 2
+    spaceCount: 1
     wordCount: 2
     linkCount: 0
     lineCount: 1
