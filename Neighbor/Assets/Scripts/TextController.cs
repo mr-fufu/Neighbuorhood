@@ -5,6 +5,7 @@ using TMPro;
 
 public class TextController : MonoBehaviour
 {
+    public GameObject inspect_container;
     public GameObject inspect_text_object;
     public GameObject inspect_menu_object;
     public GameObject inspect_options;
@@ -21,6 +22,7 @@ public class TextController : MonoBehaviour
 
     void Start()
     {
+        inspect_container.SetActive(true);
         inspect_text = inspect_text_object.GetComponent<TextMeshProUGUI>();
         inspect_text_object.SetActive(false);
         inspect_menu_object.SetActive(false);

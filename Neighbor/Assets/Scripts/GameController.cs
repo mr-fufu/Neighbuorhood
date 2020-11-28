@@ -349,8 +349,8 @@ public class GameController : MonoBehaviour
         if (intro_count < 3)
         {
             introsprt.sprite = introsprts[intro_count];
-            introtxt.GetComponent<TextMeshProUGUI>().text = introtxts[intro_count].text;
-            introtxt.GetComponent<TextMeshProUGUI>().transform.localPosition = introtxts[intro_count].transform.localPosition;
+            introtxt.text = introtxts[intro_count].text;
+            introtxt.gameObject.transform.localPosition = introtxts[intro_count].gameObject.transform.localPosition;
 
             intro_count++;
 
