@@ -837,179 +837,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &28243678
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 28243679}
-  - component: {fileID: 28243682}
-  - component: {fileID: 28243681}
-  - component: {fileID: 28243680}
-  m_Layer: 0
-  m_Name: TitleText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &28243679
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28243678}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2064300607}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 100, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &28243680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28243678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02b82073634f5e54484d8b2732ba6797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fade_obj: {fileID: 28243678}
-  text: 1
-  opaque: 0
-  pingpong: 0
---- !u!114 &28243681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28243678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: This is the Text
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 999fec6f94a5317438f40d5dfbd1f46f, type: 2}
-  m_sharedMaterial: {fileID: -5893635964406402993, guid: 999fec6f94a5317438f40d5dfbd1f46f,
-    type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4283039922
-  m_fontColor: {r: 0.69803923, g: 0, b: 0.2901961, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_outlineColor:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontSize: 8
-  m_fontSizeBase: 8
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 514
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
-  m_linkedTextComponent: {fileID: 0}
-  m_isLinkedTextComponent: 0
-  m_isTextTruncated: 0
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_ignoreRectMaskCulling: 0
-  m_ignoreCulling: 1
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_firstVisibleCharacter: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_textInfo:
-    textComponent: {fileID: 28243681}
-    characterCount: 16
-    spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
-    linkCount: 0
-    lineCount: 1
-    pageCount: 1
-    materialCount: 1
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
-  m_subTextObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &28243682
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28243678}
-  m_CullTransparentMesh: 0
 --- !u!1 &30230566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295e435c0e413804c809eadad8f00082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemName: 
   description: 
 --- !u!114 &42824409
 MonoBehaviour:
@@ -1657,7 +1485,7 @@ GameObject:
   - component: {fileID: 52543738}
   - component: {fileID: 52543737}
   m_Layer: 0
-  m_Name: Fridge (5)
+  m_Name: Painting
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1691,12 +1519,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Portrait
   inspect_text: {fileID: 1498754827}
+  interact_text: {fileID: 0}
 --- !u!58 &52543738
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1867,7 +1701,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1157874474}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2088,12 +1922,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Silverware
   inspect_text: {fileID: 568498060}
+  interact_text: {fileID: 0}
 --- !u!58 &61135394
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2210,6 +2050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295e435c0e413804c809eadad8f00082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemName: 
   description: 
 --- !u!114 &69070923
 MonoBehaviour:
@@ -2394,12 +2235,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Cabinet of Plates
   inspect_text: {fileID: 1737501841}
+  interact_text: {fileID: 0}
 --- !u!58 &82316714
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2515,7 +2362,7 @@ GameObject:
   - component: {fileID: 96177014}
   - component: {fileID: 96177013}
   m_Layer: 0
-  m_Name: Fridge (11)
+  m_Name: Sawhorse
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2529,12 +2376,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96177011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -404.2, y: 201.8, z: 0}
+  m_LocalPosition: {x: 167.8, y: 440.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1476515442}
-  m_Father: {fileID: 1606666514}
-  m_RootOrder: 10
+  m_Father: {fileID: 1457457773}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &96177013
 MonoBehaviour:
@@ -2549,12 +2396,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Sawhorse
   inspect_text: {fileID: 1476515441}
+  interact_text: {fileID: 0}
 --- !u!58 &96177014
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2910,7 +2763,7 @@ GameObject:
   - component: {fileID: 147839093}
   - component: {fileID: 147839092}
   m_Layer: 0
-  m_Name: Fridge (15)
+  m_Name: Cellar
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2944,12 +2797,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Ladder to Cellar
   inspect_text: {fileID: 763494236}
+  interact_text: {fileID: 0}
 --- !u!58 &147839093
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3048,12 +2907,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Foyer
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Front Door
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &154349667
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3557,12 +3422,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1035679993}
+  interact_text: {fileID: 0}
 --- !u!58 &196799545
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4347,8 +4218,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Behind the heavy steel doors, the meager few items inside proceeding to
-    spoil and emanating the foul stench of decay
+  m_text: Behind the heavy steel doors the meager few items inside proceed to spoil,
+    emanating the foul stench of decay
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4747,12 +4618,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Cabinet of Bowls
   inspect_text: {fileID: 1314552656}
+  interact_text: {fileID: 0}
 --- !u!58 &251822579
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4997,12 +4874,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 912368433}
+  interact_text: {fileID: 0}
 --- !u!58 &263584465
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5281,6 +5164,132 @@ Transform:
   m_Father: {fileID: 1408123896}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &312139841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312139842}
+  - component: {fileID: 312139845}
+  - component: {fileID: 312139844}
+  - component: {fileID: 312139843}
+  m_Layer: 0
+  m_Name: Hammer and Nails
+  m_TagString: interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312139842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312139841}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 150.6, y: 409.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 358509255}
+  - {fileID: 704107814}
+  m_Father: {fileID: 807733549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312139843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312139841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a9bec312a3c2b42a58a4dcab4dd1d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickup: 1
+  removeOnPickup: 0
+  observe: 1
+  interact: 0
+  door: 0
+  locked: 0
+  useInventory: 0
+  inventory_item: {fileID: 2034004194}
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Hammer & Nails
+  inspect_text: {fileID: 358509254}
+  interact_text: {fileID: 0}
+--- !u!58 &312139844
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312139841}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 25}
+  serializedVersion: 2
+  m_Radius: 5
+--- !u!212 &312139845
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312139841}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 107629473
+  m_SortingLayer: 4
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 069f8a85237880a4589bf778129ced2f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 30, y: 80}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 1
 --- !u!1 &312894271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,12 +5589,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Parlour
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Door to Kitchen
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &329886681
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6479,6 +6494,211 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &358509254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358509255}
+  - component: {fileID: 358509259}
+  - component: {fileID: 358509258}
+  - component: {fileID: 358509257}
+  - component: {fileID: 358509256}
+  m_Layer: 0
+  m_Name: InspectText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &358509255
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 312139842}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.5, y: 25}
+  m_SizeDelta: {x: 20, y: 5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &358509256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: A lone reading chair, well worn by the look of the lacquer fading from
+    the armrests
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 11
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 358509256}
+    characterCount: 91
+    spriteCount: 0
+    spaceCount: 14
+    wordCount: 15
+    linkCount: 0
+    lineCount: 10
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 358509259}
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_maskType: 0
+--- !u!222 &358509257
+CanvasRenderer:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509254}
+  m_CullTransparentMesh: 0
+--- !u!33 &358509258
+MeshFilter:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509254}
+  m_Mesh: {fileID: 0}
+--- !u!23 &358509259
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509254}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &380158534
 GameObject:
   m_ObjectHideFlags: 0
@@ -6492,7 +6712,7 @@ GameObject:
   - component: {fileID: 380158537}
   - component: {fileID: 380158536}
   m_Layer: 0
-  m_Name: Fridge (8)
+  m_Name: Rug
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6526,12 +6746,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Antique Rug
   inspect_text: {fileID: 1930061236}
+  interact_text: {fileID: 0}
 --- !u!58 &380158537
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6630,12 +6856,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Foyer
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Door to Workshop
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &382664382
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6729,12 +6961,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Framed Photographs
   inspect_text: {fileID: 1655612555}
+  interact_text: {fileID: 0}
 --- !u!58 &392357342
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6848,12 +7086,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 614108236}
+  interact_text: {fileID: 0}
 --- !u!58 &394907463
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6977,8 +7221,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A cracked banister with smooth, well worn rails that betrays the age of
+    the house
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7415,7 +7659,7 @@ GameObject:
   - component: {fileID: 418658825}
   - component: {fileID: 418658824}
   m_Layer: 0
-  m_Name: Fridge (3)
+  m_Name: Cabinet
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7449,12 +7693,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Cabinet
   inspect_text: {fileID: 1327815680}
+  interact_text: {fileID: 0}
 --- !u!58 &418658825
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7724,12 +7974,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Mantle
   inspect_text: {fileID: 685761113}
+  interact_text: {fileID: 0}
 --- !u!58 &420495003
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7843,12 +8099,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Parlour
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: To Downstairs Foyer
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &431705129
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10066,12 +10328,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Drawers
   inspect_text: {fileID: 1422361776}
+  interact_text: {fileID: 0}
 --- !u!58 &498017668
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10185,12 +10453,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Plate of Bones
   inspect_text: {fileID: 403560637}
+  interact_text: {fileID: 0}
 --- !u!58 &510013198
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10304,12 +10578,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Spill
   inspect_text: {fileID: 2086924840}
+  interact_text: {fileID: 0}
 --- !u!58 &513118981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10389,7 +10669,7 @@ GameObject:
   - component: {fileID: 536072649}
   - component: {fileID: 536072648}
   m_Layer: 0
-  m_Name: Fridge (10)
+  m_Name: Window
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10423,12 +10703,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Window
   inspect_text: {fileID: 1043787635}
+  interact_text: {fileID: 0}
 --- !u!58 &536072649
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12139,6 +12425,42 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 63, y: 44, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 64, y: 44, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 66, y: 44, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 67, y: 44, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 72, y: 44, z: 0}
     second:
       serializedVersion: 2
@@ -12157,6 +12479,42 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 63, y: 45, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 64, y: 45, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 66, y: 45, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 67, y: 45, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 72, y: 45, z: 0}
     second:
       serializedVersion: 2
@@ -12166,7 +12524,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 4, y: 46, z: 0}
+  - first: {x: 66, y: 46, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12175,7 +12533,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 5, y: 46, z: 0}
+  - first: {x: 67, y: 46, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12193,7 +12551,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 4, y: 47, z: 0}
+  - first: {x: 66, y: 47, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12202,7 +12560,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 5, y: 47, z: 0}
+  - first: {x: 67, y: 47, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12247,42 +12605,6 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 4, y: 48, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 5, y: 48, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 4, y: 49, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 5, y: 49, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: -88, y: 50, z: 0}
     second:
       serializedVersion: 2
@@ -12293,42 +12615,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: -87, y: 50, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 50, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 50, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 50, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 50, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12355,7 +12641,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 51, z: 0}
+  - first: {x: 56, y: 52, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12364,43 +12650,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 51, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 51, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 51, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -4, y: 52, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 52, z: 0}
+  - first: {x: 57, y: 52, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12445,7 +12695,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -4, y: 53, z: 0}
+  - first: {x: 72, y: 52, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12454,7 +12704,25 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 53, z: 0}
+  - first: {x: 73, y: 52, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 74, y: 52, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 75, y: 52, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -12499,6 +12767,24 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 56, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 57, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 60, y: 53, z: 0}
     second:
       serializedVersion: 2
@@ -12527,6 +12813,42 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: 65, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 72, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 73, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 74, y: 53, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 75, y: 53, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -13003,6 +13325,24 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 60, y: 62, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 61, y: 62, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 62, y: 62, z: 0}
     second:
       serializedVersion: 2
@@ -13129,6 +13469,15 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 60, y: 63, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 62, y: 63, z: 0}
     second:
       serializedVersion: 2
@@ -13177,7 +13526,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 283
+  - m_RefCount: 290
     m_Data: {fileID: 11400000, guid: a8343726af7c147429fc3ba0fb4adb42, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -13208,11 +13557,11 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 283
+  - m_RefCount: 290
     m_Data: {fileID: -6867861846995627492, guid: d263662d62c23c4468e52f95562c51e1,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 283
+  - m_RefCount: 290
     m_Data:
       e00: 1
       e01: 0
@@ -13231,7 +13580,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 283
+  - m_RefCount: 290
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -13304,12 +13653,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Piles of Aged Newsprint
   inspect_text: {fileID: 992720264}
+  interact_text: {fileID: 0}
 --- !u!58 &542362731
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13423,12 +13778,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Cabinet
   inspect_text: {fileID: 935045851}
+  interact_text: {fileID: 0}
 --- !u!58 &544284591
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13858,12 +14219,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Worn Book
   inspect_text: {fileID: 1442258613}
+  interact_text: {fileID: 0}
 --- !u!58 &572999954
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13977,12 +14344,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Pipes
   inspect_text: {fileID: 2065624201}
+  interact_text: {fileID: 0}
 --- !u!58 &578114053
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15062,8 +15435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A scratchy, ratty seat, exuding dust from its rough fabric
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15495,7 +15867,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1157874474}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16750,6 +17122,128 @@ MonoBehaviour:
   - {x: 5.160199, y: 6.7356424, z: 0}
   - {x: 10.651477, y: 47.274303, z: 0}
   - {x: 0.6379398, y: 65.13252, z: 0}
+--- !u!1 &704107813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704107814}
+  - component: {fileID: 704107817}
+  - component: {fileID: 704107816}
+  - component: {fileID: 704107815}
+  m_Layer: 0
+  m_Name: Hammer and Nails
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &704107814
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704107813}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 312139842}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 40, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &704107815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704107813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295e435c0e413804c809eadad8f00082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: 
+  description: 
+--- !u!114 &704107816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704107813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!212 &704107817
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704107813}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -561988045
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 739905185230883310, guid: ca4d8789a254246419afc91e4ae4b16c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 32, y: 32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &716706682
 GameObject:
   m_ObjectHideFlags: 0
@@ -16763,7 +17257,7 @@ GameObject:
   - component: {fileID: 716706685}
   - component: {fileID: 716706684}
   m_Layer: 0
-  m_Name: Window2 (1)
+  m_Name: Phone
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16797,12 +17291,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1759308243}
+  interact_text: {fileID: 0}
 --- !u!58 &716706685
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17121,12 +17621,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Ceramic Planter
   inspect_text: {fileID: 160086089}
+  interact_text: {fileID: 0}
 --- !u!58 &732952161
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17747,8 +18253,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 170196000}
+  - {fileID: 2034004195}
   m_Father: {fileID: 807733549}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &761223308
 MonoBehaviour:
@@ -17763,12 +18270,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 1
+  removeOnPickup: 1
   observe: 0
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Mug of Filth
   inspect_text: {fileID: 170195999}
+  interact_text: {fileID: 0}
 --- !u!212 &761223309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18072,12 +18585,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Dim Lamp
   inspect_text: {fileID: 759624181}
+  interact_text: {fileID: 0}
 --- !u!58 &784711337
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18232,6 +18751,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 312139842}
   - {fileID: 761223307}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -18847,12 +19367,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Vase of Thorny Flowers
   inspect_text: {fileID: 720081214}
+  interact_text: {fileID: 0}
 --- !u!58 &912505795
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18966,12 +19492,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Sink
   inspect_text: {fileID: 1633098722}
+  interact_text: {fileID: 0}
 --- !u!58 &916551173
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19300,8 +19832,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A precarious pile of cheap, roughly hewn lumber sits damp with mildew
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19666,7 +20197,7 @@ GameObject:
   - component: {fileID: 952655044}
   - component: {fileID: 952655043}
   m_Layer: 0
-  m_Name: Fridge
+  m_Name: Pitcher
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19700,12 +20231,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Fridge
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Pitcher
   inspect_text: {fileID: 1747275357}
+  interact_text: {fileID: 0}
 --- !u!58 &952655044
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20095,8 +20632,8 @@ MonoBehaviour:
   - {x: -3.5459366, y: -0.9575386, z: 0}
   - {x: -1.9483566, y: -4.289734, z: 0}
   m_ShapePathHash: 406001709
-  m_Mesh: {fileID: 1011661431}
-  m_InstanceId: 68544
+  m_Mesh: {fileID: 2111439064}
+  m_InstanceId: 16560
 --- !u!114 &997410583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20110,6 +20647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 60
+  frozen: 0
 --- !u!50 &997410584
 Rigidbody2D:
   serializedVersion: 4
@@ -20447,169 +20985,6 @@ Transform:
   m_Father: {fileID: 84751325}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1011661431
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 30
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 12
-    localAABB:
-      m_Center: {x: 1.8112068, y: -1.1425734, z: 0}
-      m_Extent: {x: 5.3571434, y: 3.1471605, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 00000100020000000300010000000400030004000000050002000600000000000700050001000800020003000900010004000a00030005000b000400
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 12
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 336
-    _typelessdata: a0ec1340284b004000000000fd6891be6e7575bf00000000000000802063e54070cdb2bf0000000014c700bf70405d3f0000008000000080f016d540407f373f000000008ce078bf3fdf6fbe0000000000000080c0c21340483687c000000000e9a877bc83f87f3f0000008000000080c063f9bf804589c0000000002cd7663fe758dd3e0000008000000080a0f062c0402175bf00000000ba0fe73ec77264bf0000008000000080f016d540407f373f00000000fd6891be6e7575bf0000000000000080a0ec1340284b004000000000ba0fe73ec77264bf00000080000000802063e54070cdb2bf000000008ce078bf3fdf6fbe0000000000000080c0c21340483687c00000000014c700bf70405d3f0000008000000080c063f9bf804589c000000000e9a877bc83f87f3f0000008000000080a0f062c0402175bf000000002cd7663fe758dd3e0000008000000080
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 1.8112068, y: -1.1425734, z: 0}
-    m_Extent: {x: 5.3571434, y: 3.1471605, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1035679993
 GameObject:
   m_ObjectHideFlags: 0
@@ -20872,8 +21247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: The setting sun offers what meager light it can
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21033,7 +21407,7 @@ GameObject:
   - component: {fileID: 1062747833}
   - component: {fileID: 1062747832}
   m_Layer: 0
-  m_Name: Fridge (14)
+  m_Name: Lumber Pile
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21067,12 +21441,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Lumber Pile
   inspect_text: {fileID: 929539353}
+  interact_text: {fileID: 0}
 --- !u!58 &1062747833
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21402,7 +21782,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 38
-      m_TileSpriteIndex: 44
+      m_TileSpriteIndex: 60
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21420,7 +21800,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 40
-      m_TileSpriteIndex: 43
+      m_TileSpriteIndex: 59
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21429,7 +21809,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 19
-      m_TileSpriteIndex: 40
+      m_TileSpriteIndex: 58
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21447,7 +21827,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 39
-      m_TileSpriteIndex: 39
+      m_TileSpriteIndex: 44
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21456,7 +21836,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 15
-      m_TileSpriteIndex: 38
+      m_TileSpriteIndex: 43
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21474,7 +21854,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 23
-      m_TileSpriteIndex: 23
+      m_TileSpriteIndex: 40
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21483,7 +21863,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 31
-      m_TileSpriteIndex: 31
+      m_TileSpriteIndex: 39
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21492,7 +21872,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 30
-      m_TileSpriteIndex: 30
+      m_TileSpriteIndex: 38
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21510,7 +21890,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 20
-      m_TileSpriteIndex: 22
+      m_TileSpriteIndex: 31
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21519,7 +21899,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 28
-      m_TileSpriteIndex: 28
+      m_TileSpriteIndex: 30
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21528,7 +21908,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 27
-      m_TileSpriteIndex: 27
+      m_TileSpriteIndex: 28
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21537,7 +21917,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 22
-      m_TileSpriteIndex: 21
+      m_TileSpriteIndex: 27
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21555,7 +21935,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 16
-      m_TileSpriteIndex: 20
+      m_TileSpriteIndex: 23
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21618,7 +21998,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 18
-      m_TileSpriteIndex: 19
+      m_TileSpriteIndex: 22
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21627,7 +22007,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 18
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21636,7 +22016,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 17
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21672,7 +22052,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 17
-      m_TileSpriteIndex: 15
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21681,7 +22061,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 16
+      m_TileSpriteIndex: 18
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21690,7 +22070,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 13
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21708,7 +22088,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21717,7 +22097,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21726,7 +22106,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 7
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21735,7 +22115,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21744,7 +22124,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21807,7 +22187,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 61
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21816,7 +22196,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21826,6 +22206,15 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 45
       m_TileSpriteIndex: 45
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 33, y: 22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 58
+      m_TileSpriteIndex: 57
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21848,38 +22237,11 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 23, z: 0}
+  - first: {x: 33, y: 23, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 58
-      m_TileSpriteIndex: 58
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 23, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 59
-      m_TileSpriteIndex: 59
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 23, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 55
-      m_TileSpriteIndex: 55
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 4, y: 23, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 60
-      m_TileSpriteIndex: 60
+      m_TileIndex: 56
+      m_TileSpriteIndex: 56
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21902,47 +22264,11 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 24, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 56
-      m_TileSpriteIndex: 56
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: -44, y: 25, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 44
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 25, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 43
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 25, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 54
-      m_TileSpriteIndex: 54
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 26, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 57
-      m_TileSpriteIndex: 57
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21961,6 +22287,24 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 83
       m_TileSpriteIndex: 76
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 36, y: 26, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 55
+      m_TileSpriteIndex: 55
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 37, y: 26, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 54
+      m_TileSpriteIndex: 54
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -22235,6 +22579,15 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 30, y: 31, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 43
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 31, y: 31, z: 0}
     second:
       serializedVersion: 2
@@ -22387,7 +22740,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 13ecc17564b6aca4694bed6a1614af80, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0c7d37be83a083049864ca6a22424f66, type: 2}
+    m_Data: {fileID: 11400000, guid: 4ebb40670602707479770e091d1c7dd5, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 487757aa231698745abf1ca290da4ad1, type: 2}
   - m_RefCount: 1
@@ -22411,17 +22764,17 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 171a181583da19e4693afdb053b621d3, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 476087e367517a3499f93f2d94bedfbf, type: 2}
+    m_Data: {fileID: 11400000, guid: 0c7d37be83a083049864ca6a22424f66, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a89154a00726a2f458badce11c2d37a4, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4ebb40670602707479770e091d1c7dd5, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: be22203a6a481f042b1eea1f5e904808, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ea92d691818c6b4459974d90e964ff5d, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 7abb22cf90d0fab49bc82e1e84d3273c, type: 2}
+    m_Data: {fileID: 11400000, guid: 476087e367517a3499f93f2d94bedfbf, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: bc88e25e364cc1c44afd28506472884d, type: 2}
   - m_RefCount: 1
@@ -22500,11 +22853,14 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 2736128754882932872, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 8565972614497563821, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7281599094436717100, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: 3081526431590979293, guid: 4fef40b43ceed4544911944cd5f3a0e4,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: f99adaa20e7abbe498573dfad06d7eea, type: 3}
@@ -22512,13 +22868,7 @@ Tilemap:
     m_Data: {fileID: 6989007986704807610, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 2188529968649218753, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 8835920382521331777, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -9009336706627990231, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+    m_Data: {fileID: 8565972614497563821, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -5132647127605239249, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
@@ -22527,10 +22877,22 @@ Tilemap:
     m_Data: {fileID: 6487402406869246051, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 2603847507448608954, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+    m_Data: {fileID: 2188529968649218753, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -6372056838547974242, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8835920382521331777, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -9009336706627990231, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 7980725887699225994, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 2603847507448608954, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 5858636809739994553, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
@@ -22539,13 +22901,10 @@ Tilemap:
     m_Data: {fileID: -2607625389216297740, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 7980725887699225994, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+    m_Data: {fileID: -746688170096251531, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2360621656393847109, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -746688170096251531, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2620302892878225288, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
@@ -22560,15 +22919,6 @@ Tilemap:
     m_Data: {fileID: 8253267483838888115, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 8585984652961492049, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1852717193692755411, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -8630422613305241725, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
-      type: 3}
-  - m_RefCount: 1
     m_Data: {fileID: -5792080629699822695, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
@@ -22578,19 +22928,19 @@ Tilemap:
     m_Data: {fileID: -4721780799107436457, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 4255929707743787719, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 8585984652961492049, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -2740442645185713767, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 4255929707743787719, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 5150109875717014790, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 3937863445950041620, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: -2740442645185713767, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 5892777720011035578, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 1852717193692755411, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -6716817716196168610, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
@@ -22610,13 +22960,13 @@ Tilemap:
     m_Data: {fileID: -3582726349120247914, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 4602081113134931103, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+    m_Data: {fileID: 3937863445950041620, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 4177256669020380397, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 5892777720011035578, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -3358597994066774851, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
+    m_Data: {fileID: -8630422613305241725, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -6476422804183846429, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
@@ -22625,10 +22975,10 @@ Tilemap:
     m_Data: {fileID: 3534570104127012629, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -8291321519761775658, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 4602081113134931103, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -7182077842825915323, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
+    m_Data: {fileID: 4177256669020380397, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2546156713418811588, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
@@ -22661,22 +23011,22 @@ Tilemap:
     m_Data: {fileID: -2368331092164960702, guid: 4fef40b43ceed4544911944cd5f3a0e4,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -6814744426209767741, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: 7281599094436717100, guid: 4fef40b43ceed4544911944cd5f3a0e4,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 7168937112423177529, guid: 4fef40b43ceed4544911944cd5f3a0e4,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 3081526431590979293, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: -6814744426209767741, guid: 4fef40b43ceed4544911944cd5f3a0e4,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -4558950834351701806, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: -3358597994066774851, guid: cf7df0c3a2dc0cd419111fd6d06e5a8d,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 7642293390069027921, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: -8291321519761775658, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1559335758023080412, guid: 4fef40b43ceed4544911944cd5f3a0e4,
+    m_Data: {fileID: -7182077842825915323, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2957714011702447051, guid: e2dd1f34b5c962d45b7c390068e6dfe7,
@@ -22788,7 +23138,7 @@ Tilemap:
     m_Data: {fileID: 7499780389565419073, guid: ba85c9e5c68302741a85c3dc0d76f7f7,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 119
+  - m_RefCount: 116
     m_Data:
       e00: 1
       e01: 0
@@ -22807,7 +23157,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 119
+  - m_RefCount: 116
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -22912,12 +23262,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Leather Sofa
   inspect_text: {fileID: 333278267}
+  interact_text: {fileID: 0}
 --- !u!58 &1076165357
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23016,12 +23372,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Parlour
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: To Upstairs Hallway
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1105221902
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23353,12 +23715,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Valve
   inspect_text: {fileID: 1262319155}
+  interact_text: {fileID: 0}
 --- !u!58 &1153274187
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23436,7 +23804,6 @@ GameObject:
   - component: {fileID: 1157874474}
   - component: {fileID: 1157874472}
   - component: {fileID: 1157874475}
-  - component: {fileID: 1157874473}
   m_Layer: 0
   m_Name: TitleScreen
   m_TagString: Untagged
@@ -23495,14 +23862,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!222 &1157874473
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157874471}
-  m_CullTransparentMesh: 0
 --- !u!224 &1157874474
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23514,9 +23873,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
-  - {fileID: 58814372}
-  - {fileID: 2090664996}
   - {fileID: 659080459}
+  - {fileID: 2090664996}
+  - {fileID: 58814372}
   m_Father: {fileID: 2064300607}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23618,12 +23977,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Foyer
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Door to Workshop
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1181649605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24111,8 +24476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: Bottles of pungent, nondescript liquers at varying levels of empty
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24318,12 +24682,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1120698166}
+  interact_text: {fileID: 0}
 --- !u!58 &1260469617
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24680,7 +25050,7 @@ GameObject:
   - component: {fileID: 1295335314}
   - component: {fileID: 1295335313}
   m_Layer: 0
-  m_Name: Fridge (16)
+  m_Name: Pegboard
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24714,12 +25084,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Pegboard
   inspect_text: {fileID: 1542626419}
+  interact_text: {fileID: 0}
 --- !u!58 &1295335314
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24799,7 +25175,7 @@ GameObject:
   - component: {fileID: 1297074240}
   - component: {fileID: 1297074239}
   m_Layer: 0
-  m_Name: Fridge (7)
+  m_Name: Grandfather Clock
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24833,12 +25209,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
-  interact: 0
+  interact: 1
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: LiftRug
+  interact_name: Grandfather Clock
   inspect_text: {fileID: 2115678895}
+  interact_text: {fileID: 0}
 --- !u!58 &1297074240
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25472,8 +25854,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A cheap, shoddily built cabinet, stocked with waterstained napkins and
+    smudge-ridden glasses
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25633,7 +26015,7 @@ GameObject:
   - component: {fileID: 1353323141}
   - component: {fileID: 1353323140}
   m_Layer: 0
-  m_Name: Fridge (6)
+  m_Name: Mirror
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25667,12 +26049,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Mirror
   inspect_text: {fileID: 1377496440}
+  interact_text: {fileID: 0}
 --- !u!58 &1353323141
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25819,12 +26207,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Parlour
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Front door
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1363710664
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25904,12 +26298,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1927884419}
+  interact_text: {fileID: 0}
 --- !u!58 &1371546839
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26033,8 +26433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A scratched mirror, the reflection obscured by countless smudges
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26372,12 +26771,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Potted Fern
   inspect_text: {fileID: 735081990}
+  interact_text: {fileID: 0}
 --- !u!58 &1395917798
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26525,12 +26930,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1246701511}
+  interact_text: {fileID: 0}
 --- !u!58 &1418859226
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26624,13 +27035,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420670214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -450.1, y: 174, z: 0}
+  m_LocalPosition: {x: -19.1, y: 472, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1009837417}
   - {fileID: 69070921}
-  m_Father: {fileID: 1606666514}
-  m_RootOrder: 12
+  m_Father: {fileID: 1457457773}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1420670216
 MonoBehaviour:
@@ -26645,12 +27056,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 69070920}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Toolbox
   inspect_text: {fileID: 1009837416}
+  interact_text: {fileID: 0}
 --- !u!58 &1420670217
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26780,12 +27197,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Door to Parlour
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1421081694
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27019,7 +27442,7 @@ GameObject:
   - component: {fileID: 1432632651}
   - component: {fileID: 1432632650}
   m_Layer: 0
-  m_Name: Fridge (4)
+  m_Name: Lounge Seat
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27053,12 +27476,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Foyer Seat
   inspect_text: {fileID: 617373471}
+  interact_text: {fileID: 0}
 --- !u!58 &1432632651
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27172,12 +27601,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Door to Parlour
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Door to Foyer
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1440997935
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27445,6 +27880,9 @@ Transform:
   - {fileID: 1062747831}
   - {fileID: 147839091}
   - {fileID: 1295335312}
+  - {fileID: 96177012}
+  - {fileID: 1720594546}
+  - {fileID: 1420670215}
   m_Father: {fileID: 84751325}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28153,8 +28591,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A picture of a young Mr. Hammond. Beside him are a woman with dark hair
+    and stoic little girl
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28458,7 +28896,7 @@ GameObject:
   - component: {fileID: 1529393785}
   - component: {fileID: 1529393784}
   m_Layer: 0
-  m_Name: Fridge (9)
+  m_Name: Banister
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28492,12 +28930,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Banister
   inspect_text: {fileID: 396079807}
+  interact_text: {fileID: 0}
 --- !u!58 &1529393785
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29113,12 +29557,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Door to Parlour
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1560266679
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29188,9 +29638,6 @@ Transform:
   - {fileID: 380158535}
   - {fileID: 1529393783}
   - {fileID: 536072647}
-  - {fileID: 96177012}
-  - {fileID: 1720594546}
-  - {fileID: 1420670215}
   m_Father: {fileID: 84751325}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29645,8 +30092,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Murky water lies at the bottom of the sheet metal basin, indicating a heavily
-    clogged drain
+  m_text: Stagnant water lies at the bottom of the sheet metal basin, most likely
+    the result of a heavily clogged drain
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30045,12 +30492,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 30230566}
+  interact_text: {fileID: 0}
 --- !u!58 &1658147463
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -30441,12 +30894,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Hoard of Old Newspapers
   inspect_text: {fileID: 1691298316}
+  interact_text: {fileID: 0}
 --- !u!58 &1693113625
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -30538,7 +30997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694166025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190, y: 40, z: 0}
+  m_LocalPosition: {x: 0, y: 40, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1408123896}
@@ -30648,7 +31107,7 @@ GameObject:
   - component: {fileID: 1720594548}
   - component: {fileID: 1720594547}
   m_Layer: 0
-  m_Name: Fridge (12)
+  m_Name: Table Saw
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30662,12 +31121,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720594545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -346.2, y: 198.8, z: 0}
+  m_LocalPosition: {x: 166.4, y: 504.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1554098426}
-  m_Father: {fileID: 1606666514}
-  m_RootOrder: 11
+  m_Father: {fileID: 1457457773}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1720594547
 MonoBehaviour:
@@ -30682,12 +31141,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Table Saw
   inspect_text: {fileID: 1554098425}
+  interact_text: {fileID: 0}
 --- !u!58 &1720594548
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -31169,8 +31634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A murky pitcher, stained by whatever fluid it once contained
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -31579,8 +32043,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Through the dusty panes you can make out the overgrown and dying brambles,
-    no doubt owing to the rampant neglect Mr. Hammond always showed towards his lawn
+  m_text: A grimy landline mounted to the wall. It may be functional, were the cord
+    not cut from the receiver
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -31944,7 +32408,7 @@ GameObject:
   - component: {fileID: 1768725452}
   - component: {fileID: 1768725451}
   m_Layer: 0
-  m_Name: Fridge (2)
+  m_Name: Drinks
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31978,12 +32442,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
-  interact_name: Lounge Chaise
+  interact_item: {fileID: 0}
+  interact_event: 
+  interact_name: Liquor
   inspect_text: {fileID: 1254148581}
+  interact_text: {fileID: 0}
 --- !u!58 &1768725452
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32097,12 +32567,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Fridge
   inspect_text: {fileID: 208767968}
+  interact_text: {fileID: 0}
 --- !u!58 &1778221464
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -36015,12 +36491,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Door to Kitchen
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!1001 &1797882785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36117,6 +36599,7 @@ GameObject:
   - component: {fileID: 1812830710}
   - component: {fileID: 1812830712}
   - component: {fileID: 1812830711}
+  - component: {fileID: 1812830713}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -36252,18 +36735,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb203b667b9614c479e620fc59808ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  introSource: {fileID: 2064300609}
   inv_control: {fileID: 1694166027}
   fade_control: {fileID: 1812830710}
   text_control: {fileID: 1812830712}
+  story_control: {fileID: 1812830713}
   player: {fileID: 997410579}
   interactor: {fileID: 802150134}
   player_control: {fileID: 997410583}
   moving: 0
   finished_moving: 0
   move_to: {x: 0, y: 0}
-  intro_fade_txt: {fileID: 28243680}
+  interactables: []
+  options: []
+  choosing: 0
+  choose_count: 0
+  intro_fade_txt: {fileID: 2000478614}
   intro_fade_sprt: {fileID: 1157874475}
-  introtxt: {fileID: 28243681}
+  introtxt: {fileID: 2000478610}
   introtxt1: {fileID: 58814373}
   introtxt2: {fileID: 2090664997}
   introtxt3: {fileID: 659080460}
@@ -36311,6 +36800,45 @@ MonoBehaviour:
     type: 3}
   inspecting: 0
   inspected: 0
+--- !u!114 &1812830713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812830705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e14b595346d8947ba33ecd3cab2987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsMap: {fileID: 1066168218}
+  cellarTiles:
+  - {fileID: 11400000, guid: 6da925dc969f60a4283468feac790961, type: 2}
+  - {fileID: 11400000, guid: 6da925dc969f60a4283468feac790961, type: 2}
+  - {fileID: 11400000, guid: 6da925dc969f60a4283468feac790961, type: 2}
+  - {fileID: 11400000, guid: 6da925dc969f60a4283468feac790961, type: 2}
+  carpetTiles:
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  - {fileID: 11400000, guid: 85d357c666cf2ca448ea41b6aa42ad34, type: 2}
+  cellarInitialPosition: {x: 37, y: 23}
+  cellarSize: {x: 2, y: 2}
+  carpetInitialPosition: {x: 1, y: 27}
+  carpetSize: {x: 4, y: 4}
 --- !u!1 &1835460495
 GameObject:
   m_ObjectHideFlags: 0
@@ -37719,12 +38247,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Boxes of Faded Papers
   inspect_text: {fileID: 1609746082}
+  interact_text: {fileID: 0}
 --- !u!58 &1843040141
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37890,7 +38424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1846794191
 Transform:
   m_ObjectHideFlags: 0
@@ -37920,12 +38454,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 1
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 42824406}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 130550695}
+  interact_text: {fileID: 0}
 --- !u!58 &1846794193
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38040,12 +38580,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Shelf of Medical Journals
   inspect_text: {fileID: 240389593}
+  interact_text: {fileID: 0}
 --- !u!58 &1853544068
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38159,12 +38705,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Tape Player
   inspect_text: {fileID: 2078509952}
+  interact_text: {fileID: 0}
 --- !u!58 &1857095352
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38278,12 +38830,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 1925592}
+  interact_text: {fileID: 0}
 --- !u!58 &1862079995
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39077,12 +39635,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Dog Bowl
   inspect_text: {fileID: 1762382218}
+  interact_text: {fileID: 0}
 --- !u!58 &1917344858
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39411,8 +39975,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: A heavy, almost regal looking carpet rests on the uneven floorboards of
+    the foyer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39606,12 +40170,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Ratty Loveseat
   inspect_text: {fileID: 921326206}
+  interact_text: {fileID: 0}
 --- !u!58 &1945696655
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39725,12 +40295,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Lounge Chaise
   inspect_text: {fileID: 51032365}
+  interact_text: {fileID: 0}
 --- !u!58 &1948695285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39916,12 +40492,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Shelf of Construction Manuals
   inspect_text: {fileID: 1748919125}
+  interact_text: {fileID: 0}
 --- !u!58 &1989145530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40034,12 +40616,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 0
   interact: 0
   door: 1
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Door to Foyer
   inspect_text: {fileID: 0}
+  interact_text: {fileID: 0}
 --- !u!58 &1991959081
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40119,12 +40707,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: 0
+  removeOnPickup: 0
   observe: 1
   interact: 0
   door: 0
+  locked: 0
+  useInventory: 0
   inventory_item: {fileID: 0}
+  interact_item: {fileID: 0}
+  interact_event: 
   interact_name: Shelf of Anthropology Books
   inspect_text: {fileID: 2142004354}
+  interact_text: {fileID: 0}
 --- !u!58 &1998510017
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40191,6 +40785,228 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1 &2000478608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000478609}
+  - component: {fileID: 2000478613}
+  - component: {fileID: 2000478612}
+  - component: {fileID: 2000478611}
+  - component: {fileID: 2000478610}
+  - component: {fileID: 2000478614}
+  m_Layer: 0
+  m_Name: TitleText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2000478609
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2064300607}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 50, y: 10}
+  m_SizeDelta: {x: 100, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2000478610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: This is the Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e932b130923f06c4f898b3fb91e0d60a, type: 2}
+  m_sharedMaterial: {fileID: 4277731989466721986, guid: e932b130923f06c4f898b3fb91e0d60a,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4283039922
+  m_fontColor: {r: 0.69803923, g: 0, b: 0.2901961, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -10, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 2000478610}
+    characterCount: 16
+    spriteCount: 0
+    spaceCount: 3
+    wordCount: 4
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 2000478613}
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_maskType: 0
+--- !u!222 &2000478611
+CanvasRenderer:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_CullTransparentMesh: 0
+--- !u!33 &2000478612
+MeshFilter:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2000478613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 4277731989466721986, guid: e932b130923f06c4f898b3fb91e0d60a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -561988045
+  m_SortingLayer: 5
+  m_SortingOrder: 10
+--- !u!114 &2000478614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000478608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b82073634f5e54484d8b2732ba6797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fade_obj: {fileID: 2000478608}
+  text: 1
+  opaque: 0
+  pingpong: 0
 --- !u!1 &2002497421
 GameObject:
   m_ObjectHideFlags: 0
@@ -40273,6 +41089,128 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2034004194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2034004195}
+  - component: {fileID: 2034004198}
+  - component: {fileID: 2034004197}
+  - component: {fileID: 2034004196}
+  m_Layer: 0
+  m_Name: Mug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2034004195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034004194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 761223307}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 118.600006, y: 382.1}
+  m_SizeDelta: {x: 40, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2034004196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034004194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295e435c0e413804c809eadad8f00082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: 
+  description: 
+--- !u!114 &2034004197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034004194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!212 &2034004198
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034004194}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -561988045
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 739905185230883310, guid: ca4d8789a254246419afc91e4ae4b16c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 32, y: 32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2064300606
 GameObject:
   m_ObjectHideFlags: 0
@@ -40282,6 +41220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2064300607}
+  - component: {fileID: 2064300609}
   - component: {fileID: 2064300608}
   m_Layer: 0
   m_Name: IntroSequence
@@ -40303,14 +41242,14 @@ RectTransform:
   m_Children:
   - {fileID: 1157874474}
   - {fileID: 651321666}
-  - {fileID: 28243679}
+  - {fileID: 2000478609}
   m_Father: {fileID: 1812830708}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 350, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2064300608
 Canvas:
@@ -40329,10 +41268,106 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: -561988045
   m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!82 &2064300609
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064300606}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 76f547d6b7547464f9e593fa0ca99d9a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2065624201
 GameObject:
   m_ObjectHideFlags: 0
@@ -41226,6 +42261,169 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090664995}
   m_CullTransparentMesh: 0
+--- !u!43 &2111439064
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 30
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 12
+    localAABB:
+      m_Center: {x: 1.8112068, y: -1.1425734, z: 0}
+      m_Extent: {x: 5.3571434, y: 3.1471605, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020000000300010000000400030004000000050002000600000000000700050001000800020003000900010004000a00030005000b000400
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 12
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 336
+    _typelessdata: a0ec1340284b004000000000fd6891be6e7575bf00000000000000802063e54070cdb2bf0000000014c700bf70405d3f0000008000000080f016d540407f373f000000008ce078bf3fdf6fbe0000000000000080c0c21340483687c000000000e9a877bc83f87f3f0000008000000080c063f9bf804589c0000000002cd7663fe758dd3e0000008000000080a0f062c0402175bf00000000ba0fe73ec77264bf0000008000000080f016d540407f373f00000000fd6891be6e7575bf0000000000000080a0ec1340284b004000000000ba0fe73ec77264bf00000080000000802063e54070cdb2bf000000008ce078bf3fdf6fbe0000000000000080c0c21340483687c00000000014c700bf70405d3f0000008000000080c063f9bf804589c000000000e9a877bc83f87f3f0000008000000080a0f062c0402175bf000000002cd7663fe758dd3e0000008000000080
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 1.8112068, y: -1.1425734, z: 0}
+    m_Extent: {x: 5.3571434, y: 3.1471605, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &2115678895
 GameObject:
   m_ObjectHideFlags: 0
@@ -41283,8 +42481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A lone reading chair, well worn by the look of the lacquer fading from
-    the armrests
+  m_text: An old standing clock, ticks steadily within its haggard wooden frame
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -26,6 +26,7 @@ public class Inventory : MonoBehaviour
 
     void Start()
     {
+        gameObject.transform.localPosition = new Vector2((Screen.width / 2) + 20.0f, 0);
         GameObject init_cont = Instantiate(container_template, transform);
         init_cont.transform.localPosition = new Vector2(0, 0);
         init_cont.GetComponent<Container>().alpha = 1.0f;
@@ -33,6 +34,7 @@ public class Inventory : MonoBehaviour
         container.Add(init_cont);
     }
 
+    // suck my big slong
     void Update()
     {
         if (container[con_index].transform.childCount > 0)
@@ -56,11 +58,11 @@ public class Inventory : MonoBehaviour
 
             if (inventory_visible)
             {
-                transform.position = new Vector2(Mathf.Lerp(transform.position.x, show_location.position.x, slide), transform.position.y);
+                transform.localPosition = new Vector2(Mathf.Lerp(transform.localPosition.x, (Screen.width / 2) - 120.0f, slide), transform.localPosition.y);
             }
             else
             {
-                transform.position = new Vector2(Mathf.Lerp(transform.position.x, hide_location.position.x, slide), transform.position.y);
+                transform.localPosition = new Vector2(Mathf.Lerp(transform.localPosition.x, (Screen.width / 2) + 30.0f, slide), transform.localPosition.y);
             }
 
             slide += 0.5f * Time.deltaTime;
@@ -224,6 +226,17 @@ public class Inventory : MonoBehaviour
 
     public void removeItem()
     {
+        inv_count--;
+
+        container[con_index].GetComponent<Container>().remove_item(inv_index);
         Destroy(container[con_index].transform.GetChild(inv_index).gameObject);
+
+        if (con_index < container.Count)
+        {
+            for (int con_no = con_index; con_no < container.Count; con_no++)
+            {
+                container[con_index + 1].transform.GetChild(0).SetParent(container[con_index].transform);
+            }
+        }
     }
 }

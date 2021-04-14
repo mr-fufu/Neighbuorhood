@@ -5,9 +5,12 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    public AudioSource introSource;
+
     public Inventory inv_control;
     public FadeController fade_control;
     public TextController text_control;
+    public StoryController story_control;
     public GameObject player;
     public Interact interactor;
     public playerController player_control;
@@ -15,15 +18,15 @@ public class GameController : MonoBehaviour
     public bool moving;
     public bool finished_moving;
     public Vector2 move_to;
-    private List<GameObject> interactables = new List<GameObject>();
-    private List<GameObject> options = new List<GameObject>();
-    private bool choosing;
-    private int choose_count;
+    public List<GameObject> interactables = new List<GameObject>();
+    public List<GameObject> options = new List<GameObject>();
+    public bool choosing;
+    public int choose_count;
 
     public FadeController intro_fade_txt;
     public FadeController intro_fade_sprt;
 
-    public TextMeshProUGUI introtxt;
+    public TextMeshPro introtxt;
     private TextMeshPro[] introtxts;
     public TextMeshPro introtxt1;
     public TextMeshPro introtxt2;
@@ -109,6 +112,8 @@ public class GameController : MonoBehaviour
 
                     title_slide = introsprt.gameObject.transform.localPosition.x;
                     title_change = true;
+
+                    introSource.Play();
                 }
 
                 if (title_change && dark_bg.hold_transparency == false)
@@ -180,7 +185,7 @@ public class GameController : MonoBehaviour
                 if (change_text_back && intro_fade_txt.hold_transparency)
                 {
                     change_text_back = false;
-                    intro_time = 20f;
+                    intro_time = 60f;
                     change_slide = false;
                     ready_change = true;
                 }
@@ -188,7 +193,10 @@ public class GameController : MonoBehaviour
                 {
                     introducing = false;
                     player_control.frozen = false;
-                    back_block.gameObject.transform.parent.gameObject.SetActive(false);
+                    back_block.gameObject.SetActive(false);
+                    intro_fade_sprt.gameObject.SetActive(false);
+                    intro_fade_txt.gameObject.SetActive(false);
+                    FadeOut();
                 }
             }
         }
@@ -199,6 +207,11 @@ public class GameController : MonoBehaviour
                 check_inv = !check_inv;
 
                 inv_control.GetComponent<Inventory>().toggleInv();
+
+                if (!check_inv)
+                {
+                    player_control.frozen = false;
+                }
             }
 
             if (check_inv)
@@ -221,10 +234,10 @@ public class GameController : MonoBehaviour
                 {
                     inv_control.inv_move(0, 1);
                 }
-            }
-            else
-            {
-                player_control.frozen = false;
+                else if (Input.GetKeyDown(KeyCode.E))
+                {
+                    inv_control.removeItem();
+                }
             }
         }
 
@@ -316,7 +329,6 @@ public class GameController : MonoBehaviour
                 }
             }
         }
-
         if (text_control.inspecting)
         {
             if (player_control.input.magnitude > 0.5)
@@ -324,7 +336,6 @@ public class GameController : MonoBehaviour
                 text_control.clear_text();
             }
         }
-
         if (moving && fade_control.hold_transparency)
         {
             player.transform.position = move_to;
@@ -341,7 +352,7 @@ public class GameController : MonoBehaviour
 
     void interact_with(Interactable target)
     {
-        target.interaction(this);
+        target.interaction(this, null, story_control);
     }
 
     void nextIntro()
@@ -362,5 +373,20 @@ public class GameController : MonoBehaviour
         {
             back_block.opaque = false;
         }
+    }
+
+    public IEnumerator FadeOut()
+    {
+        float fadeValue = 0;
+
+        while (fadeValue < 1)
+        {
+            introSource.volume = Mathf.Lerp(1, 0, fadeValue);
+            fadeValue += 0.01f;
+
+            yield return null;
+        }
+
+        yield break;
     }
 }

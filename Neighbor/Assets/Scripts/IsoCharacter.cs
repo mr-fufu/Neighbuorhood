@@ -6,18 +6,26 @@ public class IsoCharacter : MonoBehaviour
 {
     public static readonly string[] staticDirections =
     {
-        "S_NE",
+        "S_N",
         "S_NW",
+        "S_W",
         "S_SW",
+        "S_S",
         "S_SE",
+        "S_E",
+        "S_NE",
     };
 
     public static readonly string[] dynamicDirections =
-    {
-        "D_NE",
+{
+        "D_N",
         "D_NW",
+        "D_W",
         "D_SW",
+        "D_S",
         "D_SE",
+        "D_E",
+        "D_NE",
     };
 
     Animator anim;
@@ -26,7 +34,7 @@ public class IsoCharacter : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        lastDir = 2;
+        lastDir = 3;
         SetDirection(Vector2.zero);
     }
 
@@ -41,7 +49,7 @@ public class IsoCharacter : MonoBehaviour
         else
         {
             dirArray = dynamicDirections;
-            lastDir = DirectionToIndex(direction, 4);
+            lastDir = DirectionToIndex(direction, 8);
         }
 
         anim.Play(dirArray[lastDir]);

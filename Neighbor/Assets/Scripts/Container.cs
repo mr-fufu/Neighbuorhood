@@ -69,20 +69,9 @@ public class Container : MonoBehaviour
         no_items++;
     }
 
-    public void hideNext()
+    public void remove_item(int sprite_no)
     {
-
-    }
-    public void showNext()
-    {
-
-    }
-    public void hidePrev()
-    {
-
-    }
-    public void showPrev()
-    {
-
+        sprite.Remove(sprite[sprite_no]);
+        no_items--;
     }
 }

@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
 {
     public float speed;
     private IsoCharacter isoRend;
-    [System.NonSerialized] public bool frozen;
+    public bool frozen;
     [System.NonSerialized] public Vector2 input;
 
     void Start()

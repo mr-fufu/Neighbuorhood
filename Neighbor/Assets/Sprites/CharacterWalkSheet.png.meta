@@ -122,6 +122,126 @@ TextureImporter:
   - first:
       213: 407527668060686225
     second: CharacterWalkSheet_19
+  - first:
+      213: 6101575143112812740
+    second: CharacterWalkSheet_20
+  - first:
+      213: -6704734200801237027
+    second: CharacterWalkSheet_21
+  - first:
+      213: -2124339023511369075
+    second: CharacterWalkSheet_22
+  - first:
+      213: 4906262933680185438
+    second: CharacterWalkSheet_23
+  - first:
+      213: 8435847487567029448
+    second: CharacterWalkSheet_24
+  - first:
+      213: 8174877198831480793
+    second: CharacterWalkSheet_25
+  - first:
+      213: -4506515855407336316
+    second: CharacterWalkSheet_26
+  - first:
+      213: 686074871389795296
+    second: CharacterWalkSheet_27
+  - first:
+      213: 8622712079865292671
+    second: CharacterWalkSheet_28
+  - first:
+      213: 6044359883471214115
+    second: CharacterWalkSheet_29
+  - first:
+      213: -1976431365608362733
+    second: CharacterWalkSheet_30
+  - first:
+      213: 2432249136720732490
+    second: CharacterWalkSheet_31
+  - first:
+      213: 8551125886609763853
+    second: CharacterWalkSheet_32
+  - first:
+      213: -1467753207039950710
+    second: CharacterWalkSheet_33
+  - first:
+      213: -7300852802079792725
+    second: CharacterWalkSheet_34
+  - first:
+      213: 797192060530678264
+    second: CharacterWalkSheet_35
+  - first:
+      213: -6581441271448889936
+    second: CharacterWalkSheet_36
+  - first:
+      213: -4056181246268393013
+    second: CharacterWalkSheet_37
+  - first:
+      213: -1724093108779090556
+    second: CharacterWalkSheet_38
+  - first:
+      213: -1119574980679241454
+    second: CharacterWalkSheet_39
+  - first:
+      213: -4955857775856479583
+    second: CharacterWalkSheet_20
+  - first:
+      213: -5260411441655710085
+    second: CharacterWalkSheet_21
+  - first:
+      213: -6305765627217322314
+    second: CharacterWalkSheet_22
+  - first:
+      213: 3726641915773182243
+    second: CharacterWalkSheet_23
+  - first:
+      213: 6066381667125690474
+    second: CharacterWalkSheet_24
+  - first:
+      213: -6479050581225380965
+    second: CharacterWalkSheet_25
+  - first:
+      213: 1365715558270418564
+    second: CharacterWalkSheet_26
+  - first:
+      213: -8848477289561627261
+    second: CharacterWalkSheet_27
+  - first:
+      213: -6510269705692093497
+    second: CharacterWalkSheet_28
+  - first:
+      213: 3532765829674980420
+    second: CharacterWalkSheet_29
+  - first:
+      213: 3898360284346971701
+    second: CharacterWalkSheet_30
+  - first:
+      213: -8099826840606995571
+    second: CharacterWalkSheet_31
+  - first:
+      213: 6959453331735564502
+    second: CharacterWalkSheet_32
+  - first:
+      213: -7928515287217929945
+    second: CharacterWalkSheet_33
+  - first:
+      213: 5496392724884910693
+    second: CharacterWalkSheet_34
+  - first:
+      213: 6832286773026057105
+    second: CharacterWalkSheet_35
+  - first:
+      213: 1448427035937830497
+    second: CharacterWalkSheet_36
+  - first:
+      213: -4944958121907304287
+    second: CharacterWalkSheet_37
+  - first:
+      213: 2277409355316655774
+    second: CharacterWalkSheet_38
+  - first:
+      213: 2006587129255157027
+    second: CharacterWalkSheet_39
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -314,8 +434,8 @@ TextureImporter:
       name: CharacterWalkSheet_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
+        x: 270
+        y: 312
         width: 54
         height: 104
       alignment: 9
@@ -335,8 +455,8 @@ TextureImporter:
       name: CharacterWalkSheet_6
       rect:
         serializedVersion: 2
-        x: 54
-        y: 208
+        x: 324
+        y: 312
         width: 54
         height: 104
       alignment: 9
@@ -356,8 +476,8 @@ TextureImporter:
       name: CharacterWalkSheet_7
       rect:
         serializedVersion: 2
-        x: 108
-        y: 208
+        x: 378
+        y: 312
         width: 54
         height: 104
       alignment: 9
@@ -377,8 +497,8 @@ TextureImporter:
       name: CharacterWalkSheet_8
       rect:
         serializedVersion: 2
-        x: 162
-        y: 208
+        x: 432
+        y: 312
         width: 54
         height: 104
       alignment: 9
@@ -398,8 +518,8 @@ TextureImporter:
       name: CharacterWalkSheet_9
       rect:
         serializedVersion: 2
-        x: 216
-        y: 208
+        x: 486
+        y: 312
         width: 54
         height: 104
       alignment: 9
@@ -420,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 104
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -441,7 +561,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 104
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -462,7 +582,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 104
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -483,7 +603,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 162
-        y: 104
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -504,7 +624,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 216
-        y: 104
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -524,8 +644,8 @@ TextureImporter:
       name: CharacterWalkSheet_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 270
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -545,8 +665,8 @@ TextureImporter:
       name: CharacterWalkSheet_16
       rect:
         serializedVersion: 2
-        x: 54
-        y: 0
+        x: 324
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -566,8 +686,8 @@ TextureImporter:
       name: CharacterWalkSheet_17
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
+        x: 378
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -587,8 +707,8 @@ TextureImporter:
       name: CharacterWalkSheet_18
       rect:
         serializedVersion: 2
-        x: 162
-        y: 0
+        x: 432
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -608,8 +728,8 @@ TextureImporter:
       name: CharacterWalkSheet_19
       rect:
         serializedVersion: 2
-        x: 216
-        y: 0
+        x: 486
+        y: 208
         width: 54
         height: 104
       alignment: 9
@@ -621,6 +741,426 @@ TextureImporter:
       bones: []
       spriteID: 19786e24144d7a500800000000000000
       internalID: 407527668060686225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a297b03c91493bb0800000000000000
+      internalID: -4955857775856479583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ef5b72aa34ff6b0800000000000000
+      internalID: -5260411441655710085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed7d8429b6d78a0800000000000000
+      internalID: -6305765627217322314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321edbae311b7b330800000000000000
+      internalID: 3726641915773182243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6008f43cfd103450800000000000000
+      internalID: 6066381667125690474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e548e2d9c516a0800000000000000
+      internalID: -6479050581225380965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_26
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ebeea701ff3f210800000000000000
+      internalID: 1365715558270418564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385619059c4e33580800000000000000
+      internalID: -8848477289561627261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c36c301230e6a5a0800000000000000
+      internalID: -6510269705692093497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_29
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 104
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4445a600ec7e60130800000000000000
+      internalID: 3532765829674980420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536fdf23602c91630800000000000000
+      internalID: 3898360284346971701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b02773762a79f80800000000000000
+      internalID: -8099826840606995571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0d105bee1f49060800000000000000
+      internalID: 6959453331735564502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7210f157a5148f190800000000000000
+      internalID: -7928515287217929945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5627ec8ef0c174c40800000000000000
+      internalID: 5496392724884910693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b61ddfe9821de50800000000000000
+      internalID: 6832286773026057105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_36
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166752017b8d91410800000000000000
+      internalID: 1448427035937830497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a84882a9caff5bb0800000000000000
+      internalID: -4944958121907304287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_38
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96fccf0ebbfa9f10800000000000000
+      internalID: 2277409355316655774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWalkSheet_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 54
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ddf1adc54d8db10800000000000000
+      internalID: 2006587129255157027
       vertices: []
       indices: 
       edges: []

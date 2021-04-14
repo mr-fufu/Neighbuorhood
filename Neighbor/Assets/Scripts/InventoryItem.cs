@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class InventoryItem : MonoBehaviour
 {
+    public string itemName;
     public string description;
 }
