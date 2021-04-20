@@ -20,6 +20,8 @@ public class TextController : MonoBehaviour
     private float life;
     private bool wait_to_clear;
 
+    public List<Sprite> interactSprite;
+
     void Start()
     {
         inspect_container.SetActive(true);
@@ -29,15 +31,42 @@ public class TextController : MonoBehaviour
         initial_position = inspect_text_object.transform.localPosition;
     }
 
-    public GameObject create_option(string option_name)
+    public GameObject create_option(string option_name, string interactType)
     {
         GameObject option = Instantiate<GameObject>(inspect_options,inspect_menu_object.transform);
-        Debug.Log(option);
-        option.GetComponent<TextMeshProUGUI>().SetText(option_name);
+
+        string interactPrefix = "";
+        SpriteRenderer symbolSprite = option.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        switch (interactType)
+        {
+            case "observe":
+                symbolSprite.sprite = interactSprite[0];
+                interactPrefix = "[Observe]";
+                break;
+            case "pickup":
+                symbolSprite.sprite = interactSprite[1];
+                interactPrefix = "[Pickup]";
+                break;
+            case "door":
+                symbolSprite.sprite = interactSprite[2];
+                interactPrefix = "[Open]";
+                break;
+            case "inventory":
+                symbolSprite.sprite = interactSprite[3];
+                interactPrefix = "[Use item on]";
+                break;
+            case "interact":
+                symbolSprite.sprite = interactSprite[4];
+                interactPrefix = "[Use]";
+                break;
+        }
+
+        option.GetComponent<TextMeshProUGUI>().SetText(interactPrefix + " " + option_name);
+
         return option;
     }
 
-    public void clear_options()
+    public void ClearOptions()
     {
         foreach (Transform option in inspect_menu_object.transform)
         {
@@ -45,34 +74,35 @@ public class TextController : MonoBehaviour
         }
     }
 
-    public void show_text(GameObject text)
+    public void ShowTextFromObject(GameObject textObject)
     {
-        if (text != null)
+        if (textObject != null)
         {
-            if (text.GetComponent<TextMeshPro>() != null)
+            if (textObject.GetComponent<TextMeshPro>() != null)
             {
-                if (!inspected)
-                {
-                    inspect_text.text = text.GetComponent<TextMeshPro>().text;
-                    inspecting = true;
-                    rise = 0f;
-                    life = 120f;
-                }
+                ShowText(textObject.GetComponent<TextMeshPro>().text);
             }
-            else
-            {
-                clear_text();
-            }
-        }
-        else
-        {
-            clear_text();
         }
     }
 
-    public void clear_text()
+    public void ShowText(string textToShow)
     {
-        if (alpha < 0.25f)
+        if (!inspected)
+        {
+            inspect_text.text = textToShow;
+            inspecting = true;
+            rise = 0f;
+            life = 120f;
+        }
+        else
+        {
+            ClearText();
+        }
+    }
+
+    public void ClearText()
+    {
+        if (alpha < 0.25f || life >= 119.0f)
         {
             wait_to_clear = true;
         }
@@ -92,22 +122,22 @@ public class TextController : MonoBehaviour
 
     void Update()
     {
-        if (wait_to_clear && alpha >= 0.25f)
+        if (wait_to_clear && alpha >= 0.25f && life <= 119.0f)
         {
-            clear_text();
+            ClearText();
             wait_to_clear = false;
         }
 
         if (life > 0)
         {
-            life -= 0.2f;
+            life -= Time.deltaTime * 0.8f;
         }
         else
         {
             life = 0;
             if (inspecting && inspected)
             {
-                    clear_text();
+                ClearText();
             }
         }
 

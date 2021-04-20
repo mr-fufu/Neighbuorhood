@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Interactable : MonoBehaviour
 {
@@ -10,50 +11,132 @@ public class Interactable : MonoBehaviour
     public bool interact;
     public bool door;
     public bool locked;
-    
-    public bool useInventory;
-    public GameObject inventory_item;
+    public bool playAudio;
 
-    public GameObject interact_item;
-    public string interact_event;
+    public bool useInventory;
+    public GameObject inventoryItem;
+
+    public List<InventoryItem> interactItem;
+    public List<string> interactItemNames;
+    public string interactEvent;
 
     public string interact_name;
     public GameObject inspect_text;
-    public GameObject interact_text;
+    public GameObject interactText;
+    public string nonMatchText;
+    public List<AudioClip> audioToPlay;
+    public List<AudioClip> altAudio;
 
-    public void interaction(GameController game_controller, GameObject item_to_interact, StoryController story)
+    public List<GameObject> additionalInspectText;
+
+    private void Start()
     {
-        if (observe)
+        if (interactItem.Count > 0)
         {
-            game_controller.text_control.show_text(inspect_text);
-        }
-        if (door)
-        {
-            if (!locked)
+            for (int i = 0; i < interactItem.Count; i++)
             {
-                GetComponent<Door>().useDoor(game_controller);
+                interactItemNames.Add(interactItem[i] != null ? interactItem[i].itemName : null);
             }
         }
-        if (pickup)
+    }
+
+    public void interaction(GameController gameController, string itemToInteract, StoryController story)
+    {
+        if (observe || (locked && !interact))
         {
-            game_controller.text_control.show_text(inspect_text);
-            game_controller.inv_control.addItem(inventory_item);
-            if (removeOnPickup)
+            gameController.text_control.ShowTextFromObject(inspect_text);
+
+            if (interact || pickup)
             {
-                //Destroy(this.gameObject);
+                observe = false;
+            }
+
+            if (locked)
+            {
+                if (playAudio)
+                {
+                    gameController.PlayClip(altAudio);
+                }
             }
         }
-        if (interact)
+        else if (interact)
         {
-            if (item_to_interact == interact_item)
+            if (interactItemNames.Count == 0 || interactItemNames.Contains(itemToInteract))
             {
-                game_controller.text_control.show_text(interact_text);
-                game_controller.story_control.storyEvent(interact_event);
+                if (playAudio)
+                {
+                    Debug.Log("played audio clip : " + audioToPlay[0].name);
+                    gameController.PlayClip(audioToPlay);
+                }
+                if (interactText != null)
+                {
+                    gameController.text_control.ShowTextFromObject(interactText);
+                }
+                gameController.story_control.storyEvent(interactEvent, this, itemToInteract);
             }
             else
             {
-                game_controller.text_control.show_text(inspect_text);
+                if (interactItemNames.Count > 0)
+                {
+                    gameController.text_control.ShowText(nonMatchText);
+                }
             }
+        }
+        else if (pickup)
+        {
+            gameController.inv_control.addItem(inventoryItem);
+
+            if (removeOnPickup)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+        else if (door)
+        {
+            GetComponent<Door>().useDoor(gameController);
+
+            if (playAudio)
+            {
+                gameController.PlayClip(audioToPlay);
+            }
+        }
+    }
+
+    public string GetInteractType()
+    {
+        if (observe)
+        {
+            if (locked)
+            {
+                return "door";
+            }
+            else
+            {
+                return "observe";
+            }
+        }
+        else if (interact)
+        {
+            if (interactItemNames.Count == 0)
+            {
+                return "interact";
+            }
+            else
+            {
+                return "inventory";
+            }
+        }
+        else if (pickup)
+        {
+            return "pickup";
+        }
+        else if (door)
+        {
+            return "door";
+        }
+        else
+        {
+            return "observe";
         }
     }
 }

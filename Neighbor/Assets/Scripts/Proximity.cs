@@ -30,12 +30,18 @@ public class Proximity : MonoBehaviour
             {
                 if (results[i].gameObject.tag == "interactable")
                 {
-                    if (results[i].gameObject.GetComponent<Door>() != null)
+                    Door showDoor = results[i].gameObject.GetComponent<Door>();
+                    Interactable showInteract = results[i].gameObject.GetComponent<Interactable>();
+
+                    if (showDoor != null)
                     {
                         if (!in_proximity.Contains(results[i].gameObject))
                         {
-                            results[i].gameObject.GetComponent<Door>().showArrow(true);
-                            in_proximity.Add(results[i].gameObject);
+                            if (showInteract == null || !showInteract.locked)
+                            {
+                                showDoor.showArrow(true);
+                                in_proximity.Add(results[i].gameObject);
+                            }
                         }
                     }
                 }

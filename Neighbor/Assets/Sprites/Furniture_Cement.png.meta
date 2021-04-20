@@ -377,8 +377,95 @@ TextureImporter:
   - first:
       213: 7620842633983795734
     second: Furniture_Cement_62
+  - first:
+      213: 1984399908833124152
+    second: Furniture_Cement_62
+  - first:
+      213: -3865430569350478029
+    second: Furniture_Cement_63
+  - first:
+      213: 7930517129501912142
+    second: Furniture_Cement_64
+  - first:
+      213: 5237760554318767026
+    second: Furniture_Cement_63
+  - first:
+      213: -6017495042167133736
+    second: Furniture_Cement_65
+  - first:
+      213: 6092241463122638347
+    second: Furniture_Cement_66
+  - first:
+      213: -4730483695084340654
+    second: Furniture_Cement_67
+  - first:
+      213: -926512902215328620
+    second: Furniture_Cement_68
+  - first:
+      213: 8881519094191205772
+    second: Furniture_Cement_69
+  - first:
+      213: 6121052034066223572
+    second: Furniture_Cement_70
+  - first:
+      213: -8939443062103593809
+    second: Furniture_Cement_64
+  - first:
+      213: 6357213597425940670
+    second: Furniture_Cement_65
+  - first:
+      213: -8376078052116587014
+    second: Furniture_Cement_66
+  - first:
+      213: -5540167474500187901
+    second: Furniture_Cement_67
+  - first:
+      213: -626626088705336653
+    second: Furniture_Cement_68
+  - first:
+      213: 4909938986059729737
+    second: Furniture_Cement_69
+  - first:
+      213: 8314428828067393605
+    second: Furniture_Cement_70
+  - first:
+      213: -7803736052278421361
+    second: Furniture_Cement_71
+  - first:
+      213: -3238537403439714806
+    second: Furniture_Cement_72
+  - first:
+      213: -5318074692452494339
+    second: Furniture_Cement_73
+  - first:
+      213: 954402181599405608
+    second: Furniture_Cement_74
+  - first:
+      213: 4587663866272128930
+    second: Furniture_Cement_71
+  - first:
+      213: 6412501555999858530
+    second: Furniture_Cement_72
+  - first:
+      213: -5108144729133396368
+    second: Furniture_Cement_73
+  - first:
+      213: -5220781958100193350
+    second: Furniture_Cement_74
+  - first:
+      213: -5845805889671935917
+    second: Furniture_Cement_75
+  - first:
+      213: 1279703687531688784
+    second: Furniture_Cement_76
+  - first:
+      213: 8172870405752768688
+    second: Furniture_Cement_77
+  - first:
+      213: -3810549508933563182
+    second: Furniture_Cement_78
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -398,6 +485,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -432,12 +520,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -449,7 +539,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -465,9 +555,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,9 +576,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,9 +597,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,9 +618,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,9 +639,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,9 +660,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,9 +681,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,9 +702,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,9 +723,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,9 +744,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 1158
+        y: 1687
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,9 +765,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,9 +786,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,9 +807,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,9 +828,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,9 +849,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,9 +870,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,9 +891,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,9 +912,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,9 +933,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,9 +954,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 965
+        y: 1446
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,9 +975,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,9 +996,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,9 +1017,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,9 +1038,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -969,9 +1059,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -990,9 +1080,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1011,9 +1101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1032,9 +1122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,9 +1143,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,9 +1164,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 772
+        y: 1205
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1095,9 +1185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1116,9 +1206,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,9 +1227,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,9 +1248,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,9 +1269,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1200,9 +1290,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,9 +1311,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1242,9 +1332,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,9 +1353,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,9 +1374,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 579
+        y: 964
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1305,9 +1395,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,9 +1416,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1347,9 +1437,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1368,9 +1458,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,9 +1479,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1410,9 +1500,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,9 +1521,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,9 +1542,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1473,9 +1563,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1494,9 +1584,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 386
+        y: 723
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1515,9 +1605,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1536,9 +1626,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1557,9 +1647,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1578,9 +1668,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,9 +1689,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 520
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1620,9 +1710,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1641,9 +1731,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 780
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1662,9 +1752,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 910
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1683,9 +1773,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1704,9 +1794,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1170
-        y: 193
+        y: 482
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1725,9 +1815,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 241
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1746,9 +1836,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 0
+        y: 241
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1767,9 +1857,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 0
+        y: 241
         width: 130
-        height: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1777,8 +1867,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612a1c7affba2c960800000000000000
-      internalID: 7620842633983795734
+      spriteID: 83fd05a04310a8b10800000000000000
+      internalID: 1984399908833124152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_63
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b329ba297340b840800000000000000
+      internalID: 5237760554318767026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_64
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac2c71f5e7b0f380800000000000000
+      internalID: -8939443062103593809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83bdbb51c593850800000000000000
+      internalID: 6357213597425940670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_66
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd15a4d36132cb80800000000000000
+      internalID: -8376078052116587014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_67
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3094e36f80f5d13b0800000000000000
+      internalID: -5540167474500187901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_68
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bad9bf64e6cd47f0800000000000000
+      internalID: -626626088705336653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_69
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 241
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8eec6e7b932440800000000000000
+      internalID: 4909938986059729737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407937a7f8c26370800000000000000
+      internalID: 8314428828067393605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_71
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af9b0adaf7aaaf30800000000000000
+      internalID: 4587663866272128930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_72
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fd207b038cdf850800000000000000
+      internalID: 6412501555999858530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_73
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e48b6de693c19b0800000000000000
+      internalID: -5108144729133396368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6ba1587e0c87b0800000000000000
+      internalID: -5220781958100193350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358c73804868fdea0800000000000000
+      internalID: -5845805889671935917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_76
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053751149bb62c110800000000000000
+      internalID: 1279703687531688784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_77
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b84232155edb6170800000000000000
+      internalID: 8172870405752768688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Cement_78
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc9f829653e1bc0800000000000000
+      internalID: -3810549508933563182
       vertices: []
       indices: 
       edges: []

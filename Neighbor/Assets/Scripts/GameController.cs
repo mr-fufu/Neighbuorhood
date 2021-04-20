@@ -6,7 +6,14 @@ using TMPro;
 public class GameController : MonoBehaviour
 {
     public AudioSource introSource;
+    public List<AudioClip> ambientOutside;
+    public List<AudioClip> drone;
+    public List<AudioClip> ambientInside;
+    public List<AudioClip> staticClip;
+    public List<AudioClip> kitchen;
+    public List<AudioClip> metal;
 
+    public AudioController audioControl;
     public Inventory inv_control;
     public FadeController fade_control;
     public TextController text_control;
@@ -14,6 +21,7 @@ public class GameController : MonoBehaviour
     public GameObject player;
     public Interact interactor;
     public playerController player_control;
+    public GameObject escapeMenu;
 
     public bool moving;
     public bool finished_moving;
@@ -45,24 +53,32 @@ public class GameController : MonoBehaviour
     public FadeController title_name;
     public FadeController start_text;
 
-    public float title_slide;
-    public bool title_change;
-    public bool title = true;
-    public bool introducing = true;
-    public bool change_slide;
-    public bool change_text;
-    public bool change_sprite;
-    public bool change_text_back;
-    public bool change_sprite_back;
-    public int intro_count = 0;
-    public float intro_time = 0;
-    public bool ready_change = true;
+    private float titleSlide;
+    private bool titleChange;
+    private bool title = true;
+    private bool introducing = true;
+    private bool changeSlide;
+    private bool changeText;
+    private bool changeSprite;
+    private bool changeTextBack;
+    private bool changeSpriteBack;
+    private int introCount = 0;
+    private float introTime = 0;
+    private bool readyChange = true;
     private bool started;
-    private bool check_inv = false;
-    private bool change_replace;
+    private bool checkInv = false;
+    private bool changeReplace;
+    public string currentLocation;
+
+    public List<Sprite> inspectSprite;
+
+    private InventoryItem selectedItem;
 
     void Start()
     {
+        currentLocation = "outside";
+        audioControl.ChangeClip(ambientOutside);
+
         introtxts = new TextMeshPro[3];
         introtxts[0] = introtxt1;
         introtxts[1] = introtxt2;
@@ -110,23 +126,23 @@ public class GameController : MonoBehaviour
                     dark_bg.opaque = false;
                     title_name.opaque = false;
 
-                    title_slide = introsprt.gameObject.transform.localPosition.x;
-                    title_change = true;
+                    titleSlide = introsprt.gameObject.transform.localPosition.x;
+                    titleChange = true;
 
                     introSource.Play();
                 }
 
-                if (title_change && dark_bg.hold_transparency == false)
+                if (titleChange && dark_bg.hold_transparency == false)
                 {
-                    if (title_slide > 0)
+                    if (titleSlide > 0.1f)
                     {
-                        title_slide -= 0.05f + introsprt.gameObject.transform.localPosition.x/30f;
-                        introsprt.gameObject.transform.localPosition = new Vector2(title_slide, introsprt.gameObject.transform.localPosition.y);
+                        titleSlide -= Time.deltaTime + introsprt.gameObject.transform.localPosition.x/100f;
+                        introsprt.gameObject.transform.localPosition = new Vector2(titleSlide, introsprt.gameObject.transform.localPosition.y);
                     }
                     else
                     {
-                        title_slide = 0.0f;
-                        introsprt.gameObject.transform.localPosition = new Vector2(title_slide, introsprt.gameObject.transform.localPosition.y);
+                        titleSlide = 0.1f;
+                        introsprt.gameObject.transform.localPosition = new Vector2(titleSlide, introsprt.gameObject.transform.localPosition.y);
                         title = false;
                     }
                 }
@@ -135,68 +151,67 @@ public class GameController : MonoBehaviour
             {
                 if (started)
                 {
-                    if (intro_time > 0)
+                    if (introTime > 0)
                     {
-                        intro_time -= 0.1f;
+                        introTime -= 0.05f;
                     }
-                    else if (ready_change)
+                    else if (readyChange)
                     {
-                        ready_change = false;
-                        change_slide = true;
+                        readyChange = false;
+                        changeSlide = true;
                     }
                 }
 
-                if (change_slide)
+                if (changeSlide)
                 {
-                    change_slide = false;
-                    change_text = true;
+                    changeSlide = false;
+                    changeText = true;
                     intro_fade_txt.opaque = false;
                 }
 
-                if (change_text && !intro_fade_txt.hold_transparency)
+                if (changeText && !intro_fade_txt.hold_transparency)
                 {
-                    change_text = false;
-                    change_sprite = true;
-                    if (intro_count != 0)
+                    changeText = false;
+                    changeSprite = true;
+                    if (introCount != 0)
                     {
                         intro_fade_sprt.opaque = false;
                     }
                     else
                     {
-                        change_replace = true;
+                        changeReplace = true;
                     }
                 }
 
-                if (change_sprite && (!intro_fade_sprt.hold_transparency || change_replace))
+                if (changeSprite && (!intro_fade_sprt.hold_transparency || changeReplace))
                 {
-                    change_sprite = false;
-                    if (!ready_change)
+                    changeSprite = false;
+                    if (!readyChange)
                     {
                         nextIntro();
                     }
                 }
 
-                if (change_sprite_back && intro_fade_sprt.hold_transparency)
+                if (changeSpriteBack && intro_fade_sprt.hold_transparency)
                 {
-                    change_sprite_back = false;
-                    change_text_back = true;
+                    changeSpriteBack = false;
+                    changeTextBack = true;
                     intro_fade_txt.opaque = true;
                 }
-                if (change_text_back && intro_fade_txt.hold_transparency)
+                if (changeTextBack && intro_fade_txt.hold_transparency)
                 {
-                    change_text_back = false;
-                    intro_time = 60f;
-                    change_slide = false;
-                    ready_change = true;
+                    changeTextBack = false;
+                    introTime = 90f;
+                    changeSlide = false;
+                    readyChange = true;
                 }
-                if (intro_count == 3 && !back_block.hold_transparency)
+                if (introCount == 3 && !back_block.hold_transparency)
                 {
                     introducing = false;
                     player_control.frozen = false;
                     back_block.gameObject.SetActive(false);
                     intro_fade_sprt.gameObject.SetActive(false);
                     intro_fade_txt.gameObject.SetActive(false);
-                    FadeOut();
                 }
             }
         }
@@ -204,17 +219,22 @@ public class GameController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.I))
             {
-                check_inv = !check_inv;
-
-                inv_control.GetComponent<Inventory>().toggleInv();
-
-                if (!check_inv)
+                if (inv_control.inv_count > 0)
                 {
-                    player_control.frozen = false;
+                    checkInv = !checkInv;
+
+                    inv_control.GetComponent<Inventory>().toggleInv();
+
+                    selectedItem = inv_control.getItem();
+
+                    if (!checkInv)
+                    {
+                        player_control.frozen = false;
+                    }
                 }
             }
 
-            if (check_inv)
+            if (checkInv)
             {
                 player_control.frozen = true;
 
@@ -276,9 +296,16 @@ public class GameController : MonoBehaviour
         {
             if (introducing)
             {
-                started = true;
+                if (!started)
+                {
+                    started = true;
+                }
+                else
+                {
+                    introTime = 0;
+                }
             }
-            else if (!check_inv)
+            else if (!checkInv)
             {
                 if (!choosing)
                 {
@@ -292,20 +319,23 @@ public class GameController : MonoBehaviour
                             {
 
                             }
+                            /*
                             else if (interactables.Count == 1)
                             {
                                 interact_with(interactables[0].GetComponent<Interactable>());
                             }
+                            */
                             else
                             {
                                 player_control.frozen = true;
                                 choosing = true;
                                 text_control.inspect_menu_object.SetActive(true);
-                                text_control.clear_options();
+                                text_control.ClearOptions();
 
                                 for (int n = 0; n < interactables.Count; n++)
                                 {
-                                    options.Add(text_control.create_option(interactables[n].GetComponent<Interactable>().interact_name));
+                                    Interactable currentInteract = interactables[n].GetComponent<Interactable>();
+                                    options.Add(text_control.create_option(currentInteract.interact_name, currentInteract.GetInteractType()));
                                 }
 
                                 choose_count = 0;
@@ -314,28 +344,43 @@ public class GameController : MonoBehaviour
                         }
                         else
                         {
-                            //text_control.clear_text();
+                            text_control.ClearText();
                         }
                     }
                 }
                 else
                 {
-                    interact_with(interactables[choose_count].GetComponent<Interactable>());
-                    text_control.clear_options();
+                    Interactable interactWith = interactables[choose_count].GetComponent<Interactable>();
+                    interact_with(interactWith);
+                    text_control.ClearOptions();
                     options.Clear();
                     text_control.inspect_menu_object.SetActive(false);
-                    player_control.frozen = false;
+                    if (!interactWith.door)
+                    {
+                        player_control.frozen = false;
+                    }
+                    else if (interactWith.locked)
+                    {
+                        player_control.frozen = false;
+                    }
                     choosing = false;
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Escape();
+        }
+
         if (text_control.inspecting)
         {
-            if (player_control.input.magnitude > 0.5)
+            if (player_control.input.magnitude > 0.8)
             {
-                text_control.clear_text();
+                text_control.ClearText();
             }
         }
+
         if (moving && fade_control.hold_transparency)
         {
             player.transform.position = move_to;
@@ -352,27 +397,108 @@ public class GameController : MonoBehaviour
 
     void interact_with(Interactable target)
     {
-        target.interaction(this, null, story_control);
+        selectedItem = inv_control.getItem();
+
+        target.interaction(this, selectedItem != null ? selectedItem.itemName : null, story_control);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void Escape()
+    {
+        if (choosing)
+        {
+            text_control.ClearOptions();
+            options.Clear();
+            text_control.inspect_menu_object.SetActive(false);
+            choosing = false;
+            player_control.frozen = false;
+        }
+        else
+        {
+            if (escapeMenu.activeSelf)
+            {
+                escapeMenu.SetActive(false);
+                player_control.frozen = false;
+                Time.timeScale = 1;
+            }
+            else
+            {
+                escapeMenu.SetActive(true);
+                player_control.frozen = true;
+                Time.timeScale = 0;
+            }
+        }
+    }
+
+
 
     void nextIntro()
     {
-        if (intro_count < 3)
+        if (introCount < 3)
         {
-            introsprt.sprite = introsprts[intro_count];
-            introtxt.text = introtxts[intro_count].text;
-            introtxt.gameObject.transform.localPosition = introtxts[intro_count].gameObject.transform.localPosition;
+            introsprt.sprite = introsprts[introCount];
+            introtxt.text = introtxts[introCount].text;
+            introtxt.gameObject.transform.localPosition = introtxts[introCount].gameObject.transform.localPosition;
 
-            intro_count++;
+            introCount++;
 
-            change_sprite_back = true;
+            changeSpriteBack = true;
             intro_fade_sprt.opaque = true;
-            change_replace = false;
+            changeReplace = false;
         }
         else
         {
             back_block.opaque = false;
+            StartCoroutine(FadeOut());
         }
+    }
+
+    public void ChangeLocation(string newLocation)
+    {
+        if (currentLocation != newLocation)
+        {
+            currentLocation = newLocation;
+
+            List<AudioClip> newAudioMix = new List<AudioClip>();
+
+            switch (newLocation)
+            {
+                case "outside":
+                    newAudioMix.AddRange(ambientOutside);
+                    break;
+                case "inside":
+                    newAudioMix.AddRange(drone);
+                    newAudioMix.AddRange(ambientInside);
+                    break;
+                case "parlour":
+                    newAudioMix.AddRange(drone);
+                    newAudioMix.AddRange(ambientInside);
+                    newAudioMix.AddRange(staticClip);
+                    break;
+                case "kitchen":
+                    newAudioMix.AddRange(drone);
+                    //newAudioMix.AddRange(ambientInside);
+                    newAudioMix.AddRange(kitchen);
+                    break;
+                case "basement":
+                    newAudioMix.AddRange(drone);
+                    //newAudioMix.AddRange(ambientInside);
+                    newAudioMix.AddRange(metal);
+                    break;
+                default: break;
+            }
+
+            audioControl.ChangeClip(newAudioMix);
+        }
+    }
+
+    public void PlayClip(List<AudioClip> play)
+    {
+        audioControl.PlaySingleClip(play);
     }
 
     public IEnumerator FadeOut()
@@ -382,7 +508,7 @@ public class GameController : MonoBehaviour
         while (fadeValue < 1)
         {
             introSource.volume = Mathf.Lerp(1, 0, fadeValue);
-            fadeValue += 0.01f;
+            fadeValue += 0.01f * Time.deltaTime;
 
             yield return null;
         }

@@ -18,6 +18,8 @@ public class FadeController : MonoBehaviour
     private TextMeshPro text_comp_alt;
     private bool alt;
 
+    public float changeRate;
+
     void Start()
     {
         fade_obj.SetActive(true);
@@ -79,7 +81,7 @@ public class FadeController : MonoBehaviour
             {
                 if (alpha < 1f)
                 {
-                    alpha += 0.02f;
+                    alpha += changeRate * Time.deltaTime;
                 }
                 else
                 {
@@ -91,7 +93,7 @@ public class FadeController : MonoBehaviour
             {
                 if (alpha > 0)
                 {
-                    alpha -= 0.02f;
+                    alpha -= changeRate * Time.deltaTime;
                 }
                 else
                 {

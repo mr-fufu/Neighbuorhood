@@ -33,7 +33,10 @@ public class Interact : MonoBehaviour
                 {
                     if (results[i].gameObject.GetComponent<Interactable>() != null)
                     {
-                        return_objects.Add(results[i].gameObject);
+                        if (results[i].gameObject.GetComponent<Interactable>().enabled)
+                        {
+                            return_objects.Add(results[i].gameObject);
+                        }
                     }
                 }
             }

@@ -284,8 +284,44 @@ TextureImporter:
   - first:
       213: -8813293303032947027
     second: Tile_Carpet_50
+  - first:
+      213: -6910141459918599954
+    second: Tile_Carpet_43
+  - first:
+      213: 4699827621370366430
+    second: Tile_Carpet_44
+  - first:
+      213: -8746392820909303084
+    second: Tile_Carpet_45
+  - first:
+      213: 6390969793548791026
+    second: Tile_Carpet_46
+  - first:
+      213: 1586318954015360961
+    second: Tile_Carpet_47
+  - first:
+      213: -3167633529536489745
+    second: Tile_Carpet_48
+  - first:
+      213: 8141213961098569583
+    second: Tile_Carpet_49
+  - first:
+      213: 7031042728076237236
+    second: Tile_Carpet_50
+  - first:
+      213: 2325172546865314184
+    second: Tile_Carpet_51
+  - first:
+      213: -6647369094196877663
+    second: Tile_Carpet_52
+  - first:
+      213: -8395751862443888042
+    second: Tile_Carpet_53
+  - first:
+      213: -7246912197398516729
+    second: Tile_Carpet_54
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -305,6 +341,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -339,12 +376,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -356,7 +395,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -1285,8 +1324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bf8c8c5358c594f0800000000000000
-      internalID: -822531096564691020
+      spriteID: ee84ad524fe3a10a0800000000000000
+      internalID: -6910141459918599954
       vertices: []
       indices: 
       edges: []
@@ -1306,8 +1345,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99f92bb9f07a2320800000000000000
-      internalID: 2533961958238583194
+      spriteID: ed989552254293140800000000000000
+      internalID: 4699827621370366430
       vertices: []
       indices: 
       edges: []
@@ -1327,8 +1366,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73b6431d7ac3bcf0800000000000000
-      internalID: -237623716777380998
+      spriteID: 4da9cabd1129e9680800000000000000
+      internalID: -8746392820909303084
       vertices: []
       indices: 
       edges: []
@@ -1348,8 +1387,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e12f0d4b1fe27e560800000000000000
-      internalID: 7342889333106471454
+      spriteID: 2fc2aba9a2941b850800000000000000
+      internalID: 6390969793548791026
       vertices: []
       indices: 
       edges: []
@@ -1369,8 +1408,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 340a18b0398675d50800000000000000
-      internalID: 6725959549263650883
+      spriteID: 1c70e8a1facb30610800000000000000
+      internalID: 1586318954015360961
       vertices: []
       indices: 
       edges: []
@@ -1390,8 +1429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86b3cf2a171abebd0800000000000000
-      internalID: -2599806850438513816
+      spriteID: fe65c55761e4a04d0800000000000000
+      internalID: -3167633529536489745
       vertices: []
       indices: 
       edges: []
@@ -1411,8 +1450,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37966350086f2a30800000000000000
-      internalID: 4192684128713742143
+      spriteID: f672bbfa6f66bf070800000000000000
+      internalID: 8141213961098569583
       vertices: []
       indices: 
       edges: []
@@ -1432,8 +1471,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae546b8f64e0b580800000000000000
-      internalID: -8813293303032947027
+      spriteID: 4b9d39feb18439160800000000000000
+      internalID: 7031042728076237236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_51
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b561bc1ca44020800000000000000
+      internalID: 2325172546865314184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62c71370dcfb3a0800000000000000
+      internalID: -6647369094196877663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65235b8e92c4c7b80800000000000000
+      internalID: -8395751862443888042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Carpet_54
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cad9390cbcd6b90800000000000000
+      internalID: -7246912197398516729
       vertices: []
       indices: 
       edges: []

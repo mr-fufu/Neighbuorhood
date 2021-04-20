@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 8bc79ba87335afe44ae478ef9e344800
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2779327330396837692
+    second: Furniture_Leaves_0
+  - first:
+      213: -8678988865682744904
+    second: Furniture_Leaves_1
+  - first:
+      213: 2764102283855791469
+    second: Furniture_Leaves_2
+  - first:
+      213: -5242349705130977447
+    second: Furniture_Leaves_3
+  - first:
+      213: -2482648972727924443
+    second: Furniture_Leaves_4
+  - first:
+      213: 1405142491686876873
+    second: Furniture_Leaves_5
+  - first:
+      213: 7348523093953894772
+    second: Furniture_Leaves_6
+  - first:
+      213: 8997185760441870371
+    second: Furniture_Leaves_7
+  - first:
+      213: 2368435413915072961
+    second: Furniture_Leaves_8
+  - first:
+      213: -3804290673461265640
+    second: Furniture_Leaves_9
+  - first:
+      213: -3792374117064661743
+    second: Furniture_Leaves_0
+  - first:
+      213: 5288050876300237281
+    second: Furniture_Leaves_1
+  - first:
+      213: 395204532665536355
+    second: Furniture_Leaves_2
+  - first:
+      213: 8359231464512862901
+    second: Furniture_Leaves_3
+  - first:
+      213: 6004305251553428950
+    second: Furniture_Leaves_4
+  - first:
+      213: -1064885688792377213
+    second: Furniture_Leaves_5
+  - first:
+      213: 2598231577990487518
+    second: Furniture_Leaves_6
+  - first:
+      213: -3427933181146540087
+    second: Furniture_Leaves_7
+  - first:
+      213: -5164597176906511293
+    second: Furniture_Leaves_8
+  - first:
+      213: 915518927445985890
+    second: Furniture_Leaves_9
+  - first:
+      213: 4938916804172273499
+    second: Furniture_Leaves_10
+  - first:
+      213: -7704031678018573554
+    second: Furniture_Leaves_11
+  - first:
+      213: -5530174619549581111
+    second: Furniture_Leaves_12
+  - first:
+      213: -8204238776693060618
+    second: Furniture_Leaves_13
+  - first:
+      213: -8140312062447221561
+    second: Furniture_Leaves_14
+  - first:
+      213: -5609535036576525298
+    second: Furniture_Leaves_15
+  - first:
+      213: -934809450627825320
+    second: Furniture_Leaves_16
+  - first:
+      213: 7963552234447676518
+    second: Furniture_Leaves_17
+  - first:
+      213: 6525138808491915726
+    second: Furniture_Leaves_10
+  - first:
+      213: 9830986496521694
+    second: Furniture_Leaves_11
+  - first:
+      213: 6307674129830583391
+    second: Furniture_Leaves_12
+  - first:
+      213: -4871058830539764848
+    second: Furniture_Leaves_13
+  - first:
+      213: 2496746937691787611
+    second: Furniture_Leaves_14
+  - first:
+      213: -5371037122479717681
+    second: Furniture_Leaves_15
+  - first:
+      213: -4346316371612039492
+    second: Furniture_Leaves_16
+  - first:
+      213: -2122235074834729048
+    second: Furniture_Leaves_17
+  - first:
+      213: -4365792852171880363
+    second: Furniture_Leaves_18
+  - first:
+      213: 4889754407452378743
+    second: Furniture_Leaves_19
+  - first:
+      213: -6441274425792986768
+    second: Furniture_Leaves_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Leaves_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115a9f855d7ce5bc0800000000000000
+      internalID: -3792374117064661743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e99114314ee26940800000000000000
+      internalID: 5288050876300237281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4727bd6c0c7500800000000000000
+      internalID: 395204532665536355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5babe855ab4f10470800000000000000
+      internalID: 8359231464512862901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5cad960d3935350800000000000000
+      internalID: 6004305251553428950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3881229ab14c831f0800000000000000
+      internalID: -1064885688792377213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd535aaad5ce0420800000000000000
+      internalID: 2598231577990487518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c75cf70fe88d60d0800000000000000
+      internalID: -3427933181146540087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c80861b3aa358b0800000000000000
+      internalID: -5164597176906511293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 386
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a80972d9394bc00800000000000000
+      internalID: 915518927445985890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b646bc23fd8a50800000000000000
+      internalID: 6525138808491915726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5bae9ea3de22000800000000000000
+      internalID: 9830986496521694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c197b933c598750800000000000000
+      internalID: 6307674129830583391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bc5a53dc5866cb0800000000000000
+      internalID: -4871058830539764848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51d92b8c1a36a220800000000000000
+      internalID: 2496746937691787611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2092fa13e3675b0800000000000000
+      internalID: -5371037122479717681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_16
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6899ca948cea3c0800000000000000
+      internalID: -4346316371612039492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_17
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f99a817e4c82e0800000000000000
+      internalID: -2122235074834729048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_18
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5580b5b28869963c0800000000000000
+      internalID: -4365792852171880363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_19
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 193
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776891ff9b5ebd340800000000000000
+      internalID: 4889754407452378743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Leaves_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0710dcd790ffb96a0800000000000000
+      internalID: -6441274425792986768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
