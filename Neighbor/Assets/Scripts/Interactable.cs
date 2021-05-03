@@ -12,9 +12,10 @@ public class Interactable : MonoBehaviour
     public bool door;
     public bool locked;
     public bool playAudio;
+    public bool unknown;
 
-    public bool useInventory;
     public GameObject inventoryItem;
+    [System.NonSerialized] public bool useInventory;
 
     public List<InventoryItem> interactItem;
     public List<string> interactItemNames;
@@ -37,6 +38,8 @@ public class Interactable : MonoBehaviour
             {
                 interactItemNames.Add(interactItem[i] != null ? interactItem[i].itemName : null);
             }
+
+            useInventory = true;
         }
     }
 
@@ -50,6 +53,10 @@ public class Interactable : MonoBehaviour
             {
                 observe = false;
             }
+            else
+            {
+                gameController.AddDisabledInteract(this);
+            }
 
             if (locked)
             {
@@ -57,6 +64,11 @@ public class Interactable : MonoBehaviour
                 {
                     gameController.PlayClip(altAudio);
                 }
+                gameController.text_control.ShowText("It's locked");
+            }
+            else
+            {
+                gameController.PlayTrill();
             }
         }
         else if (interact)
@@ -65,7 +77,7 @@ public class Interactable : MonoBehaviour
             {
                 if (playAudio)
                 {
-                    Debug.Log("played audio clip : " + audioToPlay[0].name);
+                    //Debug.Log("played audio clip : " + audioToPlay[0].name);
                     gameController.PlayClip(audioToPlay);
                 }
                 if (interactText != null)
@@ -86,6 +98,11 @@ public class Interactable : MonoBehaviour
         {
             gameController.inv_control.addItem(inventoryItem);
 
+            if (inventoryItem.GetComponent<InventoryItem>().pickupSound != null)
+            {
+                gameController.PlayClip(inventoryItem.GetComponent<InventoryItem>().pickupSound);
+            }
+
             if (removeOnPickup)
             {
                 Destroy(this.gameObject);
@@ -94,6 +111,8 @@ public class Interactable : MonoBehaviour
         else if (door)
         {
             GetComponent<Door>().useDoor(gameController);
+
+            gameController.ReEnableInteracts();
 
             if (playAudio)
             {
@@ -104,7 +123,11 @@ public class Interactable : MonoBehaviour
 
     public string GetInteractType()
     {
-        if (observe)
+        if (unknown)
+        {
+            return "unknown";
+        }
+        else if (observe)
         {
             if (locked)
             {

@@ -59,6 +59,12 @@ public class TextController : MonoBehaviour
                 symbolSprite.sprite = interactSprite[4];
                 interactPrefix = "[Use]";
                 break;
+            case "unknown":
+                symbolSprite.sprite = interactSprite[5];
+                interactPrefix = "[???]";
+                break;
+            default:
+                break;
         }
 
         option.GetComponent<TextMeshProUGUI>().SetText(interactPrefix + " " + option_name);

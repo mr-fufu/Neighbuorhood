@@ -8,9 +8,13 @@ public class playerController : MonoBehaviour
     private IsoCharacter isoRend;
     public bool frozen;
     [System.NonSerialized] public Vector2 input;
+    private Rigidbody2D selfBody;
+    private RigidbodyConstraints2D selfConstraints;
 
     void Start()
     {
+        selfBody = GetComponent<Rigidbody2D>();
+        selfConstraints = selfBody.constraints;
         isoRend = GetComponent<IsoCharacter>();
     }
 
@@ -25,10 +29,12 @@ public class playerController : MonoBehaviour
             Vector2 moveto = current_position + input * speed * Time.deltaTime;
             isoRend.SetDirection(input * speed);
             GetComponent<Rigidbody2D>().MovePosition(moveto);
+            selfBody.constraints = selfConstraints;
         }
         else
         {
-            isoRend.SetDirection(input * 0.0001f);
+            isoRend.SetDirection(input * 0.00001f);
+            selfBody.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
 }

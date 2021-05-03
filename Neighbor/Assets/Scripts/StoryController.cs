@@ -43,6 +43,9 @@ public class StoryController : MonoBehaviour
     public GameObject cellarDoor;
     public GameObject unnaturalDark;
 
+    public GameObject darkInteracts;
+    public GameObject lightInteracts;
+
     public SpriteRenderer mail;
 
     // Start is called before the first frame update
@@ -55,8 +58,12 @@ public class StoryController : MonoBehaviour
 
         etchedKey.SetActive(false);
         cellarDoor.SetActive(false);
+
         hookLight.SetActive(false);
         unnaturalDark.SetActive(true);
+        darkInteracts.SetActive(true);
+        lightInteracts.SetActive(false);
+
         mail.enabled = false;
     }
 
@@ -137,12 +144,19 @@ public class StoryController : MonoBehaviour
                 case "LightSwitch":
 
                     unnaturalDark.SetActive(hookLight.activeSelf ? true : false);
-                    hookLight.SetActive(hookLight.activeSelf ? false : true);
 
                     if (interact.interactText != null)
                     {
+                        darkInteracts.SetActive(hookLight.activeSelf ? true : false);
+                        lightInteracts.SetActive(hookLight.activeSelf ? false : true);
+
                         interact.interactText = null;
                     }
+
+                    hookLight.SetActive(hookLight.activeSelf ? false : true);
+
+                    interact.interact_name = "Lightswitch";
+                    interact.unknown = false;
 
                     break;
 

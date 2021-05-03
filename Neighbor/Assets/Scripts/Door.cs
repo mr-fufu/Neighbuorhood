@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
     public GameObject gotoLocation;
     public GameObject pointerArrow;
     public bool usePointer;
-    public string toLocationString;
+    public SurfaceType toLocationSurface;
 
     private void Start()
     {
@@ -26,6 +26,6 @@ public class Door : MonoBehaviour
     public void useDoor(GameController game_controller)
     {
         game_controller.movePlayerTo(gotoLocation);
-        game_controller.ChangeLocation(toLocationString);
+        game_controller.ChangeSurface(toLocationSurface);
     }
 }

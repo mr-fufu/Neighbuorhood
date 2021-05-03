@@ -60,7 +60,7 @@ public class AudioController : MonoBehaviour
         holdPlayers.Clear();
     }
 
-    public void PlaySingleClip(List<AudioClip> clips)
+    public void PlayMultipleClips(List<AudioClip> clips)
     {
         foreach (AudioClip clip in clips)
         {
@@ -70,6 +70,14 @@ public class AudioController : MonoBehaviour
             singleAudioPlayer.clip = clip;
             singleAudioPlayer.Play();
         }
+    }
+
+    public void PlaySingleClip(AudioClip clip)
+    {
+        GameObject newSingleAudioElement = Instantiate(singleAudioElement, singleAudioPlayers.transform);
+        AudioSource singleAudioPlayer = newSingleAudioElement.GetComponent<AudioSource>();
+        singleAudioPlayer.clip = clip;
+        singleAudioPlayer.Play();
     }
 
     public IEnumerator FadeOut(AudioSource fadeAudio, float fadeSpeed)

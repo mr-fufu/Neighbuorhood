@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[System.Serializable] public enum SurfaceType { EXTERIOR, HARDWOOD, FLOORBOARD, TILE, CEMENT, CARPET }
+
 public class GameController : MonoBehaviour
 {
     public AudioSource introSource;
@@ -68,15 +70,17 @@ public class GameController : MonoBehaviour
     private bool started;
     private bool checkInv = false;
     private bool changeReplace;
-    public string currentLocation;
+    public SurfaceType roomType;
 
     public List<Sprite> inspectSprite;
-
+    public List<AudioClip> inspectTrill;
+    private int inspectTrillCount = 0;
     private InventoryItem selectedItem;
+    private List<Interactable> disabledInteracts = new List<Interactable>();
 
     void Start()
     {
-        currentLocation = "outside";
+        roomType = SurfaceType.EXTERIOR;
         audioControl.ChangeClip(ambientOutside);
 
         introtxts = new TextMeshPro[3];
@@ -219,19 +223,7 @@ public class GameController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.I))
             {
-                if (inv_control.inv_count > 0)
-                {
-                    checkInv = !checkInv;
-
-                    inv_control.GetComponent<Inventory>().toggleInv();
-
-                    selectedItem = inv_control.getItem();
-
-                    if (!checkInv)
-                    {
-                        player_control.frozen = false;
-                    }
-                }
+                ShowInv();
             }
 
             if (checkInv)
@@ -259,36 +251,35 @@ public class GameController : MonoBehaviour
                     inv_control.removeItem();
                 }
             }
-        }
-
-        if (choosing)
-        {
-            if (Input.GetKeyDown(KeyCode.W))
+            else if (choosing)
             {
-                options[choose_count].GetComponent<choice>().deselect();
-
-                choose_count -= 1;
-
-                if (choose_count < 0)
+                if (Input.GetKeyDown(KeyCode.W))
                 {
-                    choose_count = interactables.Count - 1;
+                    options[choose_count].GetComponent<choice>().deselect();
+
+                    choose_count -= 1;
+
+                    if (choose_count < 0)
+                    {
+                        choose_count = interactables.Count - 1;
+                    }
+
+                    options[choose_count].GetComponent<choice>().select();
                 }
 
-                options[choose_count].GetComponent<choice>().select();
-            }
-
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                options[choose_count].GetComponent<choice>().deselect();
-
-                choose_count += 1;
-
-                if (choose_count >= interactables.Count)
+                if (Input.GetKeyDown(KeyCode.S))
                 {
-                    choose_count = 0;
-                }
+                    options[choose_count].GetComponent<choice>().deselect();
 
-                options[choose_count].GetComponent<choice>().select();
+                    choose_count += 1;
+
+                    if (choose_count >= interactables.Count)
+                    {
+                        choose_count = 0;
+                    }
+
+                    options[choose_count].GetComponent<choice>().select();
+                }
             }
         }
 
@@ -351,20 +342,21 @@ public class GameController : MonoBehaviour
                 else
                 {
                     Interactable interactWith = interactables[choose_count].GetComponent<Interactable>();
-                    interact_with(interactWith);
-                    text_control.ClearOptions();
-                    options.Clear();
-                    text_control.inspect_menu_object.SetActive(false);
-                    if (!interactWith.door)
+
+                    if ((interactWith.useInventory && !interactWith.observe && interactWith.interact) && !checkInv)
                     {
-                        player_control.frozen = false;
+                        ShowInv();
                     }
-                    else if (interactWith.locked)
+                    else
                     {
-                        player_control.frozen = false;
+                        InteractWith(interactWith);
                     }
-                    choosing = false;
                 }
+            }
+            else if (options.Count > 0)
+            {
+                ShowInv();
+                InteractWith(interactables[choose_count].GetComponent<Interactable>());
             }
         }
 
@@ -395,9 +387,43 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void interact_with(Interactable target)
+    void InteractWith(Interactable toInteractWith)
     {
-        selectedItem = inv_control.getItem();
+        UseInteractable(toInteractWith);
+        text_control.ClearOptions();
+        options.Clear();
+        text_control.inspect_menu_object.SetActive(false);
+        if (!toInteractWith.door)
+        {
+            player_control.frozen = false;
+        }
+        else if (toInteractWith.locked)
+        {
+            player_control.frozen = false;
+        }
+        choosing = false;
+    }
+
+    void ShowInv()
+    {
+        if (inv_control.invCount > 0)
+        {
+            checkInv = !checkInv;
+
+            inv_control.GetComponent<Inventory>().ToggleInv();
+
+            selectedItem = inv_control.GetItem();
+
+            if (!checkInv)
+            {
+                player_control.frozen = false;
+            }
+        }
+    }
+
+    void UseInteractable(Interactable target)
+    {
+        selectedItem = inv_control.GetItem();
 
         target.interaction(this, selectedItem != null ? selectedItem.itemName : null, story_control);
     }
@@ -409,7 +435,14 @@ public class GameController : MonoBehaviour
 
     public void Escape()
     {
-        if (choosing)
+        if (checkInv)
+        {
+            if (options.Count > 0)
+            {
+                ShowInv();
+            }
+        }
+        else if (choosing)
         {
             text_control.ClearOptions();
             options.Clear();
@@ -434,8 +467,6 @@ public class GameController : MonoBehaviour
         }
     }
 
-
-
     void nextIntro()
     {
         if (introCount < 3)
@@ -457,34 +488,34 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void ChangeLocation(string newLocation)
+    public void ChangeSurface(SurfaceType newSurface)
     {
-        if (currentLocation != newLocation)
+        if (roomType != newSurface)
         {
-            currentLocation = newLocation;
+            roomType = newSurface;
 
             List<AudioClip> newAudioMix = new List<AudioClip>();
 
-            switch (newLocation)
+            switch (newSurface)
             {
-                case "outside":
+                case SurfaceType.EXTERIOR:
                     newAudioMix.AddRange(ambientOutside);
                     break;
-                case "inside":
+                case SurfaceType.HARDWOOD:
                     newAudioMix.AddRange(drone);
                     newAudioMix.AddRange(ambientInside);
                     break;
-                case "parlour":
+                case SurfaceType.FLOORBOARD:
                     newAudioMix.AddRange(drone);
                     newAudioMix.AddRange(ambientInside);
                     newAudioMix.AddRange(staticClip);
                     break;
-                case "kitchen":
+                case SurfaceType.TILE:
                     newAudioMix.AddRange(drone);
                     //newAudioMix.AddRange(ambientInside);
                     newAudioMix.AddRange(kitchen);
                     break;
-                case "basement":
+                case SurfaceType.CEMENT:
                     newAudioMix.AddRange(drone);
                     //newAudioMix.AddRange(ambientInside);
                     newAudioMix.AddRange(metal);
@@ -498,7 +529,31 @@ public class GameController : MonoBehaviour
 
     public void PlayClip(List<AudioClip> play)
     {
-        audioControl.PlaySingleClip(play);
+        audioControl.PlayMultipleClips(play);
+    }
+
+    public void AddDisabledInteract(Interactable interactToAdd)
+    {
+        disabledInteracts.Add(interactToAdd);
+        interactToAdd.enabled = false;
+    }
+
+    public void ReEnableInteracts()
+    {
+        foreach (Interactable interactToReEnable in disabledInteracts)
+        {
+            interactToReEnable.enabled = true;
+        }
+    }
+
+    public void PlayTrill()
+    {
+        audioControl.PlaySingleClip(inspectTrill[inspectTrillCount]);
+        inspectTrillCount++;
+        if (inspectTrillCount >= inspectTrill.Count)
+        {
+            inspectTrillCount = 0;
+        }
     }
 
     public IEnumerator FadeOut()

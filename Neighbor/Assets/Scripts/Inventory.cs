@@ -14,10 +14,10 @@ public class Inventory : MonoBehaviour
 
     private float slide;
 
-    public int con_index = 0;
-    public int inv_index = 0;
+    private int conIndex = 0;
+    private int invIndex = 0;
 
-    public int inv_count = 0;
+    public int invCount = 0;
 
     public bool inventory_visible;
     public bool inventory_hold;
@@ -36,15 +36,16 @@ public class Inventory : MonoBehaviour
 
     void Update()
     {
-        if (container[con_index].transform.childCount > 0)
+        if (container[conIndex].transform.childCount > 0)
         {
             if (!transit)
             {
-                selector.transform.position = container[con_index].transform.GetChild(inv_index).position;
+                selector.transform.position = container[conIndex].transform.GetChild(invIndex).position;
+                //equipped.transform.position = container[equipConIndex].transform.GetChild(equipInvIndex).position;
             }
             else
             {
-                if (container[con_index].GetComponent<Container>().hold == false)
+                if (container[conIndex].GetComponent<Container>().hold == false)
                 {
                     transit = false;
                 }
@@ -80,22 +81,22 @@ public class Inventory : MonoBehaviour
 
     public void inv_move(int v, int h)
     {
-        int totalItems = container[con_index].GetComponent<Container>().no_items;
+        int totalItems = container[conIndex].GetComponent<Container>().no_items;
 
         if (h != 0)
         {
-            if (totalItems % 2 == 1 && inv_index == totalItems - 1)
+            if (totalItems % 2 == 1 && invIndex == totalItems - 1)
             {
                 if (h > 0)
                 {
-                    if (con_index < container.Count - 1)
+                    if (conIndex < container.Count - 1)
                     {
                         con_Move(true);
                     }
                 }
                 else
                 {
-                    if (con_index > 0)
+                    if (conIndex > 0)
                     {
                         con_Move(false);
                     }
@@ -103,15 +104,15 @@ public class Inventory : MonoBehaviour
             }
             else
             {
-                if (inv_index % 2 == 0)
+                if (invIndex % 2 == 0)
                 {
                     if (h > 0)
                     {
-                        inv_index += h;
+                        invIndex += h;
                     }
                     else
                     {
-                        if (con_index > 0)
+                        if (conIndex > 0)
                         {
                             con_Move(false);
                         }
@@ -121,11 +122,11 @@ public class Inventory : MonoBehaviour
                 {
                     if (h < 0)
                     {
-                        inv_index += -Mathf.Abs(h);
+                        invIndex += -Mathf.Abs(h);
                     }
                     else
                     {
-                        if (con_index < container.Count - 1)
+                        if (conIndex < container.Count - 1)
                         {
                             con_Move(true);
                         }
@@ -137,19 +138,19 @@ public class Inventory : MonoBehaviour
         {
 
 
-            int adjust = (inv_index % 2 == 0 ? 1 : -1);
+            int adjust = (invIndex % 2 == 0 ? 1 : -1);
 
-            if (v < 0 && inv_index < 2)
+            if (v < 0 && invIndex < 2)
             { 
-                inv_index += (totalItems + (totalItems % 2 * adjust)) + 2 * v;
+                invIndex += (totalItems + (totalItems % 2 * adjust)) + 2 * v;
             }
-            else if (v > 0 && inv_index > container[con_index].GetComponent<Container>().no_items - 3)
+            else if (v > 0 && invIndex > container[conIndex].GetComponent<Container>().no_items - 3)
             {
-                inv_index += -(totalItems + (totalItems % 2 * adjust)) + 2 * v;
+                invIndex += -(totalItems + (totalItems % 2 * adjust)) + 2 * v;
             }
             else
             {
-                inv_index += 2 * v;
+                invIndex += 2 * v;
             }
         }
     }
@@ -162,56 +163,56 @@ public class Inventory : MonoBehaviour
 
             if (next)
             {
-                container[con_index].GetComponent<Container>().destination = -40.0f;
-                container[con_index].GetComponent<Container>().show = false;
+                container[conIndex].GetComponent<Container>().destination = -40.0f;
+                container[conIndex].GetComponent<Container>().show = false;
 
-                if (con_index == container.Count - 2)
+                if (conIndex == container.Count - 2)
                 {
-                    if (inv_index >= inv_count)
+                    if (invIndex >= invCount)
                     {
-                        inv_index = inv_count - 1;
+                        invIndex = invCount - 1;
                     }
                 }
 
-                if (con_index < container.Count)
+                if (conIndex < container.Count)
                 {
-                    container[con_index + 1].gameObject.transform.localPosition = new Vector2(40, container[con_index + 1].gameObject.transform.localPosition.y);
-                    container[con_index + 1].GetComponent<Container>().destination = 0.0f;
-                    container[con_index + 1].GetComponent<Container>().show = true;
-                    con_index += 1;
+                    container[conIndex + 1].gameObject.transform.localPosition = new Vector2(40, container[conIndex + 1].gameObject.transform.localPosition.y);
+                    container[conIndex + 1].GetComponent<Container>().destination = 0.0f;
+                    container[conIndex + 1].GetComponent<Container>().show = true;
+                    conIndex += 1;
                 }
                 else
                 {
                     container[0].gameObject.transform.localPosition = new Vector2(40, container[0].gameObject.transform.localPosition.y);
                     container[0].GetComponent<Container>().destination = 0.0f;
                     container[0].GetComponent<Container>().show = true;
-                    con_index = 0;
+                    conIndex = 0;
                 }
             }
             else
             {
-                container[con_index].GetComponent<Container>().destination = 40.0f;
-                container[con_index].GetComponent<Container>().show = false;
+                container[conIndex].GetComponent<Container>().destination = 40.0f;
+                container[conIndex].GetComponent<Container>().show = false;
 
-                if (con_index == 0)
+                if (conIndex == 0)
                 {
                     container[container.Count - 1].gameObject.transform.localPosition = new Vector2(-40, container[container.Count - 1].gameObject.transform.localPosition.y);
                     container[container.Count - 1].GetComponent<Container>().destination = 0.0f;
                     container[container.Count - 1].GetComponent<Container>().show = true;
-                    con_index = container.Count - 1;
+                    conIndex = container.Count - 1;
                 }
                 else
                 {
-                    container[con_index - 1].gameObject.transform.localPosition = new Vector2(-40, container[con_index - 1].gameObject.transform.localPosition.y);
-                    container[con_index - 1].GetComponent<Container>().destination = 0.0f;
-                    container[con_index - 1].GetComponent<Container>().show = true;
-                    con_index -= 1;
+                    container[conIndex - 1].gameObject.transform.localPosition = new Vector2(-40, container[conIndex - 1].gameObject.transform.localPosition.y);
+                    container[conIndex - 1].GetComponent<Container>().destination = 0.0f;
+                    container[conIndex - 1].GetComponent<Container>().show = true;
+                    conIndex -= 1;
                 }
             }
         }
     }
 
-    public void toggleInv()
+    public void ToggleInv()
     {
         if (inv_transition == false)
         {
@@ -227,16 +228,17 @@ public class Inventory : MonoBehaviour
 
     public void addItem(GameObject new_inv)
     {
-        if (inv_count < 8)
+        if (invCount < 8)
         {
             GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
             container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
-            inv_count++;
+            invCount++;
+            new_item.GetComponent<SpriteRenderer>().sortingOrder = 5010;
         }
         else
         {
-            GameObject new_cont = Instantiate(container_template, transform);
+            GameObject new_cont = Instantiate(container_template, transform); 
             new_cont.GetComponent<Container>().show = false;
             new_cont.GetComponent<Container>().destination = 0.0f;
             new_cont.transform.localPosition = new Vector2(20, 0);
@@ -244,31 +246,32 @@ public class Inventory : MonoBehaviour
             GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
             container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
-            inv_count = 1;
+            invCount = 1;
+            new_item.GetComponent<SpriteRenderer>().sortingOrder = 5010;
         }
     }
 
     public void removeItem()
     {
-        inv_count--;
+        invCount--;
 
-        container[con_index].GetComponent<Container>().remove_item(inv_index);
-        Destroy(container[con_index].transform.GetChild(inv_index).gameObject);
+        container[conIndex].GetComponent<Container>().remove_item(invIndex);
+        Destroy(container[conIndex].transform.GetChild(invIndex).gameObject);
 
-        if (con_index < container.Count)
+        if (conIndex < container.Count)
         {
-            for (int con_no = con_index; con_no < container.Count; con_no++)
+            for (int con_no = conIndex; con_no < container.Count; con_no++)
             {
-                container[con_index + 1].transform.GetChild(0).SetParent(container[con_index].transform);
+                container[conIndex + 1].transform.GetChild(0).SetParent(container[conIndex].transform);
             }
         }
     }
 
-    public InventoryItem getItem()
+    public InventoryItem GetItem()
     {
-        if (inv_count > 0)
+        if (invCount > 0)
         {
-            return container[con_index].transform.GetChild(inv_index).GetComponent<InventoryItem>();
+            return container[conIndex].transform.GetChild(invIndex).GetComponent<InventoryItem>();
         }
         else
         {

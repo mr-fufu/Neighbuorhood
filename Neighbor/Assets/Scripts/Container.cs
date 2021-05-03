@@ -9,6 +9,7 @@ public class Container : MonoBehaviour
 
     public float alpha;
     public List<SpriteRenderer> sprite;
+    private SpriteRenderer selfSprite;
 
     public float destination = 0.0f;
     public float slide = 0.0f;
@@ -17,7 +18,7 @@ public class Container : MonoBehaviour
 
     void Start()
     {
-        //transform.localPosition = new Vector2(20.0f, transform.localPosition.y);
+        selfSprite = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -26,6 +27,8 @@ public class Container : MonoBehaviour
         {
             sprite[c].color = new Vector4(1, 1, 1, alpha);
         }
+
+        selfSprite.color = new Vector4(1, 1, 1, alpha);
 
         if (show != hold)
         {

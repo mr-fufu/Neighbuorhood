@@ -29,6 +29,12 @@ TextureImporter:
   - first:
       213: -1880540871901842358
     second: InteractIcons_4
+  - first:
+      213: -5856660953962803557
+    second: InteractIcons_4
+  - first:
+      213: -2483586788863884992
+    second: InteractIcons_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -214,8 +220,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44ffa06a0af6e5e0800000000000000
-      internalID: -1880540871901842358
+      spriteID: b9e852d64e5f8bea0800000000000000
+      internalID: -5856660953962803557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InteractIcons_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414ae069f6888dd0800000000000000
+      internalID: -2483586788863884992
       vertices: []
       indices: 
       edges: []

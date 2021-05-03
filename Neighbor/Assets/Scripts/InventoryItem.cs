@@ -6,4 +6,5 @@ public class InventoryItem : MonoBehaviour
 {
     public string itemName;
     public string description;
+    public List<AudioClip> pickupSound;
 }
