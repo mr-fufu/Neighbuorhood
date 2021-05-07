@@ -5,6 +5,8 @@ using UnityEngine.Tilemaps;
 
 public class StoryController : MonoBehaviour
 {
+    public GameController game;
+
     public Tilemap overlayRaised2Map;
     public Tilemap colliderWallMap;
     public Tilemap objectsMap;
@@ -47,6 +49,9 @@ public class StoryController : MonoBehaviour
     public GameObject lightInteracts;
 
     public SpriteRenderer mail;
+
+    public List<Sprite> testSlides;
+    public List<float> testSlideTimings;
 
     // Start is called before the first frame update
     void Start()
@@ -169,6 +174,13 @@ public class StoryController : MonoBehaviour
                     interact.interact_name = "Mail";
 
                     break;
+
+                case "TestSlides":
+
+                    game.slideControl.ShowSlides(testSlides, testSlideTimings);
+
+                    break;
+
 
                 default:
                     break;

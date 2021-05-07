@@ -11,8 +11,8 @@ public class FadeController : MonoBehaviour
     public bool pingpong;
 
     private Vector4 init_color;
-    private float alpha;
-    [System.NonSerialized] public bool hold_transparency;
+    [System.NonSerialized] public float alpha;
+    [System.NonSerialized] public bool hold_opaque;
     private SpriteRenderer sprite;
     private TextMeshProUGUI text_comp;
     private TextMeshPro text_comp_alt;
@@ -75,7 +75,7 @@ public class FadeController : MonoBehaviour
 
     void Update()
     {
-        if (opaque != hold_transparency)
+        if (opaque != hold_opaque)
         {
             if (opaque)
             {
@@ -86,7 +86,7 @@ public class FadeController : MonoBehaviour
                 else
                 {
                     alpha = 1f;
-                    hold_transparency = opaque;
+                    hold_opaque = opaque;
                 }
             }
             else
@@ -98,7 +98,7 @@ public class FadeController : MonoBehaviour
                 else
                 {
                     alpha = 0f;
-                    hold_transparency = opaque;
+                    hold_opaque = opaque;
                 }
             }
             if (text)
