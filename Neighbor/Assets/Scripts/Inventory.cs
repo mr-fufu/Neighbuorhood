@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public GameObject container_template;
     public List<GameObject> container = new List<GameObject>();
+    public List<GameObject> startingItems;
 
     public GameObject selector;
 
@@ -32,6 +33,11 @@ public class Inventory : MonoBehaviour
         init_cont.GetComponent<Container>().alpha = 1.0f;
         init_cont.GetComponent<Container>().show = true;
         container.Add(init_cont);
+
+        foreach (GameObject startItem in startingItems)
+        {
+            addItem(startItem);
+        }
     }
 
     void Update()
@@ -226,12 +232,12 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void addItem(GameObject new_inv)
+    public void addItem(GameObject itemToAdd)
     {
         if (invCount < 8)
         {
-            GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
-            container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
+            GameObject new_item = GameObject.Instantiate(itemToAdd, container[container.Count - 1].transform);
+            container[container.Count - 1].GetComponent<Container>().addToContainer(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
             invCount++;
             new_item.GetComponent<SpriteRenderer>().sortingOrder = 5010;
@@ -243,26 +249,62 @@ public class Inventory : MonoBehaviour
             new_cont.GetComponent<Container>().destination = 0.0f;
             new_cont.transform.localPosition = new Vector2(20, 0);
             container.Add(new_cont);
-            GameObject new_item = GameObject.Instantiate(new_inv, container[container.Count - 1].transform);
-            container[container.Count - 1].GetComponent<Container>().add_item(new_item.GetComponent<SpriteRenderer>());
+            GameObject new_item = GameObject.Instantiate(itemToAdd, container[container.Count - 1].transform);
+            container[container.Count - 1].GetComponent<Container>().addToContainer(new_item.GetComponent<SpriteRenderer>());
             new_item.SetActive(true);
             invCount = 1;
             new_item.GetComponent<SpriteRenderer>().sortingOrder = 5010;
         }
     }
 
-    public void removeItem()
+    public void RemoveItem()
     {
         invCount--;
 
-        container[conIndex].GetComponent<Container>().remove_item(invIndex);
+        container[conIndex].GetComponent<Container>().removeFromContainer(invIndex);
         Destroy(container[conIndex].transform.GetChild(invIndex).gameObject);
 
-        if (conIndex < container.Count)
+        if (conIndex < container.Count - 1)
         {
             for (int con_no = conIndex; con_no < container.Count; con_no++)
             {
                 container[conIndex + 1].transform.GetChild(0).SetParent(container[conIndex].transform);
+            }
+        }
+    }
+
+    public void RemoveItemByIndex(int removeConIndex, int removeInvIndex)
+    {
+        invCount--;
+
+        container[removeConIndex].GetComponent<Container>().removeFromContainer(removeInvIndex);
+        Destroy(container[removeConIndex].transform.GetChild(removeInvIndex).gameObject);
+
+        if (removeConIndex < container.Count)
+        {
+            for (int con_no = removeConIndex; con_no < container.Count; con_no++)
+            {
+                container[removeConIndex + 1].transform.GetChild(0).SetParent(container[removeConIndex].transform);
+            }
+        }
+    }
+
+    public void RemoveSpecificItem(Sprite itemToRemove)
+    {
+        int spriteConIndex = 0;
+
+        foreach (GameObject searchCon in container)
+        {
+            int spriteInvIndex = searchCon.GetComponent<Container>().searchContainer(itemToRemove);
+
+            if (spriteInvIndex != 9)
+            {
+                RemoveItemByIndex(spriteConIndex, spriteInvIndex);
+                break;
+            }
+            else
+            {
+                spriteConIndex++;
             }
         }
     }
@@ -272,6 +314,19 @@ public class Inventory : MonoBehaviour
         if (invCount > 0)
         {
             return container[conIndex].transform.GetChild(invIndex).GetComponent<InventoryItem>();
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    public Interactable GetItemInteract()
+    {
+        Interactable returnInteract = container[conIndex].transform.GetChild(invIndex).GetComponent<Interactable>();
+        if (returnInteract != null)
+        {
+            return returnInteract;
         }
         else
         {

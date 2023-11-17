@@ -78,6 +78,7 @@ public class GameController : MonoBehaviour
     private int inspectTrillCount = 0;
     private InventoryItem selectedItem;
     private List<Interactable> disabledInteracts = new List<Interactable>();
+    private float inspectDelay = 0;
 
     void Start()
     {
@@ -109,6 +110,15 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+        if (inspectDelay > 0)
+        {
+            inspectDelay -= Time.deltaTime;
+        }
+        else if (inspectDelay < 0)
+        {
+            inspectDelay = 0;
+        }
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             introducing = false;
@@ -247,9 +257,17 @@ public class GameController : MonoBehaviour
                 {
                     inv_control.inv_move(0, 1);
                 }
-                else if (Input.GetKeyDown(KeyCode.E))
+                else if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    inv_control.removeItem();
+                    if (!text_control.inspected && inspectDelay == 0)
+                    {
+                        InteractWith(inv_control.GetItemInteract());
+                        inspectDelay = 2;
+                    }
+                    else
+                    {
+                        text_control.ClearText();
+                    }
                 }
             }
             else if (choosing)
@@ -425,7 +443,6 @@ public class GameController : MonoBehaviour
     void UseInteractable(Interactable target)
     {
         selectedItem = inv_control.GetItem();
-
         target.interaction(this, selectedItem != null ? selectedItem.itemName : null, story_control);
     }
 

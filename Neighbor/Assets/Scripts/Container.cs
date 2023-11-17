@@ -65,14 +65,33 @@ public class Container : MonoBehaviour
         }
     }
 
-    public void add_item(SpriteRenderer new_sprite)
+    public void addToContainer(SpriteRenderer newSprite)
     {
-        sprite.Add(new_sprite);
-        new_sprite.color = new Vector4(1, 1, 1, 0);
+        sprite.Add(newSprite);
+        newSprite.color = new Vector4(1, 1, 1, 0);
         no_items++;
     }
 
-    public void remove_item(int sprite_no)
+    public int searchContainer(Sprite spriteToFind)
+    {
+        int returnCount = 0;
+
+        foreach (SpriteRenderer searchSprite in sprite)
+        {
+            if (searchSprite.sprite == spriteToFind)
+            {
+                return returnCount;
+            }
+            else
+            {
+                returnCount++;
+            }
+        }
+
+        return 9;
+    }
+
+    public void removeFromContainer(int sprite_no)
     {
         sprite.Remove(sprite[sprite_no]);
         no_items--;

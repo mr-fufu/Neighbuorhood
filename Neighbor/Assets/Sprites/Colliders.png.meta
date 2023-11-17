@@ -129,7 +129,7 @@ TextureImporter:
       213: -8138507364972739302
     second: Colliders_41
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -149,6 +149,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,8 +160,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -180,9 +182,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -206,6 +213,30 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1400,6 +1431,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Colliders_6: 6169491525721128523
+      Colliders_17: -8274342752481388069
+      Colliders_27: 8883999903890244697
+      Colliders_30: -1722013067426661037
+      Colliders_15: -6823389407258336377
+      Colliders_28: 2451139038679346753
+      Colliders_29: 4884257000084244567
+      Colliders_39: -4280725941244965817
+      Colliders_21: 3417086898812737283
+      Colliders_36: -7209725081138651250
+      Colliders_3: -5846336021162957768
+      Colliders_4: 10248536075019755
+      Colliders_24: -2444454670929770278
+      Colliders_32: 4848102247999839298
+      Colliders_20: -3808732530741798692
+      Colliders_25: -6950881908203665202
+      Colliders_8: 4310399807152440183
+      Colliders_12: 7303329145814027104
+      Colliders_33: 5457934494093628946
+      Colliders_0: -1971080673108410000
+      Colliders_11: -4637113678207938614
+      Colliders_1: 6809849591939375409
+      Colliders_2: -5615338916619508377
+      Colliders_9: 3975768078710409870
+      Colliders_14: -8785521301136659718
+      Colliders_7: -5777048578884904559
+      Colliders_16: -4649772780898788069
+      Colliders_37: 4857521149367069695
+      Colliders_22: -3997941853565577814
+      Colliders_35: 8670395298086572442
+      Colliders_38: -572659245855398538
+      Colliders_10: 5675765544355556042
+      Colliders_31: -6484544543071910775
+      Colliders_34: -4106772287379693509
+      Colliders_26: 1250926501180446013
+      Colliders_41: -8138507364972739302
+      Colliders_40: -6758655720103566895
+      Colliders_18: 1967455260373253677
+      Colliders_23: 2838142131796249852
+      Colliders_19: -8704132741759107988
+      Colliders_5: 186400054831245705
+      Colliders_13: -6549958333518124991
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

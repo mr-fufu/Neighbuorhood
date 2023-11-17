@@ -52,6 +52,7 @@ public class StoryController : MonoBehaviour
 
     public List<Sprite> testSlides;
     public List<float> testSlideTimings;
+    public List<GameObject> packageGameobjects;
 
     // Start is called before the first frame update
     void Start()
@@ -181,6 +182,15 @@ public class StoryController : MonoBehaviour
 
                     break;
 
+                case "OpenPackage":
+
+                    game.inv_control.RemoveItem();
+                    foreach (GameObject packageItem in packageGameobjects)
+                    {
+                        game.inv_control.addItem(packageItem);
+                    }
+
+                    break;
 
                 default:
                     break;

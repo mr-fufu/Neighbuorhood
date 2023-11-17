@@ -69,7 +69,7 @@ TextureImporter:
       213: 6556070937752636505
     second: Tile_Porcelain_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -99,8 +100,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -121,11 +122,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -149,6 +153,30 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -626,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tile_Porcelain_6: -5244859147635681493
+      Tile_Porcelain_14: 7550548684862792671
+      Tile_Porcelain_7: -6390854119257349759
+      Tile_Porcelain_8: -1037450358395278006
+      Tile_Porcelain_18: -9186475255409712241
+      Tile_Porcelain_2: -2550867056892795744
+      Tile_Porcelain_0: 9199620744981365721
+      Tile_Porcelain_11: -5253208688002472701
+      Tile_Porcelain_19: 7878558522012692828
+      Tile_Porcelain_13: 7035610111861965327
+      Tile_Porcelain_10: -6235164789591324004
+      Tile_Porcelain_4: 8038150762468398506
+      Tile_Porcelain_5: 8224348743720958418
+      Tile_Porcelain_21: 6556070937752636505
+      Tile_Porcelain_3: 1279073522000495816
+      Tile_Porcelain_16: -6659543845909472295
+      Tile_Porcelain_20: -8577994521844010897
+      Tile_Porcelain_9: -1059091326747455603
+      Tile_Porcelain_1: -9126304365412131363
+      Tile_Porcelain_12: 7503586058773414777
+      Tile_Porcelain_15: -9060186216121144534
+      Tile_Porcelain_17: 2062689828508316917
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
