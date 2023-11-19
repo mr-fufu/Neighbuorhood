@@ -34,6 +34,8 @@ public class Interactable : MonoBehaviour
     {
         if (interactItem.Count > 0)
         {
+            interactItemNames = new List<string>(interactItem.Count);
+
             for (int i = 0; i < interactItem.Count; i++)
             {
                 interactItemNames.Add(interactItem[i] != null ? interactItem[i].itemName : null);
@@ -73,8 +75,12 @@ public class Interactable : MonoBehaviour
         }
         else if (interact)
         {
+            //Debug.Log("Interact triggered on " + this.name);
+
             if (interactItemNames.Count == 0 || interactItemNames.Contains(itemToInteract))
             {
+                //Debug.Log("Used " + itemToInteract + " on " + this.name);
+
                 if (playAudio)
                 {
                     //Debug.Log("played audio clip : " + audioToPlay[0].name);
@@ -91,6 +97,11 @@ public class Interactable : MonoBehaviour
                 if (interactItemNames.Count > 0)
                 {
                     gameController.text_control.ShowText(nonMatchText);
+
+                    if (locked && playAudio)
+                    {
+                        gameController.PlayClip(altAudio);
+                    }
                 }
             }
         }

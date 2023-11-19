@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
@@ -25,6 +26,12 @@ public class Inventory : MonoBehaviour
     private bool inv_transition;
     public bool transit;
 
+    public SpriteRenderer leftArrow;
+    public SpriteRenderer rightArrow;
+    public Transform arrowContainer;
+
+    public TextMeshProUGUI itemName;
+
     void Start()
     {
         //gameObject.transform.localPosition = new Vector2((Screen.width / 2) + 20.0f, 0);
@@ -34,10 +41,13 @@ public class Inventory : MonoBehaviour
         init_cont.GetComponent<Container>().show = true;
         container.Add(init_cont);
 
+
         foreach (GameObject startItem in startingItems)
         {
             addItem(startItem);
         }
+
+        UpdateItemName();
     }
 
     void Update()
@@ -72,6 +82,9 @@ public class Inventory : MonoBehaviour
             }
 
             slide += 0.5f * Time.deltaTime;
+
+            arrowContainer.position = transform.position;
+            //Debug.Log(arrowContainer.position + "&" + transform.position);
 
             if (slide >= 1.0f)
             {
@@ -159,6 +172,8 @@ public class Inventory : MonoBehaviour
                 invIndex += 2 * v;
             }
         }
+
+        UpdateItemName();
     }
 
     public void con_Move(bool next)
@@ -215,6 +230,37 @@ public class Inventory : MonoBehaviour
                     conIndex -= 1;
                 }
             }
+
+            UpdateArrows();
+        }
+
+        UpdateItemName();
+    }
+
+    public void UpdateArrows()
+    {
+        if (container.Count > 1)
+        {
+            if (conIndex == 0)
+            {
+                rightArrow.color = new Vector4(1, 1, 1, 1);
+                leftArrow.color = new Vector4(1, 1, 1, 0);
+            }
+            else if (conIndex == container.Count - 1)
+            {
+                rightArrow.color = new Vector4(1, 1, 1, 0);
+                leftArrow.color = new Vector4(1, 1, 1, 1);
+            }
+            else
+            {
+                rightArrow.color = new Vector4(1, 1, 1, 1);
+                leftArrow.color = new Vector4(1, 1, 1, 1);
+            }
+        }
+        else
+        {
+            rightArrow.color = new Vector4(1, 1, 1, 0);
+            leftArrow.color = new Vector4(1, 1, 1, 0);
         }
     }
 
@@ -230,6 +276,8 @@ public class Inventory : MonoBehaviour
             inventory_hold = !inventory_hold;
             slide = 1.0f - slide;
         }
+
+        UpdateArrows();
     }
 
     public void addItem(GameObject itemToAdd)
@@ -255,6 +303,8 @@ public class Inventory : MonoBehaviour
             invCount = 1;
             new_item.GetComponent<SpriteRenderer>().sortingOrder = 5010;
         }
+
+        UpdateItemName();
     }
 
     public void RemoveItem()
@@ -271,6 +321,8 @@ public class Inventory : MonoBehaviour
                 container[conIndex + 1].transform.GetChild(0).SetParent(container[conIndex].transform);
             }
         }
+
+        UpdateItemName();
     }
 
     public void RemoveItemByIndex(int removeConIndex, int removeInvIndex)
@@ -287,6 +339,8 @@ public class Inventory : MonoBehaviour
                 container[removeConIndex + 1].transform.GetChild(0).SetParent(container[removeConIndex].transform);
             }
         }
+
+        UpdateItemName();
     }
 
     public void RemoveSpecificItem(Sprite itemToRemove)
@@ -307,6 +361,8 @@ public class Inventory : MonoBehaviour
                 spriteConIndex++;
             }
         }
+
+        UpdateItemName();
     }
 
     public InventoryItem GetItem()
@@ -331,6 +387,19 @@ public class Inventory : MonoBehaviour
         else
         {
             return null;
+        }
+    }
+
+    public void UpdateItemName()
+    {
+        if (GetItem() != null)
+        {
+            itemName.text = GetItem().itemName;
+        }
+
+        else
+        {
+            itemName.text = "";
         }
     }
 }

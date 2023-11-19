@@ -18,7 +18,7 @@ public class Container : MonoBehaviour
 
     void Start()
     {
-        selfSprite = GetComponent<SpriteRenderer>();
+        selfSprite = GetComponent<SpriteRenderer>(); 
     }
 
     void Update()

@@ -79,6 +79,7 @@ public class GameController : MonoBehaviour
     private InventoryItem selectedItem;
     private List<Interactable> disabledInteracts = new List<Interactable>();
     private float inspectDelay = 0;
+    private bool useItem = false;
 
     void Start()
     {
@@ -259,14 +260,17 @@ public class GameController : MonoBehaviour
                 }
                 else if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    if (!text_control.inspected && inspectDelay == 0)
+                    if (!useItem)
                     {
-                        InteractWith(inv_control.GetItemInteract());
-                        inspectDelay = 2;
-                    }
-                    else
-                    {
-                        text_control.ClearText();
+                        if (!text_control.inspected && inspectDelay == 0)
+                        {
+                            InteractWith(inv_control.GetItemInteract(), false);
+                            inspectDelay = 2;
+                        }
+                        else
+                        {
+                            text_control.ClearText();
+                        }
                     }
                 }
             }
@@ -330,9 +334,11 @@ public class GameController : MonoBehaviour
 
                             }
                             /*
+                             * interact with item immediately without using the menu if it is the only item within range
+                             * disabled because it felt janky and weird, having the menu consistently pop up feels more natural
                             else if (interactables.Count == 1)
                             {
-                                interact_with(interactables[0].GetComponent<Interactable>());
+                                interact_with(interactables[0].GetCom ponent<Interactable>());
                             }
                             */
                             else
@@ -365,17 +371,20 @@ public class GameController : MonoBehaviour
                     if ((interactWith.useInventory && !interactWith.observe && interactWith.interact) && !checkInv)
                     {
                         ShowInv();
+                        useItem = true;
                     }
                     else
                     {
-                        InteractWith(interactWith);
+                        InteractWith(interactWith, false);
                     }
                 }
             }
-            else if (options.Count > 0)
+            else if (useItem) //if (options.Count > 0)
             {
                 ShowInv();
-                InteractWith(interactables[choose_count].GetComponent<Interactable>());
+                Debug.Log(interactables[choose_count].GetComponent<Interactable>());
+                InteractWith(interactables[choose_count].GetComponent<Interactable>(), true);
+                useItem = false;
             }
         }
 
@@ -406,9 +415,9 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void InteractWith(Interactable toInteractWith)
+    void InteractWith(Interactable toInteractWith, bool item)
     {
-        UseInteractable(toInteractWith);
+        UseInteractable(toInteractWith, item);
         text_control.ClearOptions();
         options.Clear();
         text_control.inspect_menu_object.SetActive(false);
@@ -440,10 +449,23 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void UseInteractable(Interactable target)
+    void UseInteractable(Interactable target, bool item)
     {
         selectedItem = inv_control.GetItem();
-        target.interaction(this, selectedItem != null ? selectedItem.itemName : null, story_control);
+        string selectedItemName = null;
+
+        if (item)
+        {
+            selectedItemName = selectedItem != null ? selectedItem.itemName : null;
+            Debug.Log("Used " + selectedItemName + " item on " + target.name);
+        }
+
+        else
+        {
+            Debug.Log("Interacted with " + target.name);
+        }
+
+        target.interaction(this, selectedItemName, story_control);
     }
 
     public void ExitGame()
