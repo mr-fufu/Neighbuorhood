@@ -272,6 +272,8 @@ public class GameController : MonoBehaviour
                             text_control.ClearText();
                         }
                     }
+
+                    //inv_control.UpdateItemName();
                 }
             }
             else if (choosing)
@@ -382,10 +384,13 @@ public class GameController : MonoBehaviour
             else if (useItem) //if (options.Count > 0)
             {
                 ShowInv();
-                Debug.Log(interactables[choose_count].GetComponent<Interactable>());
+                //Debug.Log(interactables[choose_count].GetComponent<Interactable>());
                 InteractWith(interactables[choose_count].GetComponent<Interactable>(), true);
+
                 useItem = false;
             }
+
+            //inv_control.UpdateItemName();
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -447,6 +452,8 @@ public class GameController : MonoBehaviour
                 player_control.frozen = false;
             }
         }
+
+        //inv_control.UpdateItemName();
     }
 
     void UseInteractable(Interactable target, bool item)
@@ -466,6 +473,8 @@ public class GameController : MonoBehaviour
         }
 
         target.interaction(this, selectedItemName, story_control);
+
+        //inv_control.UpdateItemName();
     }
 
     public void ExitGame()

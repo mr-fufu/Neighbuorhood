@@ -1598,6 +1598,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_55
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4176becea5c92324c894393b2ac44f47
+      internalID: -359424928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_56
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6bff4ed5db9fa4d8f8886616d3af1c
+      internalID: -1130664143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Ceramic_57
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25adb96de67fc4543bc3f17b67c31e0b
+      internalID: -1322033171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1637,6 +1700,8 @@ TextureImporter:
       Furniture_Ceramic_0: -5792080629699822695
       Furniture_Ceramic_10: -4721780799107436457
       Furniture_Ceramic_15: 3937863445950041620
+      Furniture_Ceramic_57: -1322033171
+      Furniture_Ceramic_55: -359424928
       Furniture_Ceramic_20: 2957714011702447051
       Furniture_Ceramic_8: 3534570104127012629
       Furniture_Ceramic_12: -2740442645185713767
@@ -1652,6 +1717,7 @@ TextureImporter:
       Furniture_Ceramic_26: -7528314976904152992
       Furniture_Ceramic_40: 1092425304470909022
       Furniture_Ceramic_32: 4881648498574501941
+      Furniture_Ceramic_56: -1130664143
       Furniture_Ceramic_1: 5150109875717014790
       Furniture_Ceramic_11: -2993829086245400832
       Furniture_Ceramic_37: 4177256669020380397

@@ -326,11 +326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickup: 0
   removeOnPickup: 0
-  observe: 1
+  observe: 0
   interact: 1
   door: 0
   locked: 0
-  playAudio: 0
+  playAudio: 1
   unknown: 0
   inventoryItem: {fileID: 0}
   interactItem: []
@@ -340,7 +340,8 @@ MonoBehaviour:
   inspect_text: {fileID: 3683560173016357429}
   interactText: {fileID: 6975391755176467462}
   nonMatchText: 
-  audioToPlay: []
+  audioToPlay:
+  - {fileID: 8300000, guid: 46abecf458ac5254895bd711b95f944c, type: 3}
   altAudio: []
   additionalInspectText:
   - {fileID: 6195292662186332492}

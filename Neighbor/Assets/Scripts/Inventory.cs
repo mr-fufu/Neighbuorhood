@@ -31,6 +31,8 @@ public class Inventory : MonoBehaviour
     public Transform arrowContainer;
 
     public TextMeshProUGUI itemName;
+    public TextController textCon;
+    public SpriteRenderer itemInteractIcon;
 
     void Start()
     {
@@ -41,17 +43,21 @@ public class Inventory : MonoBehaviour
         init_cont.GetComponent<Container>().show = true;
         container.Add(init_cont);
 
-
         foreach (GameObject startItem in startingItems)
         {
             addItem(startItem);
         }
 
-        UpdateItemName();
+        //UpdateItemName();
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Debug.Log(GetItem().itemName);
+        }
+
         if (container[conIndex].transform.childCount > 0)
         {
             if (!transit)
@@ -278,6 +284,7 @@ public class Inventory : MonoBehaviour
         }
 
         UpdateArrows();
+        UpdateItemName();
     }
 
     public void addItem(GameObject itemToAdd)
@@ -367,8 +374,11 @@ public class Inventory : MonoBehaviour
 
     public InventoryItem GetItem()
     {
+        //Debug.Log(invCount);
+
         if (invCount > 0)
         {
+            //Debug.Log("Got :" + container[conIndex].transform.GetChild(invIndex).GetComponent<InventoryItem>().name);
             return container[conIndex].transform.GetChild(invIndex).GetComponent<InventoryItem>();
         }
         else
@@ -395,11 +405,19 @@ public class Inventory : MonoBehaviour
         if (GetItem() != null)
         {
             itemName.text = GetItem().itemName;
-        }
 
+            textCon.setSprite(itemInteractIcon, GetItemInteract().GetInteractType());
+
+            if (itemName != null && itemName.text != "")
+            {
+                itemInteractIcon.transform.localPosition = new Vector2((itemName.text.Length * -2.2f) - 5, 0);
+            }
+        }
         else
         {
             itemName.text = "";
         }
+
+        //Debug.Log(itemName.text);
     }
 }

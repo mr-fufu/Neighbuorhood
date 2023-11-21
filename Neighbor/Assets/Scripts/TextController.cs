@@ -72,6 +72,36 @@ public class TextController : MonoBehaviour
         return option;
     }
 
+    //Spaghetti code below sets a given sprite renderer's sprite based on the interact type,
+    //originally intended to be used for the inventory interact symbol
+
+    public void setSprite(SpriteRenderer spriteToSet, string interactType)
+    {
+        switch (interactType)
+        {
+            case "observe":
+                spriteToSet.sprite = interactSprite[0];
+                break;
+            case "pickup":
+                spriteToSet.sprite = interactSprite[1];
+                break;
+            case "door":
+                spriteToSet.sprite = interactSprite[2];
+                break;
+            case "inventory":
+                spriteToSet.sprite = interactSprite[3];
+                break;
+            case "interact":
+                spriteToSet.sprite = interactSprite[4];
+                break;
+            case "unknown":
+                spriteToSet.sprite = interactSprite[5];
+                break;
+            default:
+                break;
+        }
+    }
+
     public void ClearOptions()
     {
         foreach (Transform option in inspect_menu_object.transform)

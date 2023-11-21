@@ -118,7 +118,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A copper mug filled with murky filth
+  m_text: A key with the word CELLAR scratched into it
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 2897887249011140207}
   - component: {fileID: 2897887249011140211}
   m_Layer: 0
-  m_Name: Cellar Key
+  m_Name: Brass Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,8 +316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295e435c0e413804c809eadad8f00082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Etched Key
-  description: A key etched with the numbers 502
+  itemName: Brass Key
+  description: 
   pickupSound: []
 --- !u!114 &2897887249011140211
 MonoBehaviour:

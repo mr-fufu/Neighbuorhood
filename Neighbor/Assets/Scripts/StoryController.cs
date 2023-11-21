@@ -189,6 +189,21 @@ public class StoryController : MonoBehaviour
                     {
                         game.inv_control.addItem(packageItem);
                     }
+                    //game.inv_control.UpdateItemName();
+
+                    break;
+
+                case "GenericSwap":
+
+                    if (interact.GetComponent<TileReplace>() != null)
+                    {
+                        interact.GetComponent<TileReplace>().swapAlt();
+                    }
+
+                    if (interact.GetComponent<HiddenInteractable>() != null)
+                    {
+                        interact.GetComponent<HiddenInteractable>().Show();
+                    }
 
                     break;
 
