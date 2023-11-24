@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 public class StoryController : MonoBehaviour
 {
     public GameController game;
+    public AudioController audio;
 
     public Tilemap overlayRaised2Map;
     public Tilemap colliderWallMap;
@@ -204,6 +205,12 @@ public class StoryController : MonoBehaviour
                     {
                         interact.GetComponent<HiddenInteractable>().Show();
                     }
+
+                    break;
+
+                case "PlayTape":
+
+                    interact.GetComponent<TapePlayer>().PlayTape(interactItem, audio);
 
                     break;
 

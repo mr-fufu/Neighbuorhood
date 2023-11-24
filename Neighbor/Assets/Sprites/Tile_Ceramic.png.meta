@@ -692,6 +692,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tile_Ceramic_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52439d1832c15f74bb4bc988bd833e48
+      internalID: -1508634826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Ceramic_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf9e5a16dcf61439d0b33215608fe2
+      internalID: -1337027731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -715,12 +757,14 @@ TextureImporter:
       Tile_Ceramic_12: 2053665639698548723
       Tile_Ceramic_18: -6572332953282924875
       Tile_Ceramic_21: 2458853562400630459
+      Tile_Ceramic_22: -1508634826
       Tile_Ceramic_14: 4835543732913302543
       Tile_Ceramic_2: 9122642571766247266
       Tile_Ceramic_9: 5969673490615815856
       Tile_Ceramic_20: -6873803760356994067
       Tile_Ceramic_7: -4418773929801749039
       Tile_Ceramic_4: 7080401249273453542
+      Tile_Ceramic_23: -1337027731
       Tile_Ceramic_15: 5426835379135403084
       Tile_Ceramic_11: -4776726730337602271
       Tile_Ceramic_5: 855351914382194214

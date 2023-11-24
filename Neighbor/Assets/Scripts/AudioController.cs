@@ -9,6 +9,8 @@ public class AudioController : MonoBehaviour
 
     public GameObject audioElement;
     public GameObject singleAudioElement;
+    public GameObject chainAudioElement;
+
     private List<AudioClip> currentPlaying = new List<AudioClip>();
     private List<AudioSource> currentPlayers = new List<AudioSource>();
 
@@ -70,6 +72,32 @@ public class AudioController : MonoBehaviour
             singleAudioPlayer.clip = clip;
             singleAudioPlayer.Play();
         }
+    }
+
+    public void PlayChainClips(List<AudioClip> clips)
+    {
+        AudioSource firstAudioPlayer = null;
+        AudioSource holdAudioPlayer = null;
+
+        for (int i = 0; i<clips.Count; i++)
+        {
+            GameObject chainAudio = Instantiate(chainAudioElement, singleAudioPlayers.transform);
+            AudioSource chainAudioPlayer = chainAudio.GetComponent<AudioSource>();
+            chainAudioPlayer.clip = clips[i];
+
+            if (i == 0)
+            {
+                firstAudioPlayer = chainAudioPlayer;
+            }
+            else
+            {
+                holdAudioPlayer.GetComponent<DestroySelf>().nextAudio = chainAudioPlayer;
+            }
+
+            holdAudioPlayer = chainAudioPlayer;
+        }
+
+        firstAudioPlayer.Play();
     }
 
     public void PlaySingleClip(AudioClip clip)

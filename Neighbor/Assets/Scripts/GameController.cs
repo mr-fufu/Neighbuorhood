@@ -353,7 +353,24 @@ public class GameController : MonoBehaviour
                                 for (int n = 0; n < interactables.Count; n++)
                                 {
                                     Interactable currentInteract = interactables[n].GetComponent<Interactable>();
-                                    options.Add(text_control.create_option(currentInteract.interact_name, currentInteract.GetInteractType()));
+                                    if (!currentInteract.newDoor)
+                                    {
+                                        options.Add(text_control.create_option(currentInteract.interact_name, currentInteract.GetInteractType()));
+                                    }
+                                    else
+                                    {
+                                        if (!currentInteract.ladder)
+                                        {
+                                            options.Add(text_control.create_option("Door to ???", currentInteract.GetInteractType()));
+                                        }
+                                        else
+                                        {
+                                            options.Add(text_control.create_option("Ladder to ???", currentInteract.GetInteractType()));
+                                        }
+
+                                        currentInteract.newDoor = false;
+                                        currentInteract.GetComponent<Door>().gotoLocation.GetComponentInParent<Interactable>().newDoor = false;
+                                    }
                                 }
 
                                 choose_count = 0;

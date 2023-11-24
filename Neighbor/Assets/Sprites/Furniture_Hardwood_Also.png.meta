@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: d6ddd26cd8d1f954d8f1f3c59ebde4ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07782d9a3d7545940a12ccf96e2beef1
+      internalID: 1288148893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dcb544c6a52c84b86cfa32735f440b
+      internalID: -698572412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed8a69ff9409c0438426bdf73a9d502
+      internalID: 1864289037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce18c9af8a5b024ab9f470f0de1c8ea
+      internalID: -46257836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a4014b380849f408f79fec39fe50f1
+      internalID: -281333952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10add7bb0b2f80b43b80d629634ad9f7
+      internalID: 562072596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059c9273d819b047a99015f95497b5f
+      internalID: 1926231496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b340815104f5ed4db5434cc899ff207
+      internalID: 1485566193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e6ab7bcd8912f4ebfc7431863b5c26
+      internalID: -1747865386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1053
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdaa6e0bd94d584a86f6724b8d50d16
+      internalID: -1346709054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4a4a16410dfc4fb40cb1b564c09bc
+      internalID: 1350979467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0279b02a18c994a8ae82b81c1b089d
+      internalID: -1461979120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397ccb3e8fd290d4ab738d068ef63c48
+      internalID: 1743833293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f725d46f6289101449943343c2a62dbb
+      internalID: 1778046125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11064990d9946ac47a65d0bc9af6fcdf
+      internalID: -1515630062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe578d78371868c4db89b2bc7429826c
+      internalID: -1809314930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8246294d0013a0f4e9eeabffac1d6143
+      internalID: 182945716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60c1c5636004e748aab86fa384ba5ed
+      internalID: 1738221794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3d915eda267604493f1f56d980fd65
+      internalID: -641236300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 702
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b899482e9e30324a805e508abd048ef
+      internalID: -612413738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8002a1253418a6e4e9f00bd10140ceca
+      internalID: -967214099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f542472287400f84fa44ab5470ca78f3
+      internalID: 825885959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17ed9ff4dfe72f41b79781781fd1f90
+      internalID: 166702782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8546a25f63c3f489f51859d96362f0
+      internalID: -1549415268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c228def9c9a945247a8ff7430313200f
+      internalID: 1602446443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf23d035f7f53d54e87aeef35be07f49
+      internalID: -48048272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c91e98f5b97c42b18cc312dda1907
+      internalID: -970345816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7e0a02100e664097b2fdb2bc0c46c
+      internalID: -367376998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4144fece3b1ab149ba176c5f8268b58
+      internalID: -1510955601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 351
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8345a22dbec444eaa85bfa3b8981dc
+      internalID: -871622177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce010b04a633f745a7b1feb440b5145
+      internalID: -1509615994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefd2909887fa734b9e91a4c6c605211
+      internalID: 1339489378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7d4f1c2dd748341833856d698b05e4
+      internalID: -693844953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Hardwood_Also_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c601827056f5f74dab0f4829d515dd8
+      internalID: 1765417402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Furniture_Hardwood_Also_6: 1926231496
+      Furniture_Hardwood_Also_8: -1747865386
+      Furniture_Hardwood_Also_23: -1549415268
+      Furniture_Hardwood_Also_14: -1515630062
+      Furniture_Hardwood_Also_27: -367376998
+      Furniture_Hardwood_Also_15: -1809314930
+      Furniture_Hardwood_Also_29: -871622177
+      Furniture_Hardwood_Also_32: -693844953
+      Furniture_Hardwood_Also_9: -1346709054
+      Furniture_Hardwood_Also_4: -281333952
+      Furniture_Hardwood_Also_0: 1288148893
+      Furniture_Hardwood_Also_16: 182945716
+      Furniture_Hardwood_Also_2: 1864289037
+      Furniture_Hardwood_Also_19: -612413738
+      Furniture_Hardwood_Also_33: 1765417402
+      Furniture_Hardwood_Also_1: -698572412
+      Furniture_Hardwood_Also_3: -46257836
+      Furniture_Hardwood_Also_13: 1778046125
+      Furniture_Hardwood_Also_11: -1461979120
+      Furniture_Hardwood_Also_25: -48048272
+      Furniture_Hardwood_Also_22: 166702782
+      Furniture_Hardwood_Also_12: 1743833293
+      Furniture_Hardwood_Also_31: 1339489378
+      Furniture_Hardwood_Also_7: 1485566193
+      Furniture_Hardwood_Also_18: -641236300
+      Furniture_Hardwood_Also_5: 562072596
+      Furniture_Hardwood_Also_26: -970345816
+      Furniture_Hardwood_Also_24: 1602446443
+      Furniture_Hardwood_Also_28: -1510955601
+      Furniture_Hardwood_Also_21: 825885959
+      Furniture_Hardwood_Also_17: 1738221794
+      Furniture_Hardwood_Also_30: -1509615994
+      Furniture_Hardwood_Also_10: 1350979467
+      Furniture_Hardwood_Also_20: -967214099
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

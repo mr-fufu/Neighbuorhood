@@ -13,6 +13,9 @@ public class Interactable : MonoBehaviour
     public bool locked;
     public bool playAudio;
     public bool unknown;
+    [System.NonSerialized] public bool newDoor;
+    public bool ladder;
+    public bool stairs;
 
     public GameObject inventoryItem;
     [System.NonSerialized] public bool useInventory;
@@ -42,6 +45,11 @@ public class Interactable : MonoBehaviour
             }
 
             useInventory = true;
+        }
+
+        if (door && !stairs)
+        {
+            newDoor = true;
         }
     }
 

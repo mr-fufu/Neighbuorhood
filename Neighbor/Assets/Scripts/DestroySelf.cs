@@ -6,6 +6,9 @@ public class DestroySelf : MonoBehaviour
 {
     bool triggerDestruction;
     AudioSource ownAudio;
+    public bool chain;
+    public AudioSource nextAudio;
+
     private void Start()
     {
         ownAudio = GetComponent<AudioSource>();
@@ -18,6 +21,13 @@ public class DestroySelf : MonoBehaviour
         {
             if (!ownAudio.isPlaying)
             {
+                if (chain)
+                {
+                    if (nextAudio != null)
+                    {
+                        nextAudio.Play();
+                    }
+                }
                 Destroy(gameObject);
             }
         }
