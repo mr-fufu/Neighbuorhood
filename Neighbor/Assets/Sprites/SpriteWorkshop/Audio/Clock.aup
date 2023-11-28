@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Clock_data" version="1.3.0" audacityversion="2.4.2" sel0="0.0000000000" sel1="3.9664120370" vpos="0" h="0.0000000000" zoom="414.5925115761" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Encoded by" value="Sound Grinder 4.0"/>
+		<tag name="Copyright message" value="Copyright Alan McKinney"/>
+	</tags>
+	<wavetrack name="johnj_household_clock_grandmother_ticking" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="183346">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808f46.au" len="183346" min="-0.097934" max="0.086708" rms="0.004843"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="johnj_household_clock_grandmother_ticking" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="183346">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808e38.au" len="183346" min="-0.097932" max="0.086709" rms="0.004843"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="zapsplat_household_clock_grandfather_old_tick_tock_designed_47796" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="183346">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b29.au" len="183346" min="-0.109743" max="0.084088" rms="0.005683"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
